@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="uboa.png" width="4096" height="2048">
+  <SubTexture name="up0001" x="4" y="4"  width="491" height="795" frameX="-684" frameY="-96" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="up0002" x="4" y="807"  width="540" height="768" frameX="-655" frameY="-124" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="down0002" x="4" y="1583"  width="676" height="399" frameX="-554" frameY="-480" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="down0001" x="503" y="4" width="391" height="711" rotated="true"  frameX="-534" frameY="-489" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0002" x="552" y="723"  width="565" height="677" frameX="-631" frameY="-199" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="left0001" x="902" y="1408"  width="658" height="617" frameX="-551" frameY="-260" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="right0002" x="1568" y="1408" width="577" height="607" rotated="true"  frameX="-637" frameY="-311" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="right0001" x="2153" y="1408" width="570" height="607" rotated="true"  frameX="-655" frameY="-314" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0003" x="902" y="4"  width="563" height="672" frameX="-628" frameY="-201" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0001" x="1125" y="684"  width="557" height="671" frameX="-631" frameY="-207" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="left0002" x="1473" y="4" width="606" height="647" rotated="true"  frameX="-570" frameY="-269" frameWidth="1280" frameHeight="960"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Yup. This thing's definitely some kind of cursed.",
+            "events": [                
+                {
+                    "eventName": "Save Data",
+                    "value1": "LetsReturn",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "...Do we still want to check back with the shopkeep...?"
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "As much as I wanna chuck this far, FAR away, we gotta get some answers.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

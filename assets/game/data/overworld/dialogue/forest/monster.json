@@ -1,0 +1,203 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "God, it's really hard to navigate here.",
+            "events": [
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "3"
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "It feels like I'm seeing the same trees over and over."
+        },
+        {
+            "character": "Letícia",
+            "expression": "mischevious",
+            "dialogue": "Well duh, It's a forest!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "That's not what I meant.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Suddenly, a nearby bush starts rustling aggressively."
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "What the-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "W-who goes there? You best not be looking for trouble!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "Cuz if you are, I'm letting you know I got a mean uppercut, ok? I'm warning you dude!"
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "From the bushes, two short figures appear."
+        },
+        {
+            "character": "Boyfriend",
+            "expression": "neutral",
+            "dialogue": "Bap!",
+            "events": [
+                {
+                    "eventName": "Reload Music",
+                    "value1": "nightoffunkin",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "bf_beep",
+                    "value2": "1"
+                }
+            ]
+        },
+        {
+            "character": "Girlfriend",
+            "expression": "sad",
+            "dialogue": "Geez BF, you really couldn't have picked a more private place to-..."
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "..."
+        },
+        {
+            "character": "Girlfriend",
+            "expression": "sad",
+            "dialogue": "Nevermind."
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "What are y'all doing in the bushes out here?!"
+        },
+        {
+            "character": "Girlfriend",
+            "expression": "sad",
+            "dialogue": "Don't worry about that."
+        },
+        {
+            "character": "Girlfriend",
+            "expression": "neutral",
+            "dialogue": "But uhhh, heyy, bit of a weird question, but would you two be up to singing some tunes?"
+        },
+        {
+            "character": "Girlfriend",
+            "expression": "neutral",
+            "dialogue": "My BF always gets in that sorta mood after a while."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "I'd tootttally love to but I wanna get out of this creepy ass forest ASAP."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Awww, come on B..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Just one wouldn't hurt!"
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Ughhh..."
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Alriiigghhtt..."
+        },
+        {
+            "character": "Boyfriend",
+            "expression": "hey",
+            "dialogue": "YEAH!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "bf_yeah",
+                    "value2": "1"
+                }
+            ] 
+        },
+        {
+            "events": [
+				{
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "citrus-sacrament",
+                    "value2": "",
+					"startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ] 
+        }
+    ]
+}

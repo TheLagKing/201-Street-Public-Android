@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FrankieArm.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Arms0000" x="112" y="273" width="91" height="129" frameX="-117" frameY="-161" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0001" x="321" y="366" width="106" height="73" frameX="-98" frameY="-162" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0002" x="172" y="0" width="166" height="154" frameX="-38" frameY="-167" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0003" x="0" y="172" width="110" height="124" frameX="-98" frameY="-96" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0004" x="429" y="366" width="81" height="88" frameX="-163" frameY="-162" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0005" x="205" y="273" width="114" height="102" frameX="-94" frameY="-123" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0006" x="0" y="0" width="170" height="170" frameX="-39" frameY="0" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0007" x="390" y="129" width="67" height="235" frameX="-160" frameY="-160" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0008" x="340" y="0" width="126" height="127" frameX="-97" frameY="-58" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0009" x="172" y="156" width="216" height="115" frameX="0" frameY="-102" frameWidth="244" frameHeight="395"/>
+	<SubTexture name="Arms0010" x="0" y="298" width="94" height="112" frameX="-113" frameY="-164" frameWidth="244" frameHeight="395"/>
+</TextureAtlas>

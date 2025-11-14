@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-26,
+				-60
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "idle",
+			"loop": false,
+			"name": "randy scared"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/randy_scare",
+	"position": [
+		30,
+		400
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "randy",
+	"gameover_character": null,
+	"flip_x": true,
+	"healthbar_colour": -11900567,
+	"camera_position": [
+		45,
+		39
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

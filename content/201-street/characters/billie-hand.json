@@ -1,0 +1,143 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "idle",
+			"loop": false,
+			"name": "billiehand idle"
+		},
+		{
+			"offsets": [
+				-2,
+				-35
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "billiehand missdown"
+		},
+		{
+			"offsets": [
+				-3,
+				-35
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "billiehand down"
+		},
+		{
+			"offsets": [
+				-11,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "billiehand missleft"
+		},
+		{
+			"offsets": [
+				-11,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "billiehand left"
+		},
+		{
+			"offsets": [
+				8,
+				6
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "billiehand missright"
+		},
+		{
+			"offsets": [
+				8,
+				6
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "billiehand right"
+		},
+		{
+			"offsets": [
+				-1,
+				19
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "billiehand missup"
+		},
+		{
+			"offsets": [
+				-1,
+				19
+			],
+			"indices": [],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP",
+			"loop": false,
+			"name": "billiehand up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/billiehand",
+	"position": [
+		30,
+		60
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "billie",
+	"gameover_character": null,
+	"flip_x": true,
+	"healthbar_colour": -13793948,
+	"camera_position": [
+		152,
+		-4
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

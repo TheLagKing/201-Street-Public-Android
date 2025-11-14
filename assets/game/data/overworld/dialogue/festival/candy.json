@@ -1,0 +1,53 @@
+{
+    "dialogue_info": [
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Ooooo!~ This guy's creeeppyy."
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "..."
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "Is that a watermelon...?"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Yeah, he's around during the summer too for some reason."
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Prreetttyy sure he's not here to give out candy.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Pssh! What's he gonna do, eat a kid?"
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "HEY! SHH! He might HEAR you.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

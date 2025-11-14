@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="fuck.png">
+	<SubTexture name="normal0000" x="0" y="0" width="56" height="64" frameX="0" frameY="0" frameWidth="56" frameHeight="64" />
+	<SubTexture name="normal0001" x="0" y="0" width="56" height="64" frameX="0" frameY="0" frameWidth="56" frameHeight="64" />
+	<SubTexture name="down0000" x="56" y="0" width="56" height="64" frameX="0" frameY="0" frameWidth="56" frameHeight="64" />
+	<SubTexture name="down0001" x="56" y="0" width="56" height="64" frameX="0" frameY="0" frameWidth="56" frameHeight="64" />
+</TextureAtlas>

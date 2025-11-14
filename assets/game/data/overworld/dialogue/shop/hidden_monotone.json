@@ -1,0 +1,26 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "You found Hidden Monotone #4! Collect them all!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "monotone/you are a natural bro",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "ShopMonotone",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

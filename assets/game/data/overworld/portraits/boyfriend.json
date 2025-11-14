@@ -1,0 +1,18 @@
+{
+	"portrait_info": [
+		{
+			"expression": "neutral",
+			"offsets": [
+				-250,
+				125
+			]
+		},
+		{
+			"expression": "hey",
+			"offsets": [
+				-175,
+				120
+			]
+		}
+	]
+}

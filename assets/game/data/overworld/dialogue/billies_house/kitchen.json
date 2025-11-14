@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "Oh wow, you even cleaned up in here."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Heh... sorry about that."
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "It's fine hun, you really should clean up after yourself more."
+        }
+    ]
+}

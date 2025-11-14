@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Frankie_Eyes.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Eyes0000" x="0" y="0" width="139" height="49"/>
+	<SubTexture name="Eyes0001" x="0" y="51" width="139" height="49"/>
+	<SubTexture name="Eyes0002" x="0" y="102" width="139" height="49"/>
+	<SubTexture name="Eyes0003" x="0" y="153" width="139" height="49"/>
+	<SubTexture name="Eyes0004" x="0" y="204" width="139" height="49"/>
+	<SubTexture name="Eyes0005" x="0" y="255" width="139" height="49"/>
+	<SubTexture name="Eyes0006" x="0" y="306" width="139" height="49"/>
+</TextureAtlas>

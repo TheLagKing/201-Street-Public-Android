@@ -1,0 +1,66 @@
+{
+    "cam_offsets" : [
+        [
+            "",
+            60,
+            -60
+        ]
+    ],
+	"scale": 0.8,
+    "zoom": 0.9,
+	"screen_warp": false,
+	"name": "Malsivus Forest",
+	"can_run": false,
+	"objects": [
+		{
+            "name": "decoration",
+			"position": [
+				0,
+				0
+			],
+			"object_path": "monster1"
+		},
+        {
+            "name": "left_tape",
+			"position": [
+				0,
+				0
+			],
+			"object_path": "foresttape"
+        },
+        {
+            "name": "right_tape",
+			"position": [
+				0,
+				0
+			],
+			"object_path": "foresttape2"
+        },
+		{
+            "name": "sign",
+			"position": [
+				624,
+				359
+			],
+			"object_path": "sign1"
+		}
+	],
+	"teleporter_hitboxes": [
+        {
+            "location_name": "201 Street",
+			"location": "main_street",
+			"size": [
+				640,
+				300
+			],
+			"position": [
+				400,
+				700
+			],
+			"direction": "down"
+        }
+    ],
+	"music": "forest",
+	"music_name": "Dancing With The Shadows",
+	"bpm": 112.095
+}

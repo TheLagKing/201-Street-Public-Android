@@ -1,0 +1,191 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"flipX": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-29,
+				-62
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 1,
+			"anim": "singDOWNmiss",
+			"flipX": false,
+			"name": "miDown",
+			"indices": [
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"offsets": [
+				12,
+				52
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"flipX": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-8,
+				12
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-16,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"flipX": false,
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				45,
+				14
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "left",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				26,
+				5
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 1,
+			"anim": "singLEFTmiss",
+			"flipX": false,
+			"name": "mLeft",
+			"indices": [
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"offsets": [
+				-26,
+				-10
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 1,
+			"anim": "singRIGHTmiss",
+			"flipX": false,
+			"name": "mRight",
+			"indices": [
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"offsets": [
+				-9,
+				55
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 1,
+			"anim": "singUPmiss",
+			"flipX": false,
+			"name": "mUp",
+			"indices": [
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"offsets": [
+				-100,
+				10
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 12,
+			"flipX": false,
+			"flipY": false,
+			"anim": "shocked",
+			"loop": false,
+			"name": "shock"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/semibot_rgb",
+	"position": [
+		-50,
+		380
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "bf",
+	"gameover_character": null,
+	"flip_x": true,
+	"healthbar_colour": -13520687,
+	"camera_position": [
+		0,
+		0
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

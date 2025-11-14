@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spritesheet.png">
+	<SubTexture name="SFC0000" x="0" y="0" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="SFC0001" x="0" y="0" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="GFC0000" x="39" y="0" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="GFC0001" x="39" y="0" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="FC0000" x="0" y="14" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="FC0001" x="0" y="14" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="SDCB0000" x="39" y="14" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+	<SubTexture name="SDCB0001" x="39" y="14" width="38" height="13" frameX="0" frameY="0" frameWidth="38" frameHeight="13" />
+</TextureAtlas>

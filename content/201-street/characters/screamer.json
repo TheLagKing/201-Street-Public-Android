@@ -1,0 +1,104 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "robeIdle",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				8,
+				-403
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "robeDown",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				20,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "robeLeft",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-12,
+				-138
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "robeRight",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				58,
+				252
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "robeUp",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "shock",
+			"loop": false,
+			"name": "robeShocked"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/robe",
+	"position": [
+		-130,
+		-90
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "face",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -8355712,
+	"camera_position": [
+		0,
+		0
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="starman.png">
+	<SubTexture name="normal0000" x="0" y="0" width="28" height="6" frameX="0" frameY="0" frameWidth="28" frameHeight="6" />
+	<SubTexture name="normal0001" x="0" y="0" width="28" height="6" frameX="0" frameY="0" frameWidth="28" frameHeight="6" />
+	<SubTexture name="down0000" x="29" y="0" width="28" height="6" frameX="0" frameY="0" frameWidth="28" frameHeight="6" />
+	<SubTexture name="down0001" x="29" y="0" width="28" height="6" frameX="0" frameY="0" frameWidth="28" frameHeight="6" />
+</TextureAtlas>

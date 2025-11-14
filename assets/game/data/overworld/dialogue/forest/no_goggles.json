@@ -1,0 +1,26 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Are those warning signs? Man, it's too dark to see anything!!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "I've always wanted to explore in there! Don't you think now's the perfect time?"
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Nope. You're gonna have to get me the world's craziest night-vision goggles for me to even CONSIDER heading in there.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

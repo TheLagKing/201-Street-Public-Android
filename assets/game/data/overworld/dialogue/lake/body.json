@@ -1,0 +1,42 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "scared",
+            "dialogue": "OH MY GOD... IS THAT-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "Is that what???"
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "You- You don't recognize them, do you?!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Load Dialogue",
+                    "value1": "body_default",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

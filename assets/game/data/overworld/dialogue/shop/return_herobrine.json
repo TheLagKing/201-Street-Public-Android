@@ -1,0 +1,40 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "Welcome back, young'uns!",
+            "events": [
+                {
+                    "eventName": "Hide UI",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Dude... I think your stuff's haunted."
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "The only thing on it was some spooky Minecraft mod..."
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "It was able to see and hear me somehow! I don't have a webcam!"
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Load Dialogue",
+                    "value1": "return_continue",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "Oh snap, look! I found... a little golden orby-thingamajig."
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "Damn... is this real gold? If we sold this, we could be rich!!"
+        },
+        {
+            "character": "billie",
+            "expression": "determined",
+            "dialogue": "Sold?? Let's not be rash here, this would look amazing on a shelf..."
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "Little trinkets like these are what I live for!"
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Suddenly, the bushes close to the lake start to rustle, and two teenagers walk out of them...",
+            "events": [
+                {
+                    "eventName": "Hide UI",
+                    "value1": "false",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "3"
+                }
+            ]
+        },
+        {
+            "character": "Okarun",
+            "expression": "nervous",
+            "dialogue": "Ughh...",
+            "events": [
+                {
+                    "eventName": "Reload Music",
+                    "value1": "a_slice_of_apple",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "1.5"
+                }
+            ]
+        },
+        {
+            "character": "Okarun",
+            "expression": "nervous",
+            "dialogue": "GASP! Miss Ayase, L-Look! It's... it's the family jewel!!"
+        },
+        {
+            "character": "Momo",
+            "expression": "determined",
+            "dialogue": "Sweet! Let's grab it and bring it back to-"
+        },
+        {
+            "character": "Momo",
+            "expression": "confused",
+            "dialogue": "..."
+        },
+        {
+            "character": "Momo",
+            "expression": "confused",
+            "dialogue": "...heeeeeey."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Kids? Ain't it a bit late for you guys to be out in the woods?"
+        },
+        {
+            "character": "Momo",
+            "expression": "angry",
+            "dialogue": "KIDS? I'll have you know that-"
+        },
+        {
+            "character": "Momo",
+            "expression": "tired",
+            "dialogue": "UGH, whatever! Listen, we're gonna need that golden ball, alright?"
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "... I found it first though.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "FINDERS KEEPERS!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Okarun",
+            "expression": "nervous",
+            "dialogue": "M-Miss Ayase, what do we do...?"
+        },
+        {
+            "character": "Momo",
+            "expression": "angry",
+            "dialogue": "You're gonna give us that golden ball whether you like it or not, ya old hag!!"
+        },
+        {
+            "character": "Billie",
+            "expression": "furious",
+            "dialogue": "Wha- I'M ONLY 21!! You little..."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "fallen-skies, starbound",
+                    "value2": "",
+                    "startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ]            
+        }
+    ]
+}

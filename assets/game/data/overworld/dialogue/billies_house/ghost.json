@@ -1,0 +1,26 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Ughh... did you really have to put this up?",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "ghost",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "2.4",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "It's to set the mood! Tis' the season for ghouls n' grooves!"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="mandy.png" width="2048" height="2048">
+  <SubTexture name="up0001" x="3" y="3"  width="433" height="748" frameX="-524" frameY="-258" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="up0002" x="3" y="757"  width="440" height="741" frameX="-526" frameY="-263" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0003" x="442" y="3"  width="391" height="704" frameX="-505" frameY="-304" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0002" x="3" y="1504" width="667" height="490" rotated="true"  frameX="-485" frameY="-342" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0001" x="449" y="713"  width="393" height="701" frameX="-507" frameY="-307" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0002" x="839" y="3"  width="391" height="700" frameX="-507" frameY="-308" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0001" x="676" y="1420" width="666" height="488" rotated="true"  frameX="-482" frameY="-343" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0002" x="1348" y="3" width="668" height="421" rotated="true"  frameX="-449" frameY="-341" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0001" x="1348" y="430" width="663" height="426" rotated="true"  frameX="-449" frameY="-345" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="down0002" x="1348" y="862" width="643" height="388" rotated="true"  frameX="-493" frameY="-375" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="down0001" x="1348" y="1256" width="638" height="397" rotated="true"  frameX="-489" frameY="-380" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

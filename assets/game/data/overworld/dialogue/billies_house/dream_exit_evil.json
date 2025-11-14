@@ -1,0 +1,126 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "...and that's how it went...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "Jeez babe, I'm really sorry..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "I-I don't even know what that thing was.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Eugh.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "It's fine, though. Just a bad dream."
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "You should probably stop staying up so late..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "You're telling me?? You're the nightiest night owl the night's ever seen!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "ALRIGHT, Alright, you got me there."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "pink-sea",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "black-sea",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1":"",
+                    "value2":""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

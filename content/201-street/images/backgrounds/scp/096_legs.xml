@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="096_legs.png">
+<SubTexture name="096_legs idle0000" x="0" y="328" width="108" height="151" frameX="-415" frameY="-419" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_legs idle0001" x="0" y="0" width="142" height="328" frameX="-394" frameY="-417" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_legs idle0002" x="284" y="0" width="106" height="322" frameX="-426" frameY="-417" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_legs idle0003" x="108" y="328" width="108" height="151" frameX="-465" frameY="-418" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_legs idle0004" x="142" y="0" width="142" height="328" frameX="-453" frameY="-417" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_legs idle0005" x="390" y="0" width="106" height="322" frameX="-456" frameY="-417" frameWidth="1024" frameHeight="1024" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgMain.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mainBG0000" x="10" y="10" width="1406" height="782"/>
+	<SubTexture name="mainBG extract0000" x="1426" y="10" width="1406" height="782"/>
+	<SubTexture name="mainBG extract0001" x="10" y="802" width="1406" height="782"/>
+</TextureAtlas>

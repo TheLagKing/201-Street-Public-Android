@@ -1,0 +1,24 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "Dude. This gumball machine totally looks like an old guy."
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "You see what I mean? The hair at the top? The shoes at the bottom? Cmoonnn."
+        },        
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "..."
+        },        
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "I think you're tweaking, boss."
+        }
+    ]
+}

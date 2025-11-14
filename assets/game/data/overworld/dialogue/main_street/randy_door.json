@@ -1,0 +1,77 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Hmm. Where do you think that dork's off to?"
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "I know his mom went into town to get some halloween candy...\nI'm not sure if he went with her, though."
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "You think he's got a costume this year? My money's on Luigi."
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "Billie, he went as Luigi last year."
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "Exactly!\nHe hasn't gone as anything different since..."
+        },
+        {
+            "character": "letícia",
+            "expression": "nervous",
+            "dialogue": "...since?"
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Well, y'know...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "hello,-randy!",
+                    "value2": "",
+                    "startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ]            
+        }
+    ]
+}

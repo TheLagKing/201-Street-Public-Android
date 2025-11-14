@@ -1,0 +1,91 @@
+{
+    "dialogue_info": [
+        {
+            "character": "bill-cipher",
+            "expression": "YOU_CAN_NEVER_TRULY_BE_RID_OF_A_THOUGHT",
+            "dialogue": "OH HEY! IT'S ME, YOUR FAVORITE NIGHTMARE AGAIN! I LEFT MY NUMBER IN YOUR PHONE IN CASE YOU NEEDED ANYTHING FROM ME!",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "Bill Cipher",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "bill-cipher",
+            "expression": "YOU_CAN_NEVER_TRULY_BE_RID_OF_A_THOUGHT",
+            "dialogue": "SO, HAVE YA THOUGHT ABOUT GOING BACK ON YOUR DECISION? I'M STILL OPEN FOR A DEAL, Y'KNOW!",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "Bill Cipher",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "I'm not interested in any of your dumb deals, you stupid dorito."
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Just fat-fingered your number. I was tryna delete it."
+        },
+        {
+            "character": "bill-cipher",
+            "expression": "YOU_CAN_NEVER_TRULY_BE_RID_OF_A_THOUGHT",
+            "dialogue": "AHAHA! SNARKY AS EVER, BILLS.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "Bill Cipher",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "bill-cipher",
+            "expression": "YOU_CAN_NEVER_TRULY_BE_RID_OF_A_THOUGHT",
+            "dialogue": "WELL, IN ANY CASE, I'M HERE IF YA NEED ME, BUDDY!",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "Bill Cipher",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "bill-cipher",
+            "expression": "YOU_CAN_NEVER_TRULY_BE_RID_OF_A_THOUGHT",
+            "dialogue": "REMEMBER! REALITY'S AN ILLUSION, THE UNIVERSE IS A HOLOGRAM, BUY GOLD! BYEE!!",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "Bill Cipher",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "narrator",
+            "expression": "",
+            "dialogue": "Billie deleted this number from her phone.\nCarefully, this time.",
+            "events": [
+                {
+                    "eventName": "Save Data",
+                    "value1": "DeletedBill",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "Does he need to say that every time?"
+        }
+    ]
+}

@@ -1,0 +1,2283 @@
+{
+	"song": {
+		"events": [
+			[
+				2068.96551724138,
+				[
+					[
+						"DHMIS Events",
+						"logo",
+						""
+					]
+				]
+			],
+			[
+				2298.85057471264,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				2758.62068965517,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					]
+				]
+			],
+			[
+				4137.93103448276,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"dance"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"dance"
+					]
+				]
+			],
+			[
+				4827.58620689655,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					]
+				]
+			],
+			[
+				5344.8275862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				5517.24137931035,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"point"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"gays"
+					]
+				]
+			],
+			[
+				6724.13793103448,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					]
+				]
+			],
+			[
+				7586.20689655172,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					]
+				]
+			],
+			[
+				7931.03448275862,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				8275.86206896552,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				10862.0689655172,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				11034.4827586207,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					]
+				]
+			],
+			[
+				12241.3793103448,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					]
+				]
+			],
+			[
+				13448.275862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				13793.1034482759,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"point"
+					]
+				]
+			],
+			[
+				14482.7586206897,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"gays"
+					]
+				]
+			],
+			[
+				15344.8275862069,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					]
+				]
+			],
+			[
+				15775.8620689655,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				16206.8965517241,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					]
+				]
+			],
+			[
+				16379.3103448276,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				16637.9310344828,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				19017.2413793103,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				19310.3448275862,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"point"
+					]
+				]
+			],
+			[
+				21034.4827586207,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"gays"
+					]
+				]
+			],
+			[
+				21551.724137931,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"cringe"
+					]
+				]
+			],
+			[
+				21724.1379310345,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"sad"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				22314.6551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"droop"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"droop"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				24137.9310344828,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				25517.2413793104,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					]
+				]
+			],
+			[
+				26551.724137931,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				26896.5517241379,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					]
+				]
+			],
+			[
+				27586.2068965517,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"idle"
+					]
+				]
+			],
+			[
+				27758.6206896552,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"point"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					]
+				]
+			],
+			[
+				30172.4137931035,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				30344.8275862069,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					]
+				]
+			],
+			[
+				32758.6206896552,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				32991.3793103448,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"idle"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				33103.4482758621,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				34310.3448275862,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					]
+				]
+			],
+			[
+				34655.1724137931,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				35689.6551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"idle"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				35862.0689655173,
+				[
+					[
+						"DHMIS Events",
+						"sky",
+						""
+					],
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				38448.275862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				38620.6896551724,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"right"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"sad"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"side"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					]
+				]
+			],
+			[
+				38793.1034482759,
+				[
+					[
+						"DHMIS Events",
+						"oats",
+						""
+					]
+				]
+			],
+			[
+				41206.8965517242,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				41379.3103448276,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"point"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"fist"
+					]
+				]
+			],
+			[
+				43965.5172413793,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				44137.9310344828,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				46206.8965517242,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"down"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					]
+				]
+			],
+			[
+				46896.5517241379,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					]
+				]
+			],
+			[
+				46896.5517241379,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				47586.2068965517,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				52405.1724137931,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				57241.3793103448,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				57758.6206896552,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				57931.0344827586,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					]
+				]
+			],
+			[
+				57931.0344827586,
+				[
+					[
+						"DHMIS Events",
+						"normal",
+						""
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"down"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					]
+				]
+			],
+			[
+				60517.2413793104,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				60689.6551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"fist"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"fist"
+					]
+				]
+			],
+			[
+				62000,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					]
+				]
+			],
+			[
+				63103.4482758621,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				65862.0689655173,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				66206.8965517242,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"dance"
+					],
+					[
+						"DHMIS Events",
+						"kick",
+						""
+					]
+				]
+			],
+			[
+				66551.7241379311,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"up"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					],
+					[
+						"DHMIS Events",
+						"hat",
+						""
+					]
+				]
+			],
+			[
+				66896.551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"right"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"fist"
+					],
+					[
+						"DHMIS Events",
+						"snare",
+						""
+					]
+				]
+			],
+			[
+				67586.2068965517,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"DHMIS Events",
+						"whatever else",
+						""
+					]
+				]
+			],
+			[
+				68620.6896551724,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				68965.5172413793,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				70344.8275862069,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					]
+				]
+			],
+			[
+				71551.7241379311,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				71724.1379310345,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"down"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"point"
+					]
+				]
+			],
+			[
+				74137.9310344828,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				74482.7586206897,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"dance"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"dance"
+					],
+					[
+						"DHMIS Events",
+						"genres",
+						"happy"
+					]
+				]
+			],
+			[
+				75172.4137931035,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				75771.551724138,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				75862.0689655173,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				]
+			],
+			[
+				77931.0344827587,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				78551.7241379311,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"gays"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					]
+				]
+			],
+			[
+				78987.0689655173,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				79655.1724137931,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"shocked"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"right"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				79827.5862068966,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"fist"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"fist"
+					],
+					[
+						"DHMIS Events",
+						"genres",
+						"funky"
+					]
+				]
+			],
+			[
+				81034.4827586207,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				81443.9655172414,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				81551.7241379311,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				]
+			],
+			[
+				83103.4482758621,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"gays"
+					]
+				]
+			],
+			[
+				85000,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				85344.8275862069,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				85517.2413793104,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"up"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"dance"
+					],
+					[
+						"DHMIS Events",
+						"genres",
+						"computer"
+					]
+				]
+			],
+			[
+				86551.7241379311,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				86810.3448275862,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				86896.551724138,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				]
+			],
+			[
+				88620.6896551724,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				90344.8275862069,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"idle"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"idle"
+					]
+				]
+			],
+			[
+				90689.6551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"idle"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				91034.4827586207,
+				[
+					[
+						"DHMIS Events",
+						"angrier",
+						""
+					]
+				]
+			],
+			[
+				92241.3793103449,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				92413.7931034483,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"wave"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"wave"
+					],
+					[
+						"DHMIS Events",
+						"angrier",
+						""
+					]
+				]
+			],
+			[
+				93620.6896551724,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				93793.1034482759,
+				[
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					],
+					[
+						"DHMIS Events",
+						"zoom in during angry",
+						""
+					]
+				]
+			],
+			[
+				94560.3448275862,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					]
+				]
+			],
+			[
+				95125,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"sad"
+					]
+				]
+			],
+			[
+				95862.0689655173,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"right"
+					]
+				]
+			],
+			[
+				96206.8965517242,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					]
+				]
+			],
+			[
+				96439.6551724138,
+				[
+					[
+						"DHMIS Events",
+						"space",
+						""
+					]
+				]
+			],
+			[
+				96551.7241379311,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				96844.8275862069,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"down"
+					]
+				]
+			],
+			[
+				99137.9310344828,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				99310.3448275862,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"sad"
+					],
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"left"
+					]
+				]
+			],
+			[
+				101896.551724138,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				102068.965517241,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"right"
+					]
+				]
+			],
+			[
+				104827.586206897,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"stern"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"fist"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"fist"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				105517.24137931,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyes",
+						"down"
+					]
+				]
+			],
+			[
+				106206.896551724,
+				[
+					[
+						"Freakie Frankie Animations",
+						"eyebrows",
+						"angry"
+					]
+				]
+			],
+			[
+				106896.551724138,
+				[
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"close"
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"close"
+					]
+				]
+			],
+			[
+				107241.379310345,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				107586.206896552,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					],
+					[
+						"Freakie Frankie Animations",
+						"right_arm",
+						"handout"
+					],
+					[
+						"Freakie Frankie Animations",
+						"left_arm",
+						"handout"
+					]
+				]
+			],
+			[
+				108620.689655172,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				113025.862068966,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				117931.034482759,
+				[
+					[
+						"DHMIS Events",
+						"fadeout",
+						""
+					]
+				]
+			],
+			[
+				119482.75862069,
+				[
+					[
+						"DHMIS Events",
+						"video",
+						""
+					]
+				]
+			],
+			[
+				120344.827586207,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				122413.793103448,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				125862.068965517,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				128103.448275862,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				131379.310344828,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				133448.275862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				136724.137931035,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				139310.344827586,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				141206.896551724,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				143965.517241379,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				146724.137931035,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				149482.75862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				151982.75862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				153793.103448276,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				154568.965517241,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				155948.275862069,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				157327.586206897,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				158103.448275862,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				161120.689655173,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				163793.103448276,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				165172.413793104,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				166551.724137931,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				167931.034482759,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				169310.344827586,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				169655.172413793,
+				[
+					[
+						"DHMIS Events",
+						"Add Char Heads",
+						"red"
+					]
+				]
+			],
+			[
+				170172.413793104,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				170862.068965517,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				171034.482758621,
+				[
+					[
+						"DHMIS Events",
+						"Add Char Heads",
+						"yellow"
+					]
+				]
+			],
+			[
+				172241.379310345,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				172413.793103448,
+				[
+					[
+						"DHMIS Events",
+						"Add Char Heads",
+						"duck"
+					]
+				]
+			],
+			[
+				173448.275862069,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				175172.413793103,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						"ego"
+					],
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				175689.655172414,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				175862.068965517,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				]
+			],
+			[
+				176206.896551724,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				176965.517241379,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				178336.206896552,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				180344.827586207,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				180689.655172414,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						"guilt"
+					]
+				]
+			],
+			[
+				181206.896551724,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				181379.310344828,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				]
+			],
+			[
+				181724.137931034,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				182655.172413793,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				184034.482758621,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				185862.068965517,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				186206.896551724,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						"mixing"
+					]
+				]
+			],
+			[
+				186793.103448276,
+				[
+					[
+						"DHMIS Characters",
+						"red",
+						""
+					]
+				]
+			],
+			[
+				186896.551724138,
+				[
+					[
+						"DHMIS Events",
+						"genres",
+						""
+					]
+				],
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				187241.379310345,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				187995.689655172,
+				[
+					[
+						"DHMIS Characters",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				189375,
+				[
+					[
+						"DHMIS Characters",
+						"yellow",
+						""
+					]
+				]
+			],
+			[
+				191206.896551724,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				192931.034482759,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				194310.344827586,
+				[
+					[
+						"DHMIS Events",
+						"line",
+						""
+					]
+				]
+			],
+			[
+				197068.965517241,
+				[
+					[
+						"DHMIS Events",
+						"ending",
+						""
+					],
+					[
+						"DHMIS Events",
+						"bye line",
+						""
+					]
+				]
+			],
+			[
+				199137.931034483,
+				[
+					[
+						"DHMIS Events",
+						"gone",
+						""
+					]
+				]
+			]
+		]
+	}
+}

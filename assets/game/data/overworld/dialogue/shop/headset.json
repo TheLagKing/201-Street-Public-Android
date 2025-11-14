@@ -1,0 +1,55 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "Woah! That thing's sick! Are you putting it on sale?!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "boughtItem",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Add Checklist Notif",
+                    "value1": "",
+                    "value2": ""
+                },                
+                {
+                    "eventName": "Save Data",
+                    "value1": "BoughtHeadset",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "Eh? This old thing? No clue what it does, I just thought it was a really heavy blindfold!" 
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "I will GLADLY take your super heavy blindfold dude. -- Huh... SCP? Is that the manufacturer?" 
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "What's that supposed to stand for anyway? Shark punching center?? -- Wait, no. Shark crushing people. Yeah." 
+        },
+		{
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "buzz",
+                    "value2": "0.7"
+                }
+            ]
+        }
+    ]
+}

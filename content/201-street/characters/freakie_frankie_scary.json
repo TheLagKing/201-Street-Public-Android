@@ -1,0 +1,195 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 28,
+			"flipX": false,
+			"flipY": false,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				194,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down ALT1"
+		},
+		{
+			"offsets": [
+				188,
+				-43
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left ALT1"
+		},
+		{
+			"offsets": [
+				45,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right ALT1"
+		},
+		{
+			"offsets": [
+				70,
+				84
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up ALT1"
+		},
+		{
+			"offsets": [
+				109,
+				134
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Up ALT2"
+		},
+		{
+			"offsets": [
+				80,
+				-26
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Down ALT2"
+		},
+		{
+			"offsets": [
+				135,
+				-29
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "Left ALT2"
+		},
+		{
+			"offsets": [
+				-31,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "Right ALT2"
+		},
+		{
+			"offsets": [
+				98,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN-alt2",
+			"loop": false,
+			"name": "Down ALT3"
+		},
+		{
+			"offsets": [
+				161,
+				-27
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singLEFT-alt2",
+			"loop": false,
+			"name": "Left ALT3"
+		},
+		{
+			"offsets": [
+				103,
+				112
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT-alt2",
+			"loop": false,
+			"name": "Right ALT3"
+		},
+		{
+			"offsets": [
+				121,
+				75
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP-alt2",
+			"loop": false,
+			"name": "Up ALT3"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Frankie_FINAL",
+	"position": [
+		-30,
+		170
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "face",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -13763645,
+	"camera_position": [
+		-144,
+		165
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

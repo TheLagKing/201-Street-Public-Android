@@ -1,0 +1,274 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "...IS HE GONE?"
+        },
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "I DON'T KNOW, I THINK SO..."
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "Jesus..."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...regardless, I'm so happy you're okay."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "This whole time I've been worried sick about you... whether it's giant humanoid monsters, alien abductions, even simply losing you in a crowd..."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "I've just been so worried about losing you..."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "...just like every other Halloween..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...and with you trapped in that bubble I thought my worst nightmare was going to finally come true..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Oh jeez hun, I'm so sorry...",
+            "events": [                
+                {
+                    "eventName": "Reload Music",
+                    "value1": "ending_music",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music Normally",
+                    "value1": "in",
+                    "value2": "2"
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "I'm here now. I'm alright. Everything's alright."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "I had no idea I was putting you through all of this... I would have turned back as early as we could have if I knew!"
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "No, it's... it's not your fault..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...if anything, it's my fault..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Please don't blame yourself, B... I know you were just trying to make me happy."
+        },
+        {
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "...if tonight's any example, when you think about it, we're basically inseparable."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...what do you mean?"
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "I mean, think about it, think of everything we've been through tonight."
+        },
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "You said it yourself, giant humanoids, aliens..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "...through it all, we're still here."
+        },
+        {
+            "character": "Letícia",
+            "expression": "flustered",
+            "dialogue": "I'm still here to kiss you on the cheek, tell you everything's alright..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "flustered",
+            "dialogue": "If we made it through all this, who's to say we won't spend forever with each other?"
+        },
+        {
+            "character": "Letícia",
+            "expression": "laughing",
+            "dialogue": "I know some stupid ass monster won't, that's for sure."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Hehe, yeah..."
+        },
+        {
+            "character": "Billie",
+            "expression": "",
+            "dialogue": "...thanks hun. I love you.",
+            "events": [
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "2.3",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music Normally",
+                    "value1": "out",
+                    "value2": "2"
+                }
+            ]
+        },        
+        {
+            "character": "Letícia",
+            "expression": "",
+            "dialogue": "I love you too, B. Thanks for spending tonight with me."
+        },
+        {
+            "character": "TV Reporter",
+            "expression": "",
+            "dialogue": "Good morning, everyone! It's freezing out there!",
+            "events": [
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "7",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Change Map",
+                    "value1": "main_street_day",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Camera Normally",
+                    "value1": "in",
+                    "value2": "5.3",
+                    "startDelay": 1.5
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "outside_ambience_day",
+                    "value2": "",
+                    "startDelay": 1.5
+                },
+                {
+                    "eventName": "Fade Music Normally",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1.6
+                }
+            ]            
+        },
+        {
+            "character": "TV Reporter",
+            "expression": "",
+            "dialogue": "Malsivus is looking to reach a record low of 37 this afternoon. Perfect for grabbing a nice cup of hot cocoa and spending quality time with your close ones."             
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "God! I just read that Malsivus is already planning their Christmas festival in December. HALLOWEEN WAS YESTERDAY!!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "It's lookin' to be a LOT more popular than yesterday's. It's gonna be hectic. I don't even know if I wanna go."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Yeah, haha..."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...well, hey! Don't brush it off so soon! It might be a lot of fun!"
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "I don't know... I think we should give it a try!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "I was hoping you'd say that."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "bill-cipher",
+                    "value2": ""
+                },     
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera Normally",
+                    "value1": "out",
+                    "value2": "3.5"
+                },
+                {
+                    "eventName": "Fade Music Normally",
+                    "value1": "out",
+                    "value2": "3.5"
+                },
+                {
+                    "eventName": "Credits",
+                    "value1": "",
+                    "value2": "",
+                    "startDelay": 5.5
+                }
+            ]
+        }
+    ]
+}

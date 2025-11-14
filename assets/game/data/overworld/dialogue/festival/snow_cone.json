@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Are snow cones even a Halloween thing?"
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "Don't know, don't care. I WANT ONE!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "You're a little too excited for this."
+        }
+    ]
+}

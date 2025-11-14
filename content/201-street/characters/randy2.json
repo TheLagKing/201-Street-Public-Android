@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				-131
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "randy down"
+		},
+		{
+			"offsets": [
+				-19,
+				-25
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "randy left"
+		},
+		{
+			"offsets": [
+				-13,
+				-14
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "randy right"
+		},
+		{
+			"offsets": [
+				-46,
+				43
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "randy up"
+		},
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "randy idle"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/randy_sprite2",
+	"position": [
+		-100,
+		280
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "randy2",
+	"gameover_character": null,
+	"flip_x": true,
+	"healthbar_colour": -61440,
+	"camera_position": [
+		52,
+		-13
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,156 @@
+{
+	"song": {
+		"events": [
+			[
+				5921.05263157895,
+				[
+					[
+						"Events",
+						"intro",
+						"0"
+					]
+				]
+			],
+			[
+				6118.42105263158,
+				[
+					[
+						"Events",
+						"intro",
+						"1"
+					]
+				]
+			],
+			[
+				6315.78947368421,
+				[
+					[
+						"Events",
+						"snapcam",
+						""
+					]
+				]
+			],
+			[
+				80526.3157894737,
+				[
+					[
+						"Events",
+						"do you see him",
+						""
+					]
+				]
+			],
+			[
+				93848.6842105263,
+				[
+					[
+						"Change Character",
+						"bf",
+						"randy_scare"
+					],
+					[
+						"Events",
+						"whats going on im scared",
+						""
+					]
+				]
+			],
+			[
+				96315.7894736842,
+				[
+					[
+						"Events",
+						"hello bro",
+						""
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Events",
+						"pls no",
+						""
+					]
+				]
+			],
+			[
+				97598.6842105263,
+				[
+					[
+						"Change Character",
+						"bf",
+						"randy2"
+					],
+					[
+						"Change Character",
+						"dad",
+						"ghostface2"
+					]
+				]
+			],
+			[
+				97697.3684210527,
+				[
+					[
+						"Events",
+						"where am I",
+						""
+					]
+				]
+			],
+			[
+				97796.052631579,
+				[
+					[
+						"camTween",
+						"0,400",
+						"2,smootherstepinout"
+					]
+				]
+			],
+			[
+				100263.157894737,
+				[
+					[
+						"Events",
+						"YOU GONNA DIE BRO",
+						""
+					]
+				]
+			],
+			[
+				150789.47368421,
+				[
+					[
+						"Events",
+						"virtual boy",
+						""
+					]
+				]
+			],
+			[
+				176052.631578947,
+				[
+					[
+						"Events",
+						"done",
+						"black"
+					]
+				]
+			],
+			[
+				177631.578947368,
+				[
+					[
+						"Events",
+						"done",
+						"fade"
+					]
+				]
+			]
+		]
+	}
+}

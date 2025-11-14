@@ -1,0 +1,239 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Monster",
+            "expression": "neutral",
+            "dialogue": "Incredible display, vermin. Truly the ride of a lifetime.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Monster",
+            "expression": "neutral",
+            "dialogue": "But alas, time shall now do us part.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Monster",
+            "expression": "neutral",
+            "dialogue": "The hunt will never end. But for now, it's time to wake up...",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },        
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "WAKE UP?? GET AWAY FROM ME YOU MONSTER!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },   
+        {
+            "character": "Monster",
+            "expression": "",
+            "dialogue": "Wake uppp...",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "STOP!! WHAT DO YOU WANT??",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },   
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billieee... Wake uppp...",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "W-what?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },   
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "WAKE UP!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "WAKE UP! BILLIE, PLEASE WAKE UP!"
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "GAH-"
+        },   
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "OH MY GOSH, BILLIE! I WAS WORRIED SICK! ARE YOU ALRIGHT??"
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "Ugghh... God... my head is KILLING me...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },   
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "I think I'm alright. What the hell happened?"
+        },   
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "I don't know! Right as you were about to start singing with that blue-haired guy, you just- collapsed! Him and his girlfriend looked terrified and ran off.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "Ugghhhh... It- It's fine. I'll walk it off.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },   
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "Are you sure, hun? You seem really shaken up..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "I-It's chill. It's whatever. I'll tell you about it later."
+        },   
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Alright, if you say so.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Force Tape",
+                    "value1": "monster",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "monster",
+                    "value2": ""
+                },    
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

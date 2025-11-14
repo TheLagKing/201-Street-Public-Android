@@ -1,0 +1,470 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "Hey Letíciaaaa? I'm hooooome~! Blensky's was out of bread? Which... is wild? So I was thinking we could kinda use rice cakes as a replacement for our-",
+            "events": [                
+                {
+                    "eventName": "Reload Music",
+                    "value1": "pre_overworld_house",
+                    "value2": "",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "4",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "OH! Perfect!! Yoink!"
+        },
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "WOAH- Jeez dude! Take it easy!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "What've you been...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "...doing.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Letícia hangs the rice cake as a moon next to their black cat Smokey, wearing a wolf ear headband. Amidst many other Halloween decorations.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "I've been decorating the house to get us in the Halloween spirit! The big festival's tomorrow!"
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "WHAT? NO! We're NOT participating in that festival in ANY way whatsoever!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "C'moonn Billie... We NEVER get to celebrate Halloween!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "And you refuse to tell me why you hate it so much..."
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Well- Y'know! I-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "This town's already creepy enough! Why do we need a day to glorify it?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "Mmmmmmmhm..."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Well... in other news, check out this sick rock I found! It kinda looks like a bowtie!\n...Or an hourglass!"
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "I think I'll... put it next to my bowties...\nor my hourglasses...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "..."
+        },
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "Yeah, it's pretty cool..."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "..."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Hey, I'm sorry man... but... you know how I get around this time of year!"
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "It's just all so... weird and uncomfortable..."
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "..."
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "I was just really looking forward to finally getting out there and... living. It feels so secluded in this forest... like we're in the middle of nowhere."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Well, can't argue with that..."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "..."
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "*Sigh*"
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Fine... I'll suck it up and give it a try.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "Really?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "Yeah. Who knows, there might be some neat things people leave behind."
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Awesome!! Be ready, 'cause we're gonna fill those Blensky's bags TO THE BRIM!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Hehe, yeah...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "I'm sure we will...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "neutral",
+            "dialogue": "AHH!! This is so exciting! I forgot the thrill of seeing everything come together!",
+            "events": [
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "2"
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.8"
+                },
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "6",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "outside_ambience",
+                    "value2": "",
+                    "startDelay": 2.5
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "1.5",
+                    "startDelay": 3.5
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Spooky fog, creepy monsters, jack-o'-lanterns glowing in the moonlight..."
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Sounds like nothing but disorientation...\n...juust how I remember it.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Hey, promise me you'll stay close throughout the night, alright?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "...Letícia?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "...haunted houses, cheesy skeletons emerging out of graves, crazy strobe lights that make you wonder \"Hey, is this legal?\"-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "furious",
+            "dialogue": "LETÍCIA!!"
+        },
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "Huh?"
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "Could you promise me you won't leave me bagging behind? I'm just worried that-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "Bagging? GASP!! OHMIGOSH BILLIE YOU'RE RIGHT! I ALMOST FORGOT OUR BLENSKY BAGS!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "I'll be back in 2 seconds!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "NO THAT'S-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "*Sigh.* Whatever.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "I swear, the only thing that'll keep me sane tonight is my...",
+            "events": [
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "2"
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 2.5
+                },
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "6.5",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "...my music... oh god where are my earbuds!?-"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chandelier.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgChandelier0000" x="10" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0001" x="10" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0002" x="10" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0003" x="10" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0004" x="179" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0005" x="179" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0006" x="179" y="10" width="159" height="131"/>
+	<SubTexture name="bgChandelier0007" x="179" y="10" width="159" height="131"/>
+</TextureAtlas>

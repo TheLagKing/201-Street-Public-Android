@@ -1,0 +1,21 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "scared",
+            "dialogue": "You do not recogn-... What the fuck?!?"
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "W- What does that even mean??",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="billiehandnight.png">
+<SubTexture name="billiehandnight idle0000" x="2332" y="532" width="412" height="531" frameX="-496" frameY="-248" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight idle0001" x="1922" y="0" width="410" height="532" frameX="-499" frameY="-246" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight idle0002" x="1112" y="1264" width="403" height="539" frameX="-507" frameY="-240" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight idle0003" x="711" y="1264" width="401" height="541" frameX="-509" frameY="-239" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight idle0004" x="312" y="1264" width="399" height="542" frameX="-511" frameY="-238" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight left0000" x="1599" y="1857" width="536" height="518" frameX="-360" frameY="-262" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight left0001" x="2332" y="0" width="525" height="532" frameX="-385" frameY="-249" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight left0002" x="532" y="1857" width="532" height="525" frameX="-371" frameY="-256" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight down0000" x="1204" y="2383" width="610" height="427" frameX="-296" frameY="-352" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight down0001" x="599" y="2383" width="605" height="433" frameX="-300" frameY="-345" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight down0002" x="2135" y="1857" width="593" height="447" frameX="-313" frameY="-331" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight up0000" x="0" y="0" width="429" height="638" frameX="-472" frameY="-142" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight up0001" x="429" y="0" width="434" height="633" frameX="-470" frameY="-146" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight up0002" x="449" y="638" width="446" height="624" frameX="-460" frameY="-153" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight right0000" x="1619" y="0" width="303" height="595" frameX="-619" frameY="-185" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight right0001" x="1305" y="597" width="305" height="596" frameX="-616" frameY="-188" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight right0002" x="0" y="1264" width="312" height="593" frameX="-606" frameY="-193" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missleft0000" x="1064" y="1857" width="535" height="519" frameX="-371" frameY="-259" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missleft0001" x="0" y="1857" width="532" height="526" frameX="-382" frameY="-253" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missdown0000" x="1814" y="2383" width="613" height="423" frameX="-295" frameY="-349" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missdown0001" x="0" y="2383" width="599" height="441" frameX="-309" frameY="-333" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missup0000" x="863" y="0" width="442" height="631" frameX="-470" frameY="-142" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missup0001" x="0" y="638" width="449" height="626" frameX="-461" frameY="-150" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missright0000" x="895" y="638" width="306" height="599" frameX="-618" frameY="-185" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="billiehandnight missright0001" x="1305" y="0" width="314" height="597" frameX="-605" frameY="-192" frameWidth="1500" frameHeight="1000" />
+</TextureAtlas>

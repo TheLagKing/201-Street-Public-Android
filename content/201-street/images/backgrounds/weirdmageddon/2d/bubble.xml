@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="bubble.png" width="2048" height="2048">
+  <SubTexture name="pop0022" x="5" y="5"  width="489" height="512" frameX="-104" frameY="-93" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0020" x="5" y="527"  width="389" height="404" frameX="-154" frameY="-147" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0018" x="5" y="941"  width="338" height="337" frameX="-180" frameY="-180" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0005" x="5" y="1288"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0008" x="5" y="1616"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0011" x="333" y="1288"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0001" x="353" y="941"  width="318" height="317" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="bubble0001" x="404" y="527"  width="317" height="317" frameX="-0" frameY="-0" frameWidth="317" frameHeight="317"/>
+  <SubTexture name="pop0004" x="681" y="854"  width="316" height="315" frameX="-191" frameY="-191" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0007" x="1007" y="854"  width="312" height="312" frameX="-193" frameY="-193" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0010" x="333" y="1616"  width="308" height="308" frameX="-195" frameY="-195" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0013" x="651" y="1616"  width="304" height="305" frameX="-197" frameY="-196" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0014" x="661" y="1268"  width="303" height="303" frameX="-197" frameY="-197" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0016" x="965" y="1581"  width="284" height="284" frameX="-207" frameY="-207" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0033" x="974" y="1179"  width="109" height="251" frameX="-254" frameY="-482" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0032" x="1093" y="1179"  width="116" height="205" frameX="-259" frameY="-343" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0026" x="1093" y="1394"  width="139" height="177" frameX="-262" frameY="-230" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0030" x="1219" y="1179"  width="139" height="183" frameX="-258" frameY="-240" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0028" x="1242" y="1372"  width="139" height="177" frameX="-260" frameY="-231" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0023" x="1391" y="1372"  width="141" height="176" frameX="-271" frameY="-243" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0024" x="1259" y="1559"  width="140" height="176" frameX="-264" frameY="-232" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0002" x="353" y="941"  width="318" height="317" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0003" x="353" y="941"  width="318" height="317" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0006" x="5" y="1288"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0009" x="5" y="1616"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0012" x="333" y="1288"  width="318" height="318" frameX="-190" frameY="-190" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0015" x="661" y="1268"  width="303" height="303" frameX="-197" frameY="-197" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0017" x="965" y="1581"  width="284" height="284" frameX="-207" frameY="-207" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0019" x="5" y="941"  width="338" height="337" frameX="-180" frameY="-180" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0021" x="5" y="527"  width="389" height="404" frameX="-154" frameY="-147" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0025" x="1259" y="1559"  width="140" height="176" frameX="-264" frameY="-232" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0027" x="1093" y="1394"  width="139" height="177" frameX="-262" frameY="-230" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0029" x="1242" y="1372"  width="139" height="177" frameX="-260" frameY="-231" frameWidth="702" frameHeight="749"/>
+  <SubTexture name="pop0031" x="1219" y="1179"  width="139" height="183" frameX="-258" frameY="-240" frameWidth="702" frameHeight="749"/>
+</TextureAtlas>

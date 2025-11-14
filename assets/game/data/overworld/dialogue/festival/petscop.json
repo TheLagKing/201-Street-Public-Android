@@ -1,0 +1,29 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Now what could this stand even be about?"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Some sort of shape sorter stand?"
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "The papers say \"Play music.... for baby?\""
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "What baby?"
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "I... I think I'll pass."
+        }
+    ]
+}

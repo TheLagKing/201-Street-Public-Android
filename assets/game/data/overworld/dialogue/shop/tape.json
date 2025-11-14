@@ -1,0 +1,65 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "intrigue",
+            "dialogue": "This baby's been with me since my corn-shuckin' days.",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "boughtItem",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "FirstPurchase",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Add Checklist Notif",
+                    "value1": "",
+                    "value2": ""
+                },  
+                {
+                    "eventName": "Save Data",
+                    "value1": "BoughtTape",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "Sentimental, sure, but I'd love to see it go to a happy home." 
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "Dude. This is gonna be the greatest movie night ever." 
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "I'm so hyped." 
+        },
+        {
+            "character": "Letícia",
+            "expression": "flustered",
+            "dialogue": "Pfft, you goober! No way we're watching this!" 
+        },
+		{
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "buzz",
+                    "value2": "0.7"
+                }
+            ]
+        }
+    ]
+}

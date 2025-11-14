@@ -1,0 +1,104 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "BOOOM. Did you see me crush that guy? It was the last thing we needed to win!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "That was awesome. That being said, still can't take it seriously.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "laughing",
+            "dialogue": "Why did you call for my help? I'm right next to you, ya goof!"
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "Cuz the big scary monster was gonna eat me!! Were you not gonna save me?"
+        },        
+        {
+            "character": "Letícia",
+            "expression": "laughing",
+            "dialogue": "I'm not playing the game!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "I knoowww I know. I'm just messing with you."
+        },        
+        {
+            "events": [
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "repo",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1":"",
+                    "value2":""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

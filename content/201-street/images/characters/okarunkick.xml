@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="okarunkick.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Okarun Flip0000" x="0" y="0" width="465" height="764" frameX="-135" frameY="-158" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0001" x="0" y="0" width="465" height="764" frameX="-135" frameY="-158" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0002" x="470" y="0" width="1074" height="566" frameX="0" frameY="-57" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0003" x="470" y="0" width="1074" height="566" frameX="0" frameY="-57" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0004" x="1549" y="0" width="1019" height="574" frameX="-94" frameY="0" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0005" x="1549" y="0" width="1019" height="574" frameX="-94" frameY="0" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0006" x="2573" y="0" width="1038" height="507" frameX="-179" frameY="-5" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0007" x="2573" y="0" width="1038" height="507" frameX="-179" frameY="-5" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0008" x="0" y="769" width="591" height="574" frameX="-470" frameY="-81" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0009" x="0" y="769" width="591" height="574" frameX="-470" frameY="-81" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0010" x="596" y="769" width="449" height="370" frameX="-699" frameY="-133" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0011" x="1050" y="769" width="434" height="370" frameX="-699" frameY="-133" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0012" x="1489" y="769" width="358" height="404" frameX="-832" frameY="-208" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0013" x="1852" y="769" width="357" height="403" frameX="-833" frameY="-208" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0014" x="2214" y="769" width="390" height="401" frameX="-880" frameY="-295" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0015" x="2609" y="769" width="392" height="381" frameX="-878" frameY="-315" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0016" x="3006" y="769" width="402" height="396" frameX="-936" frameY="-300" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0017" x="3413" y="769" width="400" height="395" frameX="-936" frameY="-300" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0018" x="0" y="1348" width="701" height="546" frameX="-906" frameY="-390" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0019" x="0" y="1348" width="701" height="546" frameX="-906" frameY="-390" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0020" x="706" y="1348" width="675" height="590" frameX="-916" frameY="-349" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0021" x="706" y="1348" width="675" height="590" frameX="-916" frameY="-349" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0022" x="1386" y="1348" width="675" height="587" frameX="-915" frameY="-352" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0023" x="1386" y="1348" width="675" height="587" frameX="-915" frameY="-352" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0024" x="2066" y="1348" width="675" height="573" frameX="-915" frameY="-366" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0025" x="2066" y="1348" width="675" height="573" frameX="-915" frameY="-366" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0026" x="2746" y="1348" width="675" height="583" frameX="-915" frameY="-356" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Flip0027" x="2746" y="1348" width="675" height="583" frameX="-915" frameY="-356" frameWidth="1607" frameHeight="939"/>
+	<SubTexture name="Okarun Impact0000" x="3426" y="1348" width="505" height="710" frameX="0" frameY="0" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0001" x="3426" y="1348" width="505" height="710" frameX="0" frameY="0" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0002" x="0" y="2063" width="515" height="705" frameX="0" frameY="-2" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0003" x="0" y="2063" width="515" height="705" frameX="0" frameY="-2" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0004" x="520" y="2063" width="512" height="710" frameX="0" frameY="0" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0005" x="520" y="2063" width="512" height="710" frameX="0" frameY="0" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0006" x="1037" y="2063" width="513" height="705" frameX="0" frameY="-2" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact0007" x="1037" y="2063" width="513" height="705" frameX="0" frameY="-2" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact Connect0000" x="1555" y="2063" width="308" height="719" frameX="-9" frameY="0" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0001" x="1868" y="2063" width="308" height="719" frameX="-9" frameY="0" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0002" x="2181" y="2063" width="520" height="692" frameX="-2" frameY="-18" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0003" x="2181" y="2063" width="520" height="692" frameX="-2" frameY="-18" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0004" x="0" y="2063" width="515" height="705" frameX="0" frameY="-12" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact Connect0005" x="2706" y="2063" width="512" height="710" frameX="0" frameY="-10" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0006" x="2706" y="2063" width="512" height="710" frameX="0" frameY="-10" frameWidth="522" frameHeight="720"/>
+	<SubTexture name="Okarun Impact Connect0007" x="1037" y="2063" width="513" height="705" frameX="0" frameY="-12" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Impact Connect0008" x="1037" y="2063" width="513" height="705" frameX="0" frameY="-12" frameWidth="515" frameHeight="710"/>
+	<SubTexture name="Okarun Kicking0000" x="0" y="2787" width="988" height="552"/>
+	<SubTexture name="Okarun Kicking0001" x="993" y="2787" width="988" height="551" frameX="0" frameY="0" frameWidth="988" frameHeight="552"/>
+	<SubTexture name="Okarun Kicking0002" x="1986" y="2787" width="988" height="551" frameX="0" frameY="0" frameWidth="988" frameHeight="552"/>
+	<SubTexture name="Okarun Kicking0003" x="2979" y="2787" width="988" height="551" frameX="0" frameY="0" frameWidth="988" frameHeight="552"/>
+	<SubTexture name="Okarun Land0000" x="0" y="3344" width="674" height="586" frameX="0" frameY="-2" frameWidth="674" frameHeight="588"/>
+	<SubTexture name="Okarun Land0001" x="0" y="3344" width="674" height="586" frameX="0" frameY="-2" frameWidth="674" frameHeight="588"/>
+	<SubTexture name="Okarun Land0002" x="679" y="3344" width="674" height="588"/>
+	<SubTexture name="Okarun Land0003" x="679" y="3344" width="674" height="588"/>
+	<SubTexture name="Okarun Land0004" x="1358" y="3344" width="674" height="573" frameX="0" frameY="-15" frameWidth="674" frameHeight="588"/>
+	<SubTexture name="Okarun Land0005" x="1358" y="3344" width="674" height="573" frameX="0" frameY="-15" frameWidth="674" frameHeight="588"/>
+	<SubTexture name="Okarun Land0006" x="2037" y="3344" width="674" height="583" frameX="0" frameY="-5" frameWidth="674" frameHeight="588"/>
+	<SubTexture name="Okarun Land0007" x="2037" y="3344" width="674" height="583" frameX="0" frameY="-5" frameWidth="674" frameHeight="588"/>
+</TextureAtlas>

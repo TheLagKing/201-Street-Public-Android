@@ -1,0 +1,143 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Some unintelligible wailing is heard in the distance."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "...Do you hear that?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "Yeah, it sounds like... crying?? Billie, what's going on?!?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "This is getting a bit too cree-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "What the hell is THAT??",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "WHAT? WHAT IS IT? BILLIE, YOU'RE SCARING ME...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "It's some kinda... tall... naked guy?? And he's crying!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "WHAT?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "The creature stops sobbing and turns around to face Billie.",
+            "events": [
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "1.2",
+                    "startDelay": 0.01
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "The goggles aren't letting me see its face!! What kind of scam is this old guy running??"
+        },
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "I HAVE A BAD FEELING ABOUT THIS...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+				{
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "face-of-fury",
+                    "value2": "",
+					"startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ] 
+        }
+    ]
+}

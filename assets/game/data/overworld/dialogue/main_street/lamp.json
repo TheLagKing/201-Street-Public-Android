@@ -1,0 +1,14 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "Ugh, that light's flickering is making my eyes hurt..."
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "Then stop looking at it, dummy!"
+        }
+    ]
+}

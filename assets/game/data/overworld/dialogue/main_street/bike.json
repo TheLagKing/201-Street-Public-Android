@@ -1,0 +1,43 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Man, I wish I had a bike."
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "I wish we still had a car..."
+        },
+        {
+            "character": "billie",
+            "expression": "furious",
+            "dialogue": "WELL! IF MISTER-MUSTANG HAD SOME SPATIAL AWARENESS, WE'D STILL BE SITTING PRETTY!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "IT WAS A CAR WASH. HE WAS WASHING HIS CAR!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "furious",
+            "dialogue": "SO WHAT?!"
+        }
+    ]
+}

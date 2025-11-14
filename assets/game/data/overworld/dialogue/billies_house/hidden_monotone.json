@@ -1,0 +1,26 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "You found Hidden Monotone #1! Collect them all!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "monotone/ur doing pretty good bro",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "HouseMonotone",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

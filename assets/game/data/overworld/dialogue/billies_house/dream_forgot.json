@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "All this spooky celebration makes me feel like a kid again!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "It also reminds me of this cool dream I had recently, but the details are hazy..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "I was with... uhh... hmm. I'll let you know later if I remember."
+        }
+    ]
+}

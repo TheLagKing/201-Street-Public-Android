@@ -1,0 +1,68 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "How-dy! Say, don'tchy'all two look a bit old to be out bagging some sweets?",
+            "events": [
+                {
+                    "eventName": "Hide UI",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Nonono, don't get it twisted.\nI hate Halloween."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "I just stopped by because I saw some cool stuff in here... thought I'd take a look."
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "intrigue",
+            "dialogue": "Oooooo!~ A collector, are ya? Takes one to know one! Feel free to take a look, everything ya see is for sale!"
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "Damn, everything here looks sick. Too bad I'm broke..."
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "No schmackeroonies, huh? Been there, busted that gut..."
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "...say, it's a cool Hallow's Eve, I'm feelin' philanthropic. I'll letcha snag one of them doodads on the bottom shelf! On the house!"
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "Let me know what comes of it too. It's refreshin' to see some new faces passionate about these old gizmos!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "I like this guy."
+        },
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "Really? No way! Thanks dude!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

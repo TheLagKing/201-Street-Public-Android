@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Why's this all the way back here? Shouldn't it be closer to the street?"
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "Sure, but when was the last time you saw the garbage truck pull through here?"
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Huh. Good point."
+        }
+    ]
+}

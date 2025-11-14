@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "Torso"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "backgrounds/music/Frankie_Body",
+	"position": [
+		40,
+		380
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "frankie",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -10784636,
+	"camera_position": [
+		-70,
+		20
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

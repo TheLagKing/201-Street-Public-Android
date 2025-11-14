@@ -1,0 +1,74 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "Alright! Lemme take a look at this thing."
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "Hmm... Yeah, someone did not take very good care of this."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "...mhmmm...screw in this...replace the batteriess...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "flustered",
+            "dialogue": "Oh! There we go! Got it to turn on at least.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Huh, it looks like it's already got something loaded up..."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "mauve-macabre",
+                    "value2": "",
+                    "startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ] 
+        }
+    ]
+}

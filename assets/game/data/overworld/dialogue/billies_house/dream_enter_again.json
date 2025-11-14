@@ -1,0 +1,47 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Right, the other version of the dream...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+		{
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "Everything was so much fun until we touched the lamp, and the lights went off..."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "pink-sea",
+                    "value2": "",
+                    "startDelay": 3
+                }
+            ] 
+        }
+    ]
+}

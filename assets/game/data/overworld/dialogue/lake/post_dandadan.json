@@ -1,0 +1,199 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "Ughh... my head...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "terrified",
+            "dialogue": "What the hell just happened..? Letícia, are you alright?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "I'm here, I'm alright..."
+        },
+        {
+            "character": "billie",
+            "expression": "sad",
+            "dialogue": "God, that was crazy."
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "What happened to the kids? Are they safe? I could only see one of them on the ship with us."
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "Them and whoever or whatever took down the alien. All I could catch was a red blur..."
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Some rustling is heard in the bushes next to them."
+        },
+        {
+            "character": "Momo",
+            "expression": "determined",
+            "dialogue": "Of course we're alright!! We deal with stuff like this all the time, don't we Okarun?"
+        },
+        {
+            "character": "Okarun",
+            "expression": "turbo",
+            "dialogue": "I guess... but going all out always makes me tired."
+        },
+        {
+            "character": "Okarun",
+            "expression": "turbo",
+            "dialogue": "What a bummer. I wanna go home..."
+        },
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "Wow. Alright. Wait, was that red flash you?"
+        },
+        {
+            "character": "Momo",
+            "expression": "smile",
+            "dialogue": "What? Oh yeah, I suppose you can see him too, you did touch the golden ball... Yes, that was him!"
+        },
+        {
+            "character": "Momo",
+            "expression": "determined",
+            "dialogue": "Anywhooo thanksforthehelpbye!!"
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Momo and Okarun run away before Billie can react."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Damn. I guess that's that."
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "Wait... they took the damn ball!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "neutral",
+            "dialogue": "We just got ABDUCTED by an alien and you're worried about the ball???",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "furious",
+            "dialogue": "Yeah!! Are you kidding?? We wouldn't've had to work for the rest of our lives!!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Besides, I already knew aliens were real.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "You really are something, B.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },       
+        {
+            "events": [                
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "dandadan",
+                    "value2": ""
+                },
+				{
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "earthbound",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

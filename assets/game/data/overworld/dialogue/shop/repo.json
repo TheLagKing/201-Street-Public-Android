@@ -1,0 +1,108 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "intrigue",
+            "dialogue": "I've got this bad boy to thank for helping me find all these fancy trinkets!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "boughtItem",
+                    "value2": "1"
+                },                
+                {
+                    "eventName": "Save Data",
+                    "value1": "BoughtTablet",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Add Checklist Notif",
+                    "value1": "",
+                    "value2": ""
+                },  
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "mourn",
+            "dialogue": "And Betsy... may God rest her soul.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "sad",
+            "dialogue": "Oh god, I'm so sorry... Who was she?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "She was ma' trusty metal detector!" ,
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "mourn",
+            "dialogue": "So many transit tokens we found together... she knew the path straight to my heart...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Right. And you're just giving this thing away?" 
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "Yup! I'm afraid I don't have much use for this thing anymore... I'm trying to get rid of stuff, not collect more! As you may expect, the thing's busted." 
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Huh, fair enough. I wonder if we could fix it up, it kinda reminds me of something..." 
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "I could probably tinker with it! No promises if there's no tutorials, though." 
+        },
+		{
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "buzz",
+                    "value2": "0.7"
+                }
+            ]
+        }
+    ]
+}

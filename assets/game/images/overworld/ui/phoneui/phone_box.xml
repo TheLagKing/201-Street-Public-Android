@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="phone_box.png">
+<SubTexture name="phone_box open0000" x="0" y="489" width="687" height="68" frameX="0" frameY="-403" frameWidth="753" frameHeight="489" />
+<SubTexture name="phone_box open0001" x="0" y="489" width="687" height="68" frameX="0" frameY="-403" frameWidth="753" frameHeight="489" />
+<SubTexture name="phone_box open0002" x="0" y="0" width="587" height="489" frameX="-147" frameY="0" frameWidth="753" frameHeight="489" />
+<SubTexture name="phone_box open0003" x="0" y="0" width="587" height="489" frameX="-147" frameY="0" frameWidth="753" frameHeight="489" />
+<SubTexture name="phone_box open0004" x="0" y="0" width="587" height="489" frameX="-147" frameY="0" frameWidth="753" frameHeight="489" />
+<SubTexture name="phone_box open0005" x="587" y="0" width="643" height="433" frameX="-109" frameY="-49" frameWidth="753" frameHeight="489" />
+</TextureAtlas>

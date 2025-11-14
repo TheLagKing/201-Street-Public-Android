@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="096_bg.png">
+<SubTexture name="096_bg loop0000" x="1500" y="0" width="1500" height="994" frameX="0" frameY="-6" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="096_bg loop0001" x="0" y="1989" width="1500" height="950" frameX="0" frameY="-50" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="096_bg loop0002" x="0" y="1000" width="1500" height="989" frameX="0" frameY="-11" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="096_bg loop0003" x="0" y="0" width="1500" height="1000" frameX="0" frameY="0" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="096_bg loop0004" x="1500" y="1000" width="1500" height="963" frameX="0" frameY="-37" frameWidth="1500" frameHeight="1000" />
+<SubTexture name="096_bg loop0005" x="1500" y="1989" width="1500" height="924" frameX="0" frameY="-76" frameWidth="1500" frameHeight="1000" />
+</TextureAtlas>

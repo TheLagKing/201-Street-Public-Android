@@ -1,0 +1,18 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "See ya soon!"
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Transition Map",
+                    "value1": "festival",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

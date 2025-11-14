@@ -1,0 +1,173 @@
+{
+	"cam_offsets": [
+		[
+			"",
+			70,
+			0
+		],
+		[
+			"festival",
+			2000,
+			0
+		],
+		[
+			"cipher",
+			2000,
+			0
+		]
+	],
+	"scale": 1,
+	"screen_warp": true,
+	"name": "201 Street",
+	"can_run": true,
+	"objects": [
+		{
+			"dialogue": "lamp",
+			"object_path": "lamp",
+			"name": "Street Light",
+			"position": [
+				1133,
+				305
+			]
+		},
+		{
+			"dialogue": "bike",
+			"object_path": "bike",
+			"name": "Bike",
+			"position": [
+				1353,
+				537
+			]
+		},
+		{
+			"dialogue": "tomato",
+			"object_path": "maximtomato",
+			"name": "Apple...?",
+			"position": [
+				1658,
+				558
+			]
+		},
+		{
+			"object_path": "billiedoor",
+			"name": "[Billie's House]",
+			"location": "billies_house",
+			"position": [
+				689,
+				477
+			]
+		},
+		{
+			"dialogue": "randy_door",
+			"object_path": "randydoor",
+			"name": "[Randy's House]",
+			"position": [
+				1533,
+				490
+			]
+		},
+		{
+			"dialogue": "trash_can",
+			"object_path": "garbagecan",
+			"name": "Garbage Can",
+			"position": [
+				387,
+				528
+			]
+		},
+		{
+			"dialogue": "roadblock",
+			"object_path": "roadblock",
+			"name": "Roadblock",
+			"position": [
+				2548,
+				675
+			]
+		},
+		{
+			"dialogue": "poster",
+			"object_path": "poster",
+			"name": "Poster",
+			"position": [
+				828,
+				620
+			]
+		},
+		{
+			"object_path": "woodssign",
+			"position": [
+				278,
+				411
+			]
+		},
+		{
+			"object_path": "lamp_light",
+			"position": [
+				1024,
+				358
+			]
+		},
+		{
+			"dialogue": "hidden_monotone",
+			"object_path": "hiddenmonotone",
+			"position": [
+				1940,
+				308
+			],
+			"remove_outline": true
+		},
+		{
+			"object_path": "billglow",
+			"name": "glow",
+			"position": [
+				2196,
+				0
+			],
+			"remove_outline": true
+		}
+	],
+	"teleporter_hitboxes": [
+		{
+			"position": [
+				2280,
+				400
+			],
+			"size": [
+				270,
+				200
+			],
+			"location": "festival",
+			"location_name": "the Festival",
+			"direction": "up"
+		},
+		{
+			"position": [
+				2680,
+				0
+			],
+			"size": [
+				270,
+				1000
+			],
+			"location": "cipher",
+			"location_name": "the Unknown",
+			"direction": "right"
+		},
+		{
+			"position": [
+				0,
+				0
+			],
+			"size": [
+				370,
+				2000
+			],
+			"location": "forest",
+			"location_name": "the Forest",
+			"direction": "left"
+		}
+	],
+	"music": "201-street",
+	"music_name": "Welcome to 201 Street",
+	"bpm": 85
+}

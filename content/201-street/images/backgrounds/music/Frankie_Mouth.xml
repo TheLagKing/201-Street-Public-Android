@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Frankie_Mouth.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jaw0000" x="0" y="0" width="69" height="78" frameX="0" frameY="0" frameWidth="69" frameHeight="79"/>
+	<SubTexture name="Jaw0001" x="0" y="159" width="68" height="77" frameX="0" frameY="-1" frameWidth="69" frameHeight="79"/>
+	<SubTexture name="Jaw0002" x="0" y="80" width="69" height="77" frameX="0" frameY="-1" frameWidth="69" frameHeight="79"/>
+	<SubTexture name="Jaw0003" x="70" y="161" width="68" height="76" frameX="0" frameY="-1" frameWidth="69" frameHeight="79"/>
+	<SubTexture name="Jaw0004" x="71" y="0" width="68" height="79" frameX="0" frameY="0" frameWidth="69" frameHeight="79"/>
+	<SubTexture name="Jaw0005" x="71" y="81" width="68" height="78" frameX="0" frameY="0" frameWidth="69" frameHeight="79"/>
+</TextureAtlas>

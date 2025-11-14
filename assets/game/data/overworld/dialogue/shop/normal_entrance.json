@@ -1,0 +1,16 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "Back for more? What's the scoop?",
+            "events": [
+                {
+                    "eventName": "Hide UI",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

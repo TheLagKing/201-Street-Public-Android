@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="walkie.png" width="2048" height="2048">
+  <SubTexture name="idle0001" x="3" y="3"  width="1117" height="357" frameX="-0" frameY="-0" frameWidth="1117" frameHeight="357"/>
+  <SubTexture name="idle0003" x="3" y="366"  width="1103" height="363" frameX="-0" frameY="-0" frameWidth="1103" frameHeight="363"/>
+  <SubTexture name="confirm0001" x="1126" y="3" width="688" height="1117" rotated="true"  frameX="-0" frameY="-0" frameWidth="1117" frameHeight="688"/>
+  <SubTexture name="idle0002" x="3" y="3"  width="1117" height="357" frameX="-0" frameY="-0" frameWidth="1117" frameHeight="357"/>
+  <SubTexture name="idle0004" x="3" y="366"  width="1103" height="363" frameX="-0" frameY="-0" frameWidth="1103" frameHeight="363"/>
+</TextureAtlas>

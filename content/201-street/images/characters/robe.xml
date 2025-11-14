@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="robe.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="robeDown0000" x="10" y="10" width="843" height="523" frameX="0" frameY="-10" frameWidth="849" frameHeight="534"/>
+	<SubTexture name="robeDown0001" x="10" y="10" width="843" height="523" frameX="0" frameY="-10" frameWidth="849" frameHeight="534"/>
+	<SubTexture name="robeDown0002" x="863" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0003" x="863" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0004" x="1722" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0005" x="1722" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0006" x="2581" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0007" x="2581" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0008" x="3440" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0009" x="3440" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0010" x="3440" y="10" width="849" height="534"/>
+	<SubTexture name="robeDown0011" x="3440" y="10" width="849" height="534"/>
+	<SubTexture name="robeIdle0000" x="4299" y="10" width="989" height="933" frameX="0" frameY="0" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0001" x="4299" y="10" width="989" height="933" frameX="0" frameY="0" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0002" x="10" y="953" width="992" height="930" frameX="0" frameY="-3" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0003" x="10" y="953" width="992" height="930" frameX="0" frameY="-3" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0004" x="1012" y="953" width="995" height="916" frameX="0" frameY="-16" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0005" x="1012" y="953" width="995" height="916" frameX="0" frameY="-16" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0006" x="2017" y="953" width="993" height="905" frameX="0" frameY="-28" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0007" x="2017" y="953" width="993" height="905" frameX="0" frameY="-28" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0008" x="3020" y="953" width="988" height="905" frameX="0" frameY="-28" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0009" x="3020" y="953" width="988" height="905" frameX="0" frameY="-28" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0010" x="4018" y="953" width="986" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0011" x="4018" y="953" width="986" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0012" x="10" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0013" x="10" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0014" x="1004" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0015" x="1004" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0016" x="1998" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0017" x="1998" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0018" x="2992" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0019" x="2992" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0020" x="3986" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0021" x="3986" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0022" x="4980" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeIdle0023" x="4980" y="1893" width="984" height="904" frameX="0" frameY="-29" frameWidth="995" frameHeight="933"/>
+	<SubTexture name="robeLeft0000" x="10" y="2807" width="761" height="960" frameX="0" frameY="0" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0001" x="10" y="2807" width="761" height="960" frameX="0" frameY="0" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0002" x="781" y="2807" width="750" height="957" frameX="-11" frameY="-3" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0003" x="781" y="2807" width="750" height="957" frameX="-11" frameY="-3" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0004" x="1541" y="2807" width="747" height="955" frameX="-15" frameY="-6" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0005" x="1541" y="2807" width="747" height="955" frameX="-15" frameY="-6" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0006" x="2298" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0007" x="2298" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0008" x="3054" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0009" x="3054" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0010" x="3054" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeLeft0011" x="3054" y="2807" width="746" height="953" frameX="-16" frameY="-8" frameWidth="762" frameHeight="961"/>
+	<SubTexture name="robeRight0000" x="3810" y="2807" width="1209" height="804"/>
+	<SubTexture name="robeRight0001" x="3810" y="2807" width="1209" height="804"/>
+	<SubTexture name="robeRight0002" x="10" y="3777" width="1198" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0003" x="10" y="3777" width="1198" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0004" x="1218" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0005" x="1218" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0006" x="1218" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0007" x="1218" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0008" x="2425" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0009" x="2425" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0010" x="2425" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeRight0011" x="2425" y="3777" width="1197" height="804" frameX="0" frameY="0" frameWidth="1209" frameHeight="804"/>
+	<SubTexture name="robeShocked0000" x="3632" y="3777" width="961" height="858" frameX="0" frameY="-74" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0001" x="3632" y="3777" width="961" height="858" frameX="0" frameY="-74" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0002" x="4603" y="3777" width="963" height="851" frameX="0" frameY="-81" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0003" x="4603" y="3777" width="963" height="851" frameX="0" frameY="-81" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0004" x="10" y="4645" width="963" height="851" frameX="0" frameY="-81" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0005" x="983" y="4645" width="977" height="871" frameX="0" frameY="-61" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0006" x="1970" y="4645" width="1015" height="930" frameX="0" frameY="-2" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0007" x="1970" y="4645" width="1015" height="930" frameX="0" frameY="-2" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0008" x="2995" y="4645" width="1016" height="932" frameX="0" frameY="0" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0009" x="4021" y="4645" width="1016" height="932" frameX="0" frameY="0" frameWidth="1017" frameHeight="932"/>
+	<SubTexture name="robeShocked0010" x="10" y="5587" width="1017" height="932"/>
+	<SubTexture name="robeShocked0011" x="10" y="5587" width="1017" height="932"/>
+	<SubTexture name="robeUp0000" x="1037" y="5587" width="963" height="1186"/>
+	<SubTexture name="robeUp0001" x="1037" y="5587" width="963" height="1186"/>
+	<SubTexture name="robeUp0002" x="2010" y="5587" width="925" height="1153" frameX="0" frameY="-33" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0003" x="2010" y="5587" width="925" height="1153" frameX="0" frameY="-33" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0004" x="2945" y="5587" width="926" height="1144" frameX="0" frameY="-42" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0005" x="3881" y="5587" width="926" height="1144" frameX="0" frameY="-42" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0006" x="4817" y="5587" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0007" x="4817" y="5587" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0008" x="10" y="6783" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0009" x="946" y="6783" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0010" x="946" y="6783" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+	<SubTexture name="robeUp0011" x="946" y="6783" width="926" height="1143" frameX="0" frameY="-43" frameWidth="963" frameHeight="1186"/>
+</TextureAtlas>

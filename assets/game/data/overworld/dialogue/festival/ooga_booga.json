@@ -1,0 +1,36 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Ooga-Booga",
+            "expression": "scare",
+            "dialogue": "OOGA BOOGA!!!!"
+        },
+        {
+            "character": "Ooga-Booga",
+            "expression": "scare",
+            "dialogue": "Did that scare you."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "...Not really no."
+        },
+        {
+            "character": "Ooga-Booga",
+            "expression": "sad",
+            "dialogue": " ",
+            "events": [        
+                {
+                    "eventName": "Save Data",
+                    "value1": "OogaBooga",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

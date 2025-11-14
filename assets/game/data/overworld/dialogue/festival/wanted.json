@@ -1,0 +1,48 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "The poster reads: \"WANTED! Dangerous Criminal dubbed the \"Psycho Bastard\" on the loose. Last seen around 202 Street, 19 year old Hispanic Male, messy hair, glasses and a face with a twisted smile.\""
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "\"If you find any leads or have seen this person, contact the Malsivus Police Department immediately.\""
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "This gotta be the worst time to see this poster."
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Freaking. Psycho Bastard.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "I'm here for you hun."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Heh, thanks Letícia.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

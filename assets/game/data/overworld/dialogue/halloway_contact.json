@@ -1,0 +1,29 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "halloway",
+            "dialogue": "Why, if it isn't my favorite junk drawer!\nNeed anythin' from this old man?"
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Well... funny you say that..."
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Your store's full of junk, hows about you take some of MY forgotten trinkets?\nMy room's starting to get crazy cramped."
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "halloway",
+            "dialogue": "HAH! Missy, I already told you, I'm tryin' to get RID of my junk, not collect more!"
+        },        
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "Well, it was worth a shot."
+        }
+    ]
+}

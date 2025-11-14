@@ -1,0 +1,14 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "No swimming without a lifeguard, huh?"
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "...as if I'm gonna let some scrawny high schooler dictate my safety anyway."
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun Kicking"
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "impact-connect",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun Impact Connect"
+		},
+		{
+			"offsets": [
+				-761,
+				-95
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "land",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun Land"
+		},
+		{
+			"loop": true,
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "impact",
+			"fps": 24,
+			"name": "Okarun Impact0",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				104,
+				152
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "flipland",
+			"flipX": false,
+			"indices": [
+				27,
+				27
+			],
+			"name": "Okarun Flip"
+		},
+		{
+			"offsets": [
+				-27,
+				186
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 32,
+			"anim": "flip",
+			"flipX": false,
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			],
+			"name": "Okarun Flip"
+		},
+		{
+			"offsets": [
+				-27,
+				186
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "flip0",
+			"flipX": false,
+			"indices": [
+				2,
+				2
+			],
+			"name": "Okarun Flip"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/okarunkick",
+	"position": [
+		0,
+		0
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "face",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -8355712,
+	"camera_position": [
+		0,
+		0
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eye.png">
+	<!-- Created with Adobe Animate version 24.0.12.3 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Eye instance 10000" x="5" y="5" width="275" height="99" pivotX="0" pivotY="0" frameX="-3" frameY="-109" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10001" x="280" y="5" width="275" height="99" frameX="-3" frameY="-109" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10002" x="555" y="5" width="277" height="122" frameX="-2" frameY="-91" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10003" x="832" y="5" width="272" height="209" frameX="0" frameY="0" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10004" x="1104" y="5" width="274" height="184" frameX="-1" frameY="-23" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10005" x="1378" y="5" width="274" height="184" frameX="-1" frameY="-23" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10006" x="1652" y="5" width="267" height="174" frameX="-6" frameY="-29" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10007" x="5" y="214" width="267" height="174" frameX="-6" frameY="-29" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10008" x="272" y="214" width="273" height="180" frameX="-3" frameY="-28" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10009" x="545" y="214" width="273" height="180" frameX="-3" frameY="-28" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10010" x="818" y="214" width="272" height="181" frameX="-4" frameY="-23" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10011" x="1090" y="214" width="272" height="181" frameX="-4" frameY="-23" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10012" x="1362" y="214" width="268" height="186" frameX="-6" frameY="-27" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10013" x="1630" y="214" width="268" height="186" frameX="-6" frameY="-27" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10014" x="5" y="400" width="273" height="184" frameX="-2" frameY="-18" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10015" x="278" y="400" width="273" height="184" frameX="-2" frameY="-18" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10016" x="551" y="400" width="272" height="178" frameX="-4" frameY="-29" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10017" x="823" y="400" width="272" height="178" frameX="-4" frameY="-29" frameWidth="279" frameHeight="213"/>
+	<SubTexture name="Eye instance 10018" x="1095" y="400" width="270" height="189" frameX="-4" frameY="-24" frameWidth="279" frameHeight="213"/>
+</TextureAtlas>

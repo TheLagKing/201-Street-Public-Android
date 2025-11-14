@@ -1,0 +1,293 @@
+{
+	"extraSkin": "ui/dhmis/DHMIS_Noteskin",
+	"singAnimations": [
+		"singLEFT",
+		"singDOWN",
+		"singUP",
+		"singRIGHT"
+	],
+	"splashesEnabled": false,
+	"playerSkin": "ui/dhmis/DHMIS_Noteskin",
+	"receptorAnimations": [
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "arrowLEFT",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "left press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					1,
+					2
+				],
+				"xmlName": "left confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "arrowDOWN",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "down press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-2,
+					1
+				],
+				"xmlName": "down confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "arrowUP",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "up press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-3,
+					-3
+				],
+				"xmlName": "up confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "arrowRIGHT",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "right press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-2,
+					8
+				],
+				"xmlName": "right confirm",
+				"anim": "confirm"
+			}
+		]
+	],
+	"noteSplashAnimations": [
+		{
+			"offsets": [
+				4,
+				15
+			],
+			"xmlName": "note splash",
+			"anim": "note0"
+		},
+		{
+			"offsets": [
+				13,
+				15
+			],
+			"xmlName": "note splash",
+			"anim": "note1"
+		},
+		{
+			"offsets": [
+				16,
+				15
+			],
+			"xmlName": "note splash",
+			"anim": "note2"
+		},
+		{
+			"offsets": [
+				22,
+				15
+			],
+			"xmlName": "note splash",
+			"anim": "note3"
+		}
+	],
+	"noteAnimations": [
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "purple",
+				"anim": "scroll0"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					8,
+					0
+				],
+				"xmlName": "purple hold piece",
+				"anim": "hold0"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-6,
+					0
+				],
+				"xmlName": "pruple end hold",
+				"anim": "holdend0"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "blue",
+				"anim": "scroll1"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					9,
+					0
+				],
+				"xmlName": "blue hold piece",
+				"anim": "hold1"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-6,
+					0
+				],
+				"xmlName": "blue hold end",
+				"anim": "holdend1"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "green",
+				"anim": "scroll2"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					3,
+					0
+				],
+				"xmlName": "green hold piece",
+				"anim": "hold2"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-6,
+					0
+				],
+				"xmlName": "green hold end",
+				"anim": "holdend2"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "red",
+				"anim": "scroll3"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					6,
+					0
+				],
+				"xmlName": "red hold piece",
+				"anim": "hold3"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-6,
+					0
+				],
+				"xmlName": "red hold end",
+				"anim": "holdend3"
+			}
+		]
+	],
+	"pixelSize": [
+		4,
+		5
+	],
+	"noteSplashSkin": "ui/dhmis/DHMIS_Noteskin",
+	"globalSkin": "ui/dhmis/DHMIS_Noteskin",
+	"antialiasing": true,
+	"inGameColoring": false,
+	"isPixel": false,
+	"opponentSkin": "ui/dhmis/DHMIS_Noteskin",
+	"scale": 0.7,
+	"sustainSuffix": "ENDS"
+}

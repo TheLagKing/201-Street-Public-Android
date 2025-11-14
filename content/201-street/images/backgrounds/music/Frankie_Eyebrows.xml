@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Frankie_Eyebrows.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Eyebrows0000" x="0" y="117" width="104" height="34" frameX="-4" frameY="-5" frameWidth="115" frameHeight="56"/>
+	<SubTexture name="Eyebrows0001" x="0" y="153" width="115" height="13" frameX="0" frameY="-27" frameWidth="115" frameHeight="56"/>
+	<SubTexture name="Eyebrows0002" x="0" y="0" width="109" height="40" frameX="-2" frameY="-16" frameWidth="115" frameHeight="56"/>
+	<SubTexture name="Eyebrows0003" x="0" y="42" width="108" height="38" frameX="-4" frameY="0" frameWidth="115" frameHeight="56"/>
+	<SubTexture name="Eyebrows0004" x="0" y="82" width="112" height="33" frameX="-2" frameY="-7" frameWidth="115" frameHeight="56"/>
+</TextureAtlas>

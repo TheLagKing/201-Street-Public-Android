@@ -1,0 +1,97 @@
+{
+	"scale": 1,
+	"screen_warp": false,
+	"name": "Halloway's Shop",
+	"can_run": false,
+	"objects": [
+		{
+			"name": "Halloway",
+			"remove_outline": true,
+			"position": [
+				175,
+				75
+			],
+			"object_path": "halloway-neutral"
+		},
+		{
+			"remove_outline": true,
+			"position": [
+				0,
+				0
+			],
+			"object_path": "desk"
+		},
+		{
+			"dialogue": "gameboy",
+			"name": "Gameboy",
+			"position": [
+				665,
+				233
+			],
+			"object_path": "gameboy"
+		},
+		{
+			"dialogue": "headset",
+			"name": "Night Vision Goggles",
+			"position": [
+				627,
+				29
+			],
+			"object_path": "headset"
+		},
+		{
+			"dialogue": "pendrive",
+			"name": "Pendrive",
+			"position": [
+				778,
+				317
+			],
+			"object_path": "pendrive"
+		},
+		{
+			"dialogue": "repo",
+			"name": "Map Tablet",
+			"position": [
+				862,
+				3
+			],
+			"object_path": "repo"
+		},
+		{
+			"dialogue": "tape",
+			"name": "Tape",
+			"position": [
+				904,
+				266
+			],
+			"object_path": "tape"
+		},
+		{
+			"dialogue": "hidden_monotone",
+			"position": [
+				1252,
+				269
+			],
+			"object_path": "hidden_monotone",
+			"remove_outline": true
+		}
+	],
+	"teleporter_hitboxes": [
+		{
+			"location_name": "the Festival",
+			"location": "festival",
+			"size": [
+				230,
+				200
+			],
+			"position": [
+				0,
+				0
+			],
+			"direction": "left"
+		}
+	],
+	"music": "shop",
+	"music_name": "Halloway's Shop",
+	"bpm": 88
+}

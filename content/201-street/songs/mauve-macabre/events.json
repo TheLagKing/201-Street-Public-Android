@@ -1,0 +1,256 @@
+{
+	"song": {
+		"events": [
+			[
+				49736.8421052632,
+				[
+					[
+						"Pokemon Events",
+						"ghost fade",
+						""
+					]
+				]
+			],
+			[
+				81789.4736842105,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				82421.0526315789,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				82736.8421052631,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					],
+					[
+						"Pokemon Events",
+						"glitch",
+						"gay"
+					]
+				]
+			],
+			[
+				83052.6315789473,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				83368.4210526315,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				102315.789473684,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				102631.578947368,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				102947.368421053,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					],
+					[
+						"Pokemon Events",
+						"health gone",
+						""
+					]
+				]
+			],
+			[
+				103578.947368421,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					],
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				163263.157894737,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				163578.947368421,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				163894.736842105,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				164210.52631579,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				183157.894736842,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				184421.052631579,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					],
+					[
+						"Pokemon Events",
+						"blackscreen",
+						""
+					]
+				]
+			],
+			[
+				186421.052631579,
+				[
+					[
+						"Pokemon Events",
+						"blackscreen",
+						""
+					]
+				]
+			],
+			[
+				187087.719298246,
+				[
+					[
+						"Change Scroll Speed",
+						"0.83333333333",
+						"0.1"
+					]
+				]
+			],
+			[
+				219587.719298246,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				220421.052631579,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				220837.719298246,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"on"
+					]
+				]
+			],
+			[
+				221171.052631579,
+				[
+					[
+						"Pokemon Events",
+						"glitch",
+						"off"
+					]
+				]
+			],
+			[
+				221337.719298246,
+				[
+					[
+						"Pokemon Events",
+						"blackscreen",
+						""
+					]
+				]
+			]
+		]
+	}
+}

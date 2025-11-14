@@ -1,0 +1,66 @@
+{
+    "dialogue_info": [
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Hell yeah, a dunk tank!"
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Billie, you gotta try it."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "You think?"
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Yeah! You got quite the throwing arm."
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "Remember the time you threw a baseball so far we had to drive a town over to find it?"
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "I bet you can dunk the Trey."
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "Dunk. The. Trey."
+        },
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "Ohh, that was just a one time thiinngg..."
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "Dunk. The. Trey."
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "DUNK. THE. TREY.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "Alright alright, maybe later! Let's keep exploring."
+        }
+    ]
+}

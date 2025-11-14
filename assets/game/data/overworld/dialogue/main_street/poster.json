@@ -1,0 +1,21 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "Ugh."
+        }
+    ]
+}

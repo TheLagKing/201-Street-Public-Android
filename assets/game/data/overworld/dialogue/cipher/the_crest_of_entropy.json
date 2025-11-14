@@ -1,0 +1,30 @@
+{
+    "dialogue_info": [
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "the-crest-of-entropy",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]            
+        }
+    ]
+}

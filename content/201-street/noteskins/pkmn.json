@@ -1,0 +1,293 @@
+{
+	"extraSkin": "ui/pkmn/NOTE_assets",
+	"singAnimations": [
+		"singLEFT",
+		"singDOWN",
+		"singUP",
+		"singRIGHT"
+	],
+	"splashesEnabled": false,
+	"playerSkin": "ui/pkmn/NOTE_assets",
+	"receptorAnimations": [
+		[
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "arrowLEFT",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "left press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "left confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "arrowDOWN",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "down press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "down confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "arrowUP",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "up press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "up confirm",
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "arrowRIGHT",
+				"anim": "static"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "right press",
+				"anim": "pressed"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-10,
+					-15
+				],
+				"xmlName": "right confirm",
+				"anim": "confirm"
+			}
+		]
+	],
+	"noteSplashAnimations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"xmlName": "note splash purple",
+			"anim": "note0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"xmlName": "note splash blue",
+			"anim": "note1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"xmlName": "note splash green",
+			"anim": "note2"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"xmlName": "note splash red",
+			"anim": "note3"
+		}
+	],
+	"noteAnimations": [
+		[
+			{
+				"looping": false,
+				"offsets": [
+					10,
+					0
+				],
+				"xmlName": "purple",
+				"anim": "scroll0"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-5,
+					0
+				],
+				"xmlName": "purple hold piece",
+				"anim": "hold0"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "pruple end hold",
+				"anim": "holdend0"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					10,
+					0
+				],
+				"xmlName": "blue",
+				"anim": "scroll1"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-5,
+					0
+				],
+				"xmlName": "blue hold piece",
+				"anim": "hold1"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "blue hold end",
+				"anim": "holdend1"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					10,
+					0
+				],
+				"xmlName": "green",
+				"anim": "scroll2"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-5,
+					0
+				],
+				"xmlName": "green hold piece",
+				"anim": "hold2"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "green hold end",
+				"anim": "holdend2"
+			}
+		],
+		[
+			{
+				"looping": false,
+				"offsets": [
+					10,
+					0
+				],
+				"xmlName": "red",
+				"anim": "scroll3"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					-5,
+					0
+				],
+				"xmlName": "red hold piece",
+				"anim": "hold3"
+			},
+			{
+				"looping": false,
+				"offsets": [
+					0,
+					0
+				],
+				"xmlName": "red hold end",
+				"anim": "holdend3"
+			}
+		]
+	],
+	"pixelSize": [
+		4,
+		5
+	],
+	"noteSplashSkin": "noteSplashes",
+	"globalSkin": "ui/pkmn/NOTE_assets",
+	"antialiasing": false,
+	"inGameColoring": false,
+	"isPixel": true,
+	"opponentSkin": "ui/pkmn/NOTE_assets",
+	"scale": 5,
+	"sustainSuffix": "ENDS"
+}

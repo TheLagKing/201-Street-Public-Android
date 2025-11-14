@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Man, that thing's been up for like. months.\nMust be doing some mean roadwork."
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Word has it the house at the end of the street is haunteddddd~...\nooOooOOooOOooOoo!!"
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "You'rree funny!"
+        }
+    ]
+}

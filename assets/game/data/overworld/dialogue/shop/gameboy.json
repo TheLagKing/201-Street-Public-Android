@@ -1,0 +1,55 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "intrigue",
+            "dialogue": "This hunk-a metal, huh? No Idea how old it is or whozit's or whatzit's. All I know is the darn thing's pretty busted...",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "boughtItem",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "FirstPurchase",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "BoughtGameboy",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Add Checklist Notif",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "I think that tape's the only thing holding her together. If you can fix 'er up, she's yours!" 
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Oh! I could TOTALLY get this bad boy up and running again. I'm sure there's tons of repair tutorials on YouTube." 
+        },
+		{
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "buzz",
+                    "value2": "0.7"
+                }
+            ]
+        }
+    ]
+}

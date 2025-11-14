@@ -1,0 +1,31 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "Ugh, I'm beat.",
+            "events": [                
+                {
+                    "eventName": "Save Data",
+                    "value1": "CollectedAllItems",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "Waaay too many haunted artifacts for my liking."
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "It sure was interesting though, right?"
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "You could say that."
+        }
+    ]
+}

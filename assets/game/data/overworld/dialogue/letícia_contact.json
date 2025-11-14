@@ -1,0 +1,44 @@
+{
+    "dialogue_info": [
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "Ohhh? Hello? Who's this?"
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "This is your secret admirerr!"
+        },
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "You may not know who I am, but... I'm madly in love with you!"
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "Now... would you go on a date with little ol' me?"
+        },        
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "Hmm... sorry, no can do! I'm already committed to my wonderful girlfriend Billie!"
+        },
+        {
+            "character": "billie",
+            "expression": "determined",
+            "dialogue": "DRATS!! Guess I'll just have to get Billie out of the way then..."
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "NOO!! You bastard!!"
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Hahahaha!! Alright alright, enough fooling around."
+        }
+    ]
+}

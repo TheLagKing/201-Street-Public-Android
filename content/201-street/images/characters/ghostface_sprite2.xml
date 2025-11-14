@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="ghostface_sprite2.png" width="1542" height="1952">
+  <SubTexture name="ghostface up0003" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0001" x="2" y="566"  width="408" height="539" frameX="-10" frameY="-18" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface right0003" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface idle0009" x="414" y="566"  width="313" height="482" frameX="-41" frameY="-2" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0011" x="424" y="2"  width="317" height="476" frameX="-48" frameY="-5" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0013" x="2" y="1609" width="474" height="328" rotated="true"  frameX="-37" frameY="-4" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0007" x="480" y="1609" width="471" height="341" rotated="true"  frameX="-7" frameY="-7" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0005" x="481" y="1052"  width="348" height="471" frameX="-0" frameY="-7" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface right0001" x="731" y="482" width="463" height="466" rotated="true"  frameX="-35" frameY="-12" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface left0001" x="745" y="2"  width="308" height="463" frameX="-4" frameY="-7" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface idle0003" x="1057" y="2"  width="320" height="460" frameX="-25" frameY="-1" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0001" x="833" y="952"  width="320" height="459" frameX="-25" frameY="-2" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface left0003" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface down0003" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0001" x="1198" y="466"  width="342" height="416" frameX="-0" frameY="-10" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0002" x="1198" y="466"  width="342" height="416" frameX="-0" frameY="-10" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0004" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0005" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0006" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0007" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0008" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0009" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0010" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0011" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0012" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0013" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface down0014" x="1157" y="952"  width="334" height="427" frameX="-14" frameY="-1" frameWidth="348" frameHeight="428"/>
+  <SubTexture name="ghostface idle0002" x="833" y="952"  width="320" height="459" frameX="-25" frameY="-2" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0004" x="1057" y="2"  width="320" height="460" frameX="-25" frameY="-1" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0006" x="481" y="1052"  width="348" height="471" frameX="-0" frameY="-7" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0008" x="480" y="1609" width="471" height="341" rotated="true"  frameX="-7" frameY="-7" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0010" x="414" y="566"  width="313" height="482" frameX="-41" frameY="-2" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0012" x="424" y="2"  width="317" height="476" frameX="-48" frameY="-5" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface idle0014" x="2" y="1609" width="474" height="328" rotated="true"  frameX="-37" frameY="-4" frameWidth="365" frameHeight="484"/>
+  <SubTexture name="ghostface left0002" x="745" y="2"  width="308" height="463" frameX="-4" frameY="-7" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0004" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0005" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0006" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0007" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0008" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0009" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0010" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface left0011" x="955" y="1415"  width="311" height="450" frameX="-1" frameY="-1" frameWidth="312" frameHeight="470"/>
+  <SubTexture name="ghostface right0002" x="731" y="482" width="463" height="466" rotated="true"  frameX="-35" frameY="-12" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0004" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0005" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0006" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0007" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0008" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0009" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0010" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0011" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0012" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0013" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface right0014" x="2" y="1109" width="475" height="496" rotated="true"  frameX="-0" frameY="-1" frameWidth="501" frameHeight="476"/>
+  <SubTexture name="ghostface up0002" x="2" y="566"  width="408" height="539" frameX="-10" frameY="-18" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0004" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0005" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0006" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0007" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0008" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0009" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0010" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0011" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0012" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+  <SubTexture name="ghostface up0013" x="2" y="2"  width="418" height="560" frameX="-0" frameY="-0" frameWidth="418" frameHeight="560"/>
+</TextureAtlas>

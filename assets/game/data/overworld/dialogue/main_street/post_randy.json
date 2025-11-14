@@ -1,0 +1,63 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "Damn, how'd I not know about this? That's crazy!"
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Yeaahh... I don't think he's too fond of Halloween now."
+        },
+        {
+            "events": [                
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "ghostface",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

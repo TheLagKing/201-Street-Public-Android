@@ -1,0 +1,149 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billie opens her front door, and walks onto her porch."
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "Ugghh...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "WOAH-",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "BillieSlip",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "none",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "angry",
+            "dialogue": "UGH. What the hell?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Great. A whole festival! Like I need more of this make-believe devil worship BS.",
+            "events": [
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "0",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Title Screen Events",
+                    "value1": "poster",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "This town really finds every way it can to make me miserable.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billie rips the flier in half, leaving the remains of it by the sidewalk as she heads to the grocery store."
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "Billie!? Are you alright!? I heard a loud bang...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "confused",
+            "dialogue": "Huh?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Letícia notices the flier ripped up on the ground."
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "They put the pieces back together in front of themself."
+        },
+        {
+            "character": "letícia",
+            "expression": "flustered",
+            "dialogue": "GASP!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "2"
+                },
+                {
+                    "eventName": "Load Overworld",
+                    "value1": "",
+                    "value2": ""
+                },
+                {   
+                    "eventName": "Clear Data",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

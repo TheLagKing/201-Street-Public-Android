@@ -1,0 +1,55 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "To think I was about to leave without these...",
+            "events": [
+                {
+                    "eventName": "Save Data",
+                    "value1": "GotEarbuds",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Hide Leticia",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "Alright, I'm back! Got the baaggss! We ready to go?",
+            "events": [
+                {
+                    "eventName": "Tween Leticia",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "Readyyy when youuu arrreee!"
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "Awesome! Let's go!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

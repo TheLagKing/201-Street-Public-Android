@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-6,
+				-29
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "096_run down",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-6,
+				-29
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "096_run left",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-6,
+				-29
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "096_run right",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-6,
+				-29
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "096_run up",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": true,
+			"flipY": false,
+			"offsets": [
+				-6,
+				-29
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "096_run idle",
+			"indices": [],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/096_run",
+	"position": [
+		-310,
+		-30
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "096",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -1,
+	"camera_position": [
+		-111,
+		-60
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 8.09999999999999,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

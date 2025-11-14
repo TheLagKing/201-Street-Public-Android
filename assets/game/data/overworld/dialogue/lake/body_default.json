@@ -1,0 +1,44 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "scared",
+            "dialogue": "LETÍCIA, CALL THE POLICE. I'M GOING IN TO SAVE THEM.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "WAIT!! BILLIE, MY WALKIE TAL-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "SawBody",
+                    "value2": ""
+                },
+                {
+                    "eventName": "End Dialogue",
+                    "value1": "",
+                    "value2": "",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Transition Map",
+                    "value1": "festival",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "dialogue_info": [
+        {
+            "character": "scp-soldier",
+            "expression": "neutral",
+            "dialogue": "This is Sam's Coffee Place, how can I help you?",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Coffee? Why did I save the number of a coffee place?"
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "neutral",
+            "dialogue": "Ah, I recognize that voice. You must be the goggles girl.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "neutral",
+            "dialogue": "Don't worry about how you got this number. What matters is that you let us know when you encounter any more paranormal activity. Alright?",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "disgusted",
+            "dialogue": "Ooookay...?"
+        },
+        {
+            "character": "billie",
+            "expression": "annoyed",
+            "dialogue": "Can I sell these goggles though? They're just a hunk of metal taking up space."
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "neutral",
+            "dialogue": "Absolutely not. You will need those in the future.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "neutral",
+            "dialogue": "Any more questions? Good. Goodbye for now.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },        
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Damn, okay."
+        }
+    ]
+}

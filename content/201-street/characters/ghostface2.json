@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-24,
+				-63
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "ghostface down"
+		},
+		{
+			"offsets": [
+				-26,
+				-19
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "ghostface left"
+		},
+		{
+			"offsets": [
+				82,
+				-21
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "ghostface right"
+		},
+		{
+			"offsets": [
+				55,
+				91
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "ghostface up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "ghostface idle"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/ghostface_sprite2",
+	"position": [
+		110,
+		250
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "ghostface2",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -16777216,
+	"camera_position": [
+		24,
+		-27
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 8.09999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="cecilia.png" width="2048" height="1024">
+  <SubTexture name="down0001" x="3" y="3"  width="288" height="360" frameX="-910" frameY="-646" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="down0002" x="297" y="3"  width="292" height="368" frameX="-905" frameY="-639" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0003" x="595" y="3"  width="290" height="400" frameX="-907" frameY="-607" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0002" x="891" y="3"  width="291" height="406" frameX="-907" frameY="-602" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0001" x="1188" y="3"  width="291" height="409" frameX="-911" frameY="-598" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0002" x="1485" y="3"  width="290" height="415" frameX="-909" frameY="-593" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0001" x="3" y="377"  width="290" height="418" frameX="-908" frameY="-589" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="up0001" x="299" y="377"  width="288" height="448" frameX="-907" frameY="-560" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0002" x="593" y="415"  width="322" height="427" frameX="-866" frameY="-578" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0001" x="921" y="418"  width="323" height="430" frameX="-862" frameY="-577" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="up0002" x="1250" y="424"  width="294" height="444" frameX="-903" frameY="-563" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

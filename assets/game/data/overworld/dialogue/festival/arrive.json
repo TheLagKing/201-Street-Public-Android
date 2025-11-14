@@ -1,0 +1,103 @@
+{
+    "dialogue_info": [        
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "HERE WE ARE!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "The town square is lively and bustling with people. Many stands are littered around."
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "Ooo, I can smell something sweet around here!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "Hey, chin up, buttercup! There's a lot to do around here, come on!"
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...you take the lead, I'll be here if you need me..."
+        },
+        {
+            "character": "letícia",
+            "expression": "laughing",
+            "dialogue": "C'mon hun, it's only fun if we experience this together..."
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "Give it a chance... please?"
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "..."
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Alrightt, fine. People-watching all these geeks in costume doesn't sound like the WORST time in the world...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "mischevious",
+            "dialogue": "That's the spirit!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Save Data",
+                    "value1": "ArrivedAtFestival",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

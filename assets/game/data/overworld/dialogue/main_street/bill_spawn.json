@@ -1,0 +1,43 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "terrified",
+            "dialogue": "WHAT THE HELL WAS THAT???",
+            "events": [
+                {
+                    "eventName": "Save Data",
+                    "value1": "BillArrived",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "ending_ambience",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "0.5"
+                }
+            ]
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "I DON'T KNOW! IT SOUNDED LIKE IT CAME FROM OUR STREET...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

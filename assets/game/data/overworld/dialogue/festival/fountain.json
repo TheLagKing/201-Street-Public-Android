@@ -1,0 +1,41 @@
+{
+    "dialogue_info": [
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "These jack-o-lanterns are sOOooOOoo creepyy!!"
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Cut it out."
+        },
+        {
+            "character": "letícia",
+            "expression": "sad",
+            "dialogue": "Aw come on B, you gotta admit, these pumpkins are cute!"
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "How did they even get them shaped like this??"
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "The smug grin on the pumpkin fills you with dread."
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "hey whats up its me billie aha im walkin ere!",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        },
+        {
+            "character": "billie",
+            "expression": "determined",
+            "dialogue": "happy pride month everyone!",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "and dont forget about me ! her Friend chud of a girlfriend hwho is also in this mod",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "omg babe staawwwpppp",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "my name is letícia btw im only saying that to make sure the accent works in my font",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        },
+        {
+            "character": "letícia",
+            "expression": "neutral",
+            "dialogue": "thats right i can break the fourth wall",
+            "event_name": "",
+            "value1": "",
+            "value2": ""
+        }
+    ]
+}

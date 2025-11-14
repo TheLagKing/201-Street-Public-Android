@@ -1,0 +1,38 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Oh, that's the apple from Kirby."
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "The apple from...\nYOU MEAN A MAXIM TOMATO?!?"
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "MY BAD, DAMN!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "angry",
+            "dialogue": "Doesn't matter anyway... It's a pumpkin!!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

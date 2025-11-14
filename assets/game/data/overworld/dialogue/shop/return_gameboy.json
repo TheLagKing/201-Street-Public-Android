@@ -1,0 +1,35 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "Welcome back, young'uns!",
+            "events": [
+                {
+                    "eventName": "Hide UI",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Dude... I think your stuff's haunted."
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "Your Game Boy started playing on its own."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Load Dialogue",
+                    "value1": "return_continue",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

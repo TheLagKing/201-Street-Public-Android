@@ -1,0 +1,78 @@
+{
+	"scale": 0.8,
+	"screen_warp": true,
+	"name": "Malsivus Lake",
+	"can_run": true,
+	"objects": [
+		{
+			"dialogue": "golden_orb",
+			"name": "Golden Orb",
+			"position": [
+				730,
+				603
+			],
+			"object_path": "dandadan"
+		},
+		{
+			"dialogue": "body",
+			"name": "...?",
+			"position": [
+				841,
+				408
+			],
+			"object_path": "bodyDefault"
+		},
+		{
+			"dialogue": "body_weekly",
+			"name": "...?",
+			"position": [
+				967,
+				405
+			],
+			"object_path": "bodyWeekly"
+		},
+		{
+			"dialogue": "sign",
+			"name": "Sign",
+			"position": [
+				491,
+				460
+			],
+			"object_path": "signDefault"
+		},
+		{
+			"dialogue": "hidden_monotone",
+			"position": [
+				1220,
+				331
+			],
+			"object_path": "lakeMonotone",
+			"remove_outline": true
+		}
+	],
+	"teleporter_hitboxes": [
+		{
+			"location": "festival",
+			"location_name": "the Festival",
+			"size": [
+				850,
+				700
+			],
+			"position": [
+				500,
+				730
+			],
+			"direction": "down"
+		}
+	],	
+	"cam_offsets": [
+		[
+			"",
+			150,
+			38
+		]
+	],
+	"music": "lake",
+	"music_name": "Muted Luminosity",
+	"bpm": 77.5
+}

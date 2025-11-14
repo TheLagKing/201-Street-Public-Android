@@ -1,0 +1,118 @@
+{
+	"cam_offsets": [
+		[
+			"",
+			380,
+			500
+		]
+	],
+	"scale": 1,
+	"screen_warp": false,
+	"name": "???",
+	"can_run": false,
+	"objects": [
+		{
+			"position": [
+				615,
+				-150
+			],
+			"object_path": "riftpattern"
+		},
+		{
+			"position": [
+				0,
+				-200
+			],
+			"object_path": "sky"
+		},
+		{
+			"dialogue": "the_crest_of_entropy",
+			"position": [
+				860,
+				-49
+			],
+			"object_path": "pyramid"
+		},
+		{
+			"position": [
+				1082,
+				451
+			],
+			"object_path": "bubble1"
+		},
+		{
+			"position": [
+				136,
+				-205
+			],
+			"object_path": "clouds"
+		},
+		{
+			"position": [
+				691,
+				593
+			],
+			"object_path": "backfoliage"
+		},
+		{
+			"position": [
+				876,
+				645
+			],
+			"object_path": "bubble3"
+		},
+		{
+			"position": [
+				1149,
+				299
+			],
+			"object_path": "floatingtrees"
+		},
+		{
+			"position": [
+				729,
+				180
+			],
+			"object_path": "floatinghouse"
+		},
+		{
+			"position": [
+				740,
+				160
+			],
+			"object_path": "debris"
+		},
+		{
+			"position": [
+				1206,
+				407
+			],
+			"object_path": "bubble2"
+		},
+		{
+			"position": [
+				634,
+				151
+			],
+			"object_path": "bubble4"
+		}
+	],
+	"music": "cipher",
+	"music_name": "TAKE BACK THE STREET.",
+	"teleporter_hitboxes": [
+		{
+			"position": [
+				0,
+				1030
+			],
+			"size": [
+				3000,
+				720
+			],
+			"location": "main_street",
+			"location_name": "201 Street",
+			"direction": "down"
+		}
+	],
+	"bpm": 0
+}

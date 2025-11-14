@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ratings.png">
+	<SubTexture name="epic0000" x="0" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="epic0001" x="0" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="sick0000" x="71" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="sick0001" x="71" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="good0000" x="142" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="good0001" x="142" y="0" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="bad0000" x="0" y="14" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="bad0001" x="0" y="14" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="shit0000" x="71" y="14" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+	<SubTexture name="shit0001" x="71" y="14" width="70" height="13" frameX="0" frameY="0" frameWidth="70" frameHeight="13" />
+</TextureAtlas>

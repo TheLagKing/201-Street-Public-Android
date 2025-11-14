@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="them.png" width="1024" height="512">
+  <SubTexture name="corrupted0001" x="2" y="2"  width="507" height="348" frameX="-0" frameY="-0" frameWidth="507" frameHeight="348"/>
+  <SubTexture name="normal0001" x="513" y="2"  width="507" height="348" frameX="-0" frameY="-0" frameWidth="507" frameHeight="348"/>
+</TextureAtlas>

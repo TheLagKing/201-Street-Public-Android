@@ -1,0 +1,34 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "hey whats up its me billie aha im walkin ere!"
+        },
+        {
+            "character": "billie",
+            "expression": "determined",
+            "dialogue": "happy pride month everyone!"
+        },
+        {
+            "character": "letícia",
+            "expression": "smile",
+            "dialogue": "and dont forget about me ! her Friend chud of a girlfriend hwho is also in this mod"
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "omg babe staawwwpppp"
+        },
+        {
+            "character": "letícia",
+            "expression": "angry",
+            "dialogue": "my name is letícia btw im only saying that to make sure the accent works in my font"
+        },
+        {
+            "character": "letícia",
+            "expression": "neutral",
+            "dialogue": "thats right i can break the fourth wall"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "scared",
+            "dialogue": "OH MY GOD... IS THAT-",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "scared",
+            "dialogue": "THAT'S THE GUY FROM THE NEWS!"
+        },
+        {
+            "character": "letícia",
+            "expression": "scared",
+            "dialogue": "WHAT??",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Load Dialogue",
+                    "value1": "body_default",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

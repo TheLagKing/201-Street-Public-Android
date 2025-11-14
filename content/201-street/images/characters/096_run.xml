@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="096_run.png">
+<SubTexture name="096_run idle0000" x="1303" y="282" width="500" height="281" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run idle0001" x="497" y="802" width="500" height="282" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run idle0002" x="1303" y="563" width="500" height="280" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run idle0003" x="1303" y="843" width="500" height="280" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run idle0004" x="1303" y="0" width="500" height="282" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run idle0005" x="0" y="1193" width="500" height="278" frameX="-243" frameY="-184" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run left0000" x="817" y="394" width="379" height="272" frameX="-348" frameY="-181" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run left0001" x="500" y="1193" width="380" height="272" frameX="-349" frameY="-181" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run left0002" x="880" y="1193" width="375" height="272" frameX="-356" frameY="-181" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run down0000" x="482" y="406" width="245" height="242" frameX="-370" frameY="-190" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run down0001" x="997" y="802" width="253" height="239" frameX="-366" frameY="-193" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run down0002" x="1255" y="1193" width="257" height="239" frameX="-364" frameY="-193" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run up0000" x="0" y="406" width="482" height="396" frameX="-253" frameY="-161" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run up0001" x="817" y="0" width="486" height="394" frameX="-251" frameY="-162" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run up0002" x="0" y="802" width="497" height="391" frameX="-245" frameY="-165" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run right0000" x="268" y="0" width="276" height="405" frameX="-454" frameY="-179" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run right0001" x="544" y="0" width="273" height="405" frameX="-455" frameY="-179" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="096_run right0002" x="0" y="0" width="268" height="406" frameX="-455" frameY="-179" frameWidth="1024" frameHeight="1024" />
+</TextureAtlas>

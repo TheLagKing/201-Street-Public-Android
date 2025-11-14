@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="extractionAbove.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgExtraction10000" x="10" y="10" width="483" height="147" frameX="-6" frameY="0" frameWidth="507" frameHeight="289"/>
+	<SubTexture name="bgExtraction10001" x="10" y="167" width="507" height="289"/>
+</TextureAtlas>

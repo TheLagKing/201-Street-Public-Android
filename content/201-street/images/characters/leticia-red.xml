@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="leticia-red.png" width="2048" height="2048">
+  <SubTexture name="up0001" x="4" y="4"  width="387" height="607" frameX="-835" frameY="-273" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="up0002" x="4" y="619"  width="391" height="599" frameX="-831" frameY="-281" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="left0001" x="399" y="4"  width="338" height="561" frameX="-776" frameY="-319" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="left0002" x="4" y="1226"  width="344" height="560" frameX="-780" frameY="-319" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0003" x="356" y="1226"  width="326" height="560" frameX="-853" frameY="-321" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="right0001" x="403" y="573"  width="411" height="558" frameX="-856" frameY="-336" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="right0002" x="745" y="4"  width="409" height="558" frameX="-857" frameY="-335" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0001" x="1162" y="4" width="558" height="326" rotated="true"  frameX="-852" frameY="-321" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="down0002" x="1728" y="4"  width="313" height="449" frameX="-826" frameY="-432" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="idle0002" x="1162" y="338" width="555" height="330" rotated="true"  frameX="-851" frameY="-323" frameWidth="1280" frameHeight="960"/>
+  <SubTexture name="down0001" x="1162" y="676" width="441" height="356" rotated="true"  frameX="-825" frameY="-439" frameWidth="1280" frameHeight="960"/>
+</TextureAtlas>

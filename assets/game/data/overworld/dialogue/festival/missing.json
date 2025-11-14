@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "The poster reads: \"MISSING! Last seen around 202 Street, June 7, 19 year old Hispanic Male, wearing a red hoodie and glasses.\""
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "\"If you find any leads or have seen this person, contact the Malsivus Police Department.\""
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "Oh god, I hope he's alright."
+        }
+    ]
+}

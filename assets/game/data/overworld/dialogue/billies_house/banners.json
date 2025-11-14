@@ -1,0 +1,29 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "This looks familiar..."
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "HEY!! Did you take this from my collection?!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "Uhuh, it adds a little more spice to it!"
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "You could've asked me first..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "angry",
+            "dialogue": "If I told you what it was for you would've flipped out!"
+        }
+    ]
+}

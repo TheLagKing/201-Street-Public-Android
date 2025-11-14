@@ -1,0 +1,77 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "smile",
+            "dialogue": "Ooo! Now that we have those goggles we can explore through here!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "I...",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "...finnee. But you owe me big time."
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billie puts on the night vision goggles and turns them on."
+        },
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "YAYY!! It's still crazy dark for me though, I might get lost...",
+            "events": [
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "1.9",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Equip Goggles",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "EquipGoggles",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "It's alright, I'll guide you... just hold my hand.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

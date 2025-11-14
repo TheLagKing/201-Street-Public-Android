@@ -1,0 +1,233 @@
+{
+	"cam_offsets": [
+		[
+			"main_street",
+			1230,
+			0
+		],
+		[
+			"lake",
+			0,
+			0
+		],
+		[
+			"shop",
+			2000,
+			0
+		]
+	],
+	"scale": 0.9,
+	"zoom": 0.7,
+	"screen_warp": true,
+	"name": "Festival",
+	"objects": [
+		{
+			"dialogue": "snow_cone",
+			"name": "Snow Cone Stall",
+			"object_path": "billy",
+			"position": [
+				254,
+				423
+			]
+		},
+		{
+			"dialogue": "candy",
+			"name": "Candy Stall",
+			"object_path": "candy",
+			"position": [
+				615,
+				468
+			]
+		},
+		{
+			"dialogue": "gumball",
+			"name": "Gumball Machine",
+			"object_path": "boss",
+			"position": [
+				970,
+				505
+			]
+		},
+		{
+			"dialogue": "missing",
+			"name": "Missing Poster",
+			"position": [
+				1434,
+				388
+			],
+			"object_path": "missing_poster"
+		},
+		{
+			"dialogue": "ooga_booga",
+			"name": "Free Scares Ooga Booga Stand",
+			"position": [
+				1144,
+				452
+			],
+			"object_path": "oogabooga"
+		},
+		{
+			"position": [
+				1811,
+				326
+			],
+			"object_path": "towndoor"
+		},
+		{
+			"position": [
+				2110,
+				423
+			],
+			"object_path": "citysunday"
+		},
+		{
+			"position": [
+				1995,
+				448
+			],
+			"object_path": "backgroundboy"
+		},
+		{
+			"position": [
+				1655,
+				395
+			],
+			"object_path": "amongusinflation"
+		},
+		{
+			"dialogue": "fountain",
+			"name": "Fountain",
+			"position": [
+				1627,
+				465
+			],
+			"object_path": "fountain"
+		},
+		{
+			"position": [
+				1690,
+				570
+			],
+			"object_path": "hairdresserhuman"
+		},
+		{
+			"position": [
+				1061,
+				523
+			],
+			"object_path": "corndogcarl"
+		},
+		{
+			"position": [
+				2229,
+				709
+			],
+			"object_path": "dangerdolan"
+		},
+		{
+			"position": [
+				495,
+				570
+			],
+			"object_path": "flannelman"
+		},
+		{
+			"position": [
+				1358,
+				741
+			],
+			"object_path": "bethellis"
+		},
+		{
+			"position": [
+				2461,
+				499
+			],
+			"object_path": "marioantonio"
+		},
+		{
+			"dialogue": "petscop",
+			"name": "Shape Stall",
+			"position": [
+				2273,
+				723
+			],
+			"object_path": "belle"
+		},
+		{
+			"dialogue": "dunk_tank",
+			"name": "Dunk Tank",
+			"position": [
+				2279,
+				324
+			],
+			"object_path": "treym101"
+		},
+		{
+			"name": "Shop",
+			"location": "shop",
+			"position": [
+				2930,
+				601
+			],
+			"object_path": "door"
+		},
+		{
+			"dialogue": "wanted",
+			"name": "Poster",
+			"object_path": "scary_poster",
+			"position": [
+				2587,
+				509
+			]
+		},
+		{
+			"position": [
+				2693,
+				594
+			],
+			"object_path": "obviousmonotone"
+		},
+		{
+			"dialogue": "hidden_monotone",
+			"remove_outline": true,
+			"object_path": "hidden_monotone",
+			"position": [
+				1543,
+				488
+			]
+		}
+	],
+	"can_run": true,
+	"music": "constant_ordeal",
+	"music_name": "Constant Ordeal",
+	"teleporter_hitboxes": [
+		{
+			"position": [
+				1600,
+				900
+			],
+			"size": [
+				610,
+				400
+			],
+			"location_name": "201 Street",
+			"location": "main_street",
+			"direction": "down"
+		},
+		{
+			"position": [
+				-100,
+				300
+			],
+			"size": [
+				310,
+				700
+			],
+			"location_name": "the Lake",
+			"location": "lake",
+			"direction": "left"
+		}
+	],
+	"bpm": 92.5
+}

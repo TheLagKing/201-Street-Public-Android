@@ -1,0 +1,14 @@
+{
+    "dialogue_info": [
+        {
+            "character": "TV Reporter",
+            "expression": "",
+            "dialogue": "Good evening, everyone! Tonight'll reach a low of 53 with a 21% chance of rain. Don't forget to bring your jackets!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Huh, it's gonna be chilly out tonight."
+        }
+    ]
+}

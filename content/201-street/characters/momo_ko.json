@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-225,
+				-433
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "idle",
+			"loop": false,
+			"name": "ko"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Momo",
+	"position": [
+		-220,
+		-60
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "momo",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -13763645,
+	"camera_position": [
+		357,
+		282
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

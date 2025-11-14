@@ -1,0 +1,33 @@
+{
+	"difficulties": "hard, frightful",
+    
+    "songs": [
+		["Pink Sea", "poniko", [146, 113, 253]],
+		["Black Sea", "uboa", [146, 113, 253]],
+		["Hello, Randy!", "ghostface", [146, 113, 253]],
+		["Fallen Skies", "momo", [146, 113, 253]],
+		["Starbound", "okarun", [146, 113, 253]],
+		["Headlights", "096_static", [146, 113, 253]],
+        ["Citrus Sacrament", "monster", [146, 113, 253]],
+		["Face of Fury", "096_static", [146, 113, 253]],
+		["Music For Your Ears!", "dad", [146, 113, 253]],
+        ["Mauve Macabre", "dad", [146, 113, 253]],
+		["Fool's Errand", "robe", [146, 113, 253]],
+		["The Crest Of Entropy", "dad", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Daddy Dearest",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

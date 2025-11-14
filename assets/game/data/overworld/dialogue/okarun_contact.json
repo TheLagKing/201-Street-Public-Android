@@ -1,0 +1,39 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Okarun",
+            "expression": "nervous",
+            "dialogue": "W-Who's this? How'd you get my number??"
+        },
+        {
+            "character": "Billie",
+            "expression": "angry",
+            "dialogue": "Hey, it's the kid from the lake!\nWhen are you and your girlfriend giving me back that ball, huh?"
+        },
+        {
+            "character": "Okarun",
+            "expression": "nervous",
+            "dialogue": "S-SHE'S NOT MY-!! "
+        },
+        {
+            "character": "Okarun",
+            "expression": "smile",
+            "dialogue": "Ugh, w-well, sorry miss, but... we can't give it back."
+        },
+        {
+            "character": "Momo",
+            "expression": "angry",
+            "dialogue": "AND WE WEREN'T PLANNING TO ANYWAYS!!"
+        },
+        {
+            "character": "Momo",
+            "expression": "angry",
+            "dialogue": "MIND YOUR OWN BUSINESS, HAG!!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "She sure loves the sound of her own voice."
+        }
+    ]
+}

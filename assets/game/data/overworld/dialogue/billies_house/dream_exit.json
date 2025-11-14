@@ -1,0 +1,85 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "...and that's how it went! At least that's how I like to remember it..."
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Damn, that's surreal... though, didn't you mention something about the lamp earlier?"
+        },
+        {
+            "character": "Letícia",
+            "expression": "nervous",
+            "dialogue": "Oh. Yeah..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Ughh, I don't like to think about it... But I suppose if you want me to, I can run that version by you.",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+		{
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Just talk to me again if you wanna hear it."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "pink-sea",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Reload Objects",
+                    "value1":"",
+                    "value2":""
+                },
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Can Move",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

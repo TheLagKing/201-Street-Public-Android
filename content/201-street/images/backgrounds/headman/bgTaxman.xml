@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgTaxman.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="endingAnim0000" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0001" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0002" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0003" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0004" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0005" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0006" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0007" x="10" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0008" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0009" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0010" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0011" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0012" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0013" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0014" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0015" x="203" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0016" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0017" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0018" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0019" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0020" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0021" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0022" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0023" x="396" y="10" width="183" height="259" frameX="0" frameY="0" frameWidth="183" frameHeight="272"/>
+	<SubTexture name="endingAnim0024" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0025" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0026" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0027" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0028" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0029" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0030" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="endingAnim0031" x="589" y="10" width="183" height="272"/>
+	<SubTexture name="face10000" x="782" y="10" width="183" height="259"/>
+	<SubTexture name="face20000" x="10" y="292" width="183" height="259"/>
+	<SubTexture name="face30000" x="203" y="292" width="183" height="259"/>
+	<SubTexture name="face40000" x="396" y="292" width="183" height="259"/>
+	<SubTexture name="face50000" x="589" y="292" width="183" height="259"/>
+	<SubTexture name="face60000" x="782" y="292" width="183" height="259"/>
+</TextureAtlas>

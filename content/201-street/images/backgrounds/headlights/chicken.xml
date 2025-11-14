@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="chicken.png" width="4096" height="2048">
+  <SubTexture name="chickenAnim0001" x="2" y="2"  width="349" height="522" frameX="-0" frameY="-0" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0072" x="2" y="528"  width="349" height="522" frameX="-0" frameY="-0" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0066" x="2" y="1054"  width="196" height="405" frameX="-0" frameY="-56" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0067" x="2" y="1463"  width="196" height="405" frameX="-0" frameY="-56" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0003" x="2" y="1872" width="388" height="134" rotated="true"  frameX="-0" frameY="-134" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0070" x="2" y="2010" width="54" height="15" rotated="true"  frameX="-0" frameY="-96" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0071" x="2" y="2029" width="54" height="15" rotated="true"  frameX="-0" frameY="-96" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0004" x="202" y="1054"  width="134" height="388" frameX="-0" frameY="-134" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0024" x="202" y="1446"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0025" x="340" y="1054"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0068" x="394" y="1811" width="240" height="117" rotated="true"  frameX="-0" frameY="-31" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0026" x="514" y="1419"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0069" x="638" y="1784"  width="117" height="240" frameX="-0" frameY="-31" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0005" x="759" y="1784" width="356" height="237" rotated="true"  frameX="-0" frameY="-166" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0006" x="1119" y="1784" width="356" height="237" rotated="true"  frameX="-0" frameY="-166" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0027" x="355" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0028" x="355" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0060" x="355" y="732" width="339" height="317" rotated="true"  frameX="-0" frameY="-183" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0029" x="652" y="1053"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0037" x="826" y="1418"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0038" x="667" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0039" x="667" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0061" x="698" y="732" width="339" height="317" rotated="true"  frameX="-0" frameY="-183" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0040" x="964" y="1053"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0041" x="1276" y="1053"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0042" x="1588" y="1053"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0043" x="1138" y="1418"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0044" x="1450" y="1418"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0045" x="1762" y="1418"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0046" x="979" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0047" x="979" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0048" x="1041" y="732" width="361" height="308" rotated="true"  frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0049" x="1406" y="732" width="361" height="308" rotated="true"  frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0050" x="1291" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0051" x="1291" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0052" x="1603" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0053" x="1603" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0054" x="1915" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0055" x="2227" y="367"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0056" x="1915" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0057" x="2227" y="2"  width="308" height="361" frameX="-0" frameY="-161" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0009" x="1771" y="732" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0022" x="1900" y="1040"  width="319" height="352" frameX="-0" frameY="-170" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0010" x="2121" y="732" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0023" x="2074" y="1396"  width="319" height="352" frameX="-0" frameY="-170" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0007" x="2223" y="1040"  width="288" height="350" frameX="-0" frameY="-172" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0011" x="2471" y="732" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0008" x="2074" y="1752" width="350" height="288" rotated="true"  frameX="-0" frameY="-172" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0020" x="2397" y="1394"  width="320" height="347" frameX="-0" frameY="-175" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0021" x="2515" y="1040"  width="320" height="347" frameX="-0" frameY="-175" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0030" x="2721" y="1391"  width="320" height="347" frameX="-0" frameY="-175" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0012" x="2839" y="1742" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0013" x="3189" y="1742" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0031" x="3539" y="2" width="347" height="320" rotated="true"  frameX="-0" frameY="-175" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0032" x="2539" y="326"  width="321" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0033" x="2821" y="676"  width="321" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0034" x="2864" y="326"  width="321" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0035" x="3189" y="2" width="346" height="321" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0036" x="2839" y="1026"  width="321" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0014" x="3146" y="676"  width="304" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0058" x="3189" y="327"  width="323" height="344" frameX="-0" frameY="-178" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0015" x="2539" y="2" width="346" height="304" rotated="true"  frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0016" x="3045" y="1376"  width="304" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0017" x="3164" y="1026"  width="304" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0018" x="3454" y="675"  width="304" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0059" x="3516" y="327"  width="323" height="344" frameX="-0" frameY="-178" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0062" x="3762" y="675" width="332" height="337" rotated="true"  frameX="-0" frameY="-190" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0063" x="3762" y="1016" width="332" height="337" rotated="true"  frameX="-0" frameY="-190" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0019" x="3353" y="1376"  width="304" height="346" frameX="-0" frameY="-176" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0064" x="3661" y="1376" width="326" height="338" rotated="true"  frameX="-0" frameY="-196" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0065" x="3661" y="1718"  width="338" height="326" frameX="-0" frameY="-196" frameWidth="349" frameHeight="522"/>
+  <SubTexture name="chickenAnim0002" x="2" y="2"  width="349" height="522" frameX="-0" frameY="-0" frameWidth="349" frameHeight="522"/>
+</TextureAtlas>

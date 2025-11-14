@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Speaker.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SpeakerIdle0000" x="883" y="0" width="882" height="408" frameX="-1" frameY="-7" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0001" x="883" y="0" width="882" height="408" frameX="-1" frameY="-7" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0002" x="0" y="0" width="881" height="410" frameX="0" frameY="-6" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0003" x="0" y="0" width="881" height="410" frameX="0" frameY="-6" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0004" x="883" y="410" width="856" height="416" frameX="-13" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0005" x="883" y="410" width="856" height="416" frameX="-13" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0006" x="883" y="410" width="856" height="416" frameX="-13" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0007" x="0" y="412" width="847" height="418" frameX="-17" frameY="0" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0008" x="0" y="412" width="847" height="418" frameX="-17" frameY="0" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0009" x="0" y="412" width="847" height="418" frameX="-17" frameY="0" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0010" x="849" y="828" width="851" height="416" frameX="-15" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0011" x="849" y="828" width="851" height="416" frameX="-15" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0012" x="849" y="828" width="851" height="416" frameX="-15" frameY="-1" frameWidth="883" frameHeight="418"/>
+	<SubTexture name="SpeakerIdle0013" x="849" y="828" width="851" height="416" frameX="-15" frameY="-1" frameWidth="883" frameHeight="418"/>
+</TextureAtlas>

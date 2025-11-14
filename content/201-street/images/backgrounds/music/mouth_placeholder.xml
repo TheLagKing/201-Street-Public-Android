@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mouth_placeholder.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mouth0000" x="0" y="0" width="67" height="76"/>
+	<SubTexture name="mouth0001" x="69" y="0" width="67" height="76"/>
+	<SubTexture name="mouth0002" x="138" y="0" width="67" height="76"/>
+	<SubTexture name="mouth0003" x="0" y="78" width="67" height="76"/>
+	<SubTexture name="mouth0004" x="69" y="78" width="67" height="76"/>
+	<SubTexture name="mouth0005" x="138" y="78" width="67" height="76"/>
+</TextureAtlas>

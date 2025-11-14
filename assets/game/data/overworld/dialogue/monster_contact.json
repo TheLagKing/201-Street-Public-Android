@@ -1,0 +1,62 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Who's this...?"
+        },
+        {
+            "character": "monster",
+            "expression": "neutral",
+            "dialogue": "Ohh, if it isn't the mouse that weaseled its way out of my clutch!",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "monster",
+            "expression": "neutral",
+            "dialogue": "You ran away right as we were starting to have fun...",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "monster",
+            "expression": "neutral",
+            "dialogue": "Are you ready for round 2?",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "???",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "billie",
+            "expression": "terrified",
+            "dialogue": "OH. HELL NO."
+        },        
+        {
+            "character": "narrator",
+            "expression": "",
+            "dialogue": "Billie deleted this number from her phone.",
+            "events": [
+                {
+                    "eventName": "Save Data",
+                    "value1": "DeletedMonster",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

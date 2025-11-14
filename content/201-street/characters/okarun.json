@@ -1,0 +1,156 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				62,
+				-191
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				181,
+				-53
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-84,
+				-69
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-13,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-12,
+				-40
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "glasses",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun GlassAdjust"
+		},
+		{
+			"offsets": [
+				0,
+				-40
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft-happy",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun Dance Left"
+		},
+		{
+			"offsets": [
+				-18,
+				-39
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight-happy",
+			"flipX": false,
+			"indices": [],
+			"name": "Okarun Dance Right"
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-19,
+				-40
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "Okarun Idle Sweat",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-19,
+				-40
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "idle0"
+		},
+		{
+			"offsets": [
+				-20,
+				-40
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-tap",
+			"flipX": false,
+			"indices": [],
+			"name": "idle tap"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/okarunnn",
+	"position": [
+		30,
+		60
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "okarun",
+	"gameover_character": null,
+	"flip_x": false,
+	"healthbar_colour": -12240784,
+	"camera_position": [
+		282,
+		-51
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 8.09999999999999,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

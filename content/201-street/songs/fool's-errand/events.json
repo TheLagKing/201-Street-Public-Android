@@ -1,0 +1,316 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"repo events",
+						"starting camera",
+						""
+					]
+				]
+			],
+			[
+				10875,
+				[
+					[
+						"repo events",
+						"scream",
+						""
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"repo events",
+						"SING BOY",
+						""
+					]
+				]
+			],
+			[
+				39375,
+				[
+					[
+						"repo events",
+						"cameo",
+						"3"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"repo events",
+						"cameo",
+						"1"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"repo events",
+						"cut to black",
+						""
+					]
+				]
+			],
+			[
+				111319.225037258,
+				[
+					[
+						"repo events",
+						"fade from black",
+						"3"
+					]
+				]
+			],
+			[
+				124549.994268027,
+				[
+					[
+						"repo events",
+						"change tts",
+						"Leticia"
+					]
+				]
+			],
+			[
+				125473.071191104,
+				[
+					[
+						"repo events",
+						"change tts",
+						"where"
+					]
+				]
+			],
+			[
+				125626.91734495,
+				[
+					[
+						"repo events",
+						"change tts",
+						"are"
+					]
+				]
+			],
+			[
+				125934.609652642,
+				[
+					[
+						"repo events",
+						"change tts",
+						"you?"
+					]
+				]
+			],
+			[
+				126549.994268027,
+				[
+					[
+						"repo events",
+						"close tts",
+						""
+					]
+				]
+			],
+			[
+				127934.609652642,
+				[
+					[
+						"repo events",
+						"cameo",
+						"2"
+					]
+				]
+			],
+			[
+				139319.225037258,
+				[
+					[
+						"repo events",
+						"change tts",
+						"get"
+					]
+				]
+			],
+			[
+				139473.071191104,
+				[
+					[
+						"repo events",
+						"change tts",
+						"out"
+					]
+				]
+			],
+			[
+				139626.91734495,
+				[
+					[
+						"repo events",
+						"change tts",
+						"of"
+					]
+				]
+			],
+			[
+				139780.763498796,
+				[
+					[
+						"repo events",
+						"change tts",
+						"my"
+					]
+				]
+			],
+			[
+				139934.609652642,
+				[
+					[
+						"repo events",
+						"change tts",
+						"face"
+					]
+				]
+			],
+			[
+				140242.301960335,
+				[
+					[
+						"repo events",
+						"change tts",
+						"you"
+					]
+				]
+			],
+			[
+				140396.148114181,
+				[
+					[
+						"repo events",
+						"change tts",
+						"freak"
+					]
+				]
+			],
+			[
+				140857.686575719,
+				[
+					[
+						"repo events",
+						"duck",
+						""
+					]
+				]
+			],
+			[
+				141173.476049404,
+				[
+					[
+						"repo events",
+						"close tts",
+						""
+					]
+				]
+			],
+			[
+				143974.732922931,
+				[
+					[
+						"repo events",
+						"end duck",
+						""
+					]
+				]
+			],
+			[
+				154641.399589597,
+				[
+					[
+						"repo events",
+						"cameo",
+						"0"
+					]
+				]
+			],
+			[
+				167641.399589597,
+				[
+					[
+						"repo events",
+						"cameo",
+						"4"
+					]
+				]
+			],
+			[
+				183974.732922931,
+				[
+					[
+						"repo events",
+						"bro please flash red",
+						""
+					],
+					[
+						"repo events",
+						"extraction",
+						"0"
+					]
+				]
+			],
+			[
+				185308.066256264,
+				[
+					[
+						"repo events",
+						"bro please flash red",
+						""
+					]
+				]
+			],
+			[
+				186641.399589598,
+				[
+					[
+						"repo events",
+						"bro please flash red",
+						""
+					],
+					[
+						"repo events",
+						"extraction",
+						"1"
+					]
+				]
+			],
+			[
+				187808.066256264,
+				[
+					[
+						"repo events",
+						"extraction",
+						"2"
+					]
+				]
+			],
+			[
+				187974.732922931,
+				[
+					[
+						"repo events",
+						"cut to black",
+						""
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Hey little guy."
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billie rubs her hand across Smokey's back."
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...Cute."
+        }
+    ]
+}

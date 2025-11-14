@@ -1,0 +1,174 @@
+{
+	"objects": [
+		{
+			"dialogue": "banners",
+			"position": [
+				216,
+				138
+			],
+			"object_path": "banners",
+			"name": "Banners"
+		},
+		{
+			"dialogue": "tv",
+			"position": [
+				579,
+				422
+			],
+			"object_path": "norbert",
+			"name": "TV"
+		},
+		{
+			"dialogue": "cat",
+			"position": [
+				879,
+				621
+			],
+			"object_path": "cat",
+			"name": "Smokey"
+		},
+		{
+			"dialogue": "bathroom",
+			"position": [
+				1115,
+				422
+			],
+			"object_path": "bathroom_door",
+			"name": "Bathroom"
+		},
+		{
+			"dialogue": "I'm BORED!",
+			"position": [
+				1276,
+				512
+			],
+			"object_path": "pc",
+			"name": "Computer"
+		},
+		{
+			"position": [
+				1225,
+				545
+			],
+			"object_path": "chair"
+		},
+		{
+			"dialogue": "ghost",
+			"position": [
+				889,
+				290
+			],
+			"object_path": "ghost",
+			"name": "Ghost"
+		},
+		{
+			"position": [
+				1634,
+				415
+			],
+			"location": "main_street",
+			"object_path": "door",
+			"name": "Front Door"
+		},
+		{
+			"dialogue": "kitchen",
+			"position": [
+				0,
+				392
+			],
+			"object_path": "kitchen",
+			"name": "Kitchen"
+		},
+		{
+			"remove_outline": true,
+			"position": [
+				351,
+				602
+			],
+			"object_path": "couch"
+		},
+		{
+			"dialogue": "earbuds",
+			"position": [
+				1462,
+				644
+			],
+			"object_path": "earphones",
+			"name": "Earbuds"
+		},
+		{
+			"dialogue": "dream_forgot",
+			"position": [
+				102,
+				396
+			],
+			"object_path": "leticia_normal",
+			"name": "Leticia"
+		},
+		{
+			"position": [
+				316,
+				415
+			],
+			"object_path": "important"
+		},
+		{
+			"dialogue": "repo_enter",
+			"position": [
+				1299,
+				640
+			],
+			"object_path": "repo",
+			"name": "Map Tablet"
+		},
+		{
+			"dialogue": "usb",
+			"position": [
+				1459,
+				618
+			],
+			"object_path": "usb",
+			"name": "Pendrive"
+		},
+		{
+			"dialogue": "pokemon_enter",
+			"position": [
+				1036,
+				388
+			],
+			"object_path": "gameboy",
+			"name": "Gameboy"
+		},
+		{
+			"dialogue": "dhmis_enter",
+			"position": [
+				873,
+				745
+			],
+			"object_path": "tape",
+			"name": "VHS Tape"
+		},
+		{
+			"dialogue": "hidden_monotone",
+			"remove_outline": true,
+			"position": [
+				936,
+                197
+			],
+			"object_path": "hidden_monotone"
+		}
+	],
+	"cam_offsets": [
+		[
+			"",
+			800,
+			90
+		]
+	],
+	"music_name": "Where The Heart Is",
+	"music": "home",
+	"scale": 0.9,
+	"screen_warp": false,
+	"name": "Billie's House",
+	"bpm": 84
+}

@@ -1,0 +1,326 @@
+{
+	"song": {
+		"events": [
+			[
+				16941.1764705882,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					],
+					[
+						"Set Character Cam Pos",
+						"0,-50",
+						"dad"
+					]
+				]
+			],
+			[
+				18352.9411764706,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.5, elasticOut"
+					],
+					[
+						"Set Character Cam Pos",
+						"0,0",
+						"dad"
+					]
+				]
+			],
+			[
+				22411.7647058824,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					],
+					[
+						"Set Character Cam Pos",
+						"0,-50",
+						"bf"
+					]
+				]
+			],
+			[
+				23647.0588235294,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				28235.2941176471,
+				[
+					[
+						"Events",
+						"cam",
+						"center"
+					]
+				]
+			],
+			[
+				29558.8235294118,
+				[
+					[
+						"Set Character Cam Pos",
+						"0,0",
+						"bf"
+					]
+				]
+			],
+			[
+				29647.0588235294,
+				[
+					[
+						"Events",
+						"cam",
+						"default"
+					]
+				]
+			],
+			[
+				80558.8235294117,
+				[
+					[
+						"Events",
+						"empty space",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-tap"
+					]
+				]
+			],
+			[
+				105970.588235294,
+				[
+					[
+						"Alt Idle Animation",
+						"gf",
+						""
+					]
+				]
+			],
+			[
+				131470.588235294,
+				[
+					[
+						"Events",
+						"norm",
+						""
+					]
+				]
+			],
+			[
+				135617.647058823,
+				[
+					[
+						"Events",
+						"strum owner",
+						"gf"
+					]
+				]
+			],
+			[
+				135705.882352941,
+				[
+					[
+						"Alt Idle Animation",
+						"GF",
+						"-alt"
+					]
+				]
+			],
+			[
+				137117.647058823,
+				[
+					[
+						"Alt Idle Animation",
+						"GF",
+						""
+					]
+				]
+			],
+			[
+				141352.94117647,
+				[
+					[
+						"Play Animation",
+						"glasses",
+						"GF"
+					]
+				]
+			],
+			[
+				143117.647058823,
+				[
+					[
+						"Events",
+						"icon change",
+						""
+					]
+				]
+			],
+			[
+				143294.117647059,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-surprised"
+					]
+				]
+			],
+			[
+				143382.352941176,
+				[
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-tap"
+					]
+				]
+			],
+			[
+				148588.235294117,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-chill"
+					]
+				]
+			],
+			[
+				171882.352941176,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"gf",
+						""
+					]
+				]
+			],
+			[
+				176647.058823529,
+				[
+					[
+						"camTween",
+						"900,100,1",
+						"7,smootherstepinout"
+					]
+				]
+			],
+			[
+				179470.588235294,
+				[
+					[
+						"Events",
+						"empty space",
+						""
+					]
+				]
+			],
+			[
+				187764.705882353,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Set Character Cam Pos",
+						"0,0",
+						"bf"
+					],
+					[
+						"camTween",
+						"",
+						""
+					]
+				]
+			],
+			[
+				187852.94117647,
+				[
+					[
+						"Events",
+						"strum owner",
+						"dad"
+					]
+				]
+			],
+			[
+				199147.058823529,
+				[
+					[
+						"Events",
+						"empty space",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-happy"
+					],
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-happy"
+					]
+				]
+			],
+			[
+				199235.294117647,
+				[
+					[
+						"Events",
+						"danse",
+						""
+					]
+				]
+			],
+			[
+				199323.529411764,
+				[
+					[
+						"Events",
+						"ufo",
+						""
+					]
+				]
+			],
+			[
+				231970.588235294,
+				[
+					[
+						"Events",
+						"cam",
+						"center"
+					],
+					[
+						"Events",
+						"ending",
+						""
+					]
+				]
+			]
+		]
+	}
+}

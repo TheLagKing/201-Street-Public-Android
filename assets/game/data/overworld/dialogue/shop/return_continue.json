@@ -1,0 +1,67 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "Some spooky fiddle-faddle? Can't say I expected much less, haha!"
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "intrigue",
+            "dialogue": "But that's amazing!! Why, you could be my little guinea pig for all these thingumbobblers!"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "These words are getting less and less real."
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "ANYWAY, sorry man... As much as I wish we could help, we got a looottt of awesome spooky exploring to-"
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "neutral",
+            "dialogue": "I'll give you fifty bucks!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "flustered",
+            "dialogue": "-tooooo dooooo alongside checking out all these other thingly dingly whatever-you-saids! YES! Sounds awesome!"
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "That's the spirit! I'll let you take home whatever junk you want, free of charge! Just head back to the humble abode, check it out, and report back to me!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "Aye aye, old-timer."
+        },
+        {
+            "events": [                
+                {
+                    "eventName": "Save Data",
+                    "value1": "ReturnedToShop",
+                    "value2": ""
+                }
+            ]
+        }
+    ]
+}

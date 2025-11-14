@@ -1,0 +1,67 @@
+{
+    "dialogue_info": [
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "This blue pendrive's been sitting in my collection for so long... so I'm puttin' it on fire sale so I can finally chuck it!",
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "boughtItem",
+                    "value2": "1"
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "FirstPurchase",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Save Data",
+                    "value1": "BoughtPendrive",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Add Checklist Notif",
+                    "value1": "",
+                    "value2": ""
+                },  
+                {
+                    "eventName": "Reload Objects",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "D. E. Halloway",
+            "expression": "laughing",
+            "dialogue": "LIMITED TIME OFFER, THOUGH! Tick tock! Tonight only!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "annoyed",
+            "dialogue": "Jeez, you really want this thing off your hands, huh? " 
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "...Alright, I'll bite. There's gotta be some crazy finds on this thing." 
+        },
+		{
+            "events": [
+                {
+                    "eventName": "Play Sound",
+                    "value1": "buzz",
+                    "value2": "0.7"
+                }
+            ]
+        }
+    ]
+}

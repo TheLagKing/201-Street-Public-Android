@@ -1,0 +1,65 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "Hey! I'm starting to remember some of that dream I mentioned earlier. But it's still not all there..."
+        },
+		{
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "I was in a big, colorful bedroom with this random girl... no idea who she was..."
+        },
+		{
+            "character": "Letícia",
+            "expression": "scared",
+            "dialogue": "And things got real creepy when we turned off the lamp..."
+        },
+        {
+            "character": "Letícia",
+            "expression": "flustered",
+            "dialogue": "I thought talking it out with you might ring some bells. Could you help me for a sec?"
+        },
+        {
+            "character": "Billie",
+            "expression": "neutral",
+            "dialogue": "Sure, hit me."
+        },
+		{
+            "character": "Letícia",
+            "expression": "neutral",
+            "dialogue": "Alright, well, it started out something like this..."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "pink-sea",
+                    "value2": "",
+                    "startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ] 
+        }
+    ]
+}

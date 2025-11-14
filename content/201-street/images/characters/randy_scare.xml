@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="randy_scare.png" width="740" height="922">
+  <SubTexture name="randy scared0005" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0023" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0028" x="276" y="3" width="227" height="267" rotated="true"  frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0001" x="3" y="469"  width="266" height="215" frameX="-4" frameY="-35" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0035" x="509" y="3" width="228" height="253" rotated="true"  frameX="-16" frameY="-20" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0037" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0044" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0050" x="256" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0002" x="3" y="469"  width="266" height="215" frameX="-4" frameY="-35" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0003" x="3" y="469"  width="266" height="215" frameX="-4" frameY="-35" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0004" x="3" y="469"  width="266" height="215" frameX="-4" frameY="-35" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0006" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0007" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0008" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0009" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0010" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0011" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0012" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0013" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0014" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0015" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0016" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0017" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0018" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0019" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0020" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0021" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0022" x="3" y="3"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0024" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0025" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0026" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0027" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0030" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0031" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0032" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0033" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0034" x="3" y="236"  width="267" height="227" frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0029" x="276" y="3" width="227" height="267" rotated="true"  frameX="-0" frameY="-22" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0036" x="509" y="3" width="228" height="253" rotated="true"  frameX="-16" frameY="-20" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0038" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0039" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0040" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0041" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0042" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0043" x="509" y="262"  width="227" height="249" frameX="-40" frameY="-1" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0045" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0046" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0047" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0048" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0049" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0052" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0053" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0054" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0055" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0056" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0057" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0058" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0059" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0060" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0061" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0062" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0063" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0064" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0065" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0066" x="3" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+  <SubTexture name="randy scared0051" x="256" y="690" width="247" height="229" rotated="true"  frameX="-39" frameY="-3" frameWidth="270" frameHeight="253"/>
+</TextureAtlas>

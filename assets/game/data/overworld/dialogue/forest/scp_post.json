@@ -1,0 +1,174 @@
+{
+    "dialogue_info": [
+        {
+            "character": "scp-soldier",
+            "expression": "suited",
+            "dialogue": "Phew. Y'all were playing with your lives back there. 096 is relentlessss.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "scared",
+            "dialogue": "What?? What was that?? And who are you people??"
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "suited",
+            "dialogue": "I'm afraid that won't matter too much in a bit here.",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "scp-soldier",
+            "expression": "suited",
+            "dialogue": "Just try to stay out of trouble, alright?",
+            "events": [
+                {
+                    "eventName": "Change Dialogue Name",
+                    "value1": "S. C. P. Agent",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "terrified",
+            "dialogue": "WHAT DOES THAT EVEN--",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Narrator",
+            "expression": "",
+            "dialogue": "Billie and Letícia are injected with amnestics."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "Ugghh... What-",
+            "events": [
+                {
+                    "eventName": "Force Tape",
+                    "value1": "scp",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Pause Dialogue",
+                    "value1": "4",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "in",
+                    "value2": "3",
+                    "startDelay": 1
+                },
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "low",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "disgusted",
+            "dialogue": "What the fuck? Letícia!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "...huh? AH! Why are we in the middle of the forest??",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "I was about to ask you the same thing!!",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "high",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Billie",
+            "expression": "sad",
+            "dialogue": "...are you alright at least?",
+            "events": [
+                {
+                    "eventName": "Vocal Blip Expression",
+                    "value1": "",
+                    "value2": ""
+                }
+            ]
+        },
+        {
+            "character": "Letícia",
+            "expression": "sad",
+            "dialogue": "Yeah, I'm good, I just... can't remember the last like 10 minutes. At all."
+        },
+        {
+            "character": "Billie",
+            "expression": "nervous",
+            "dialogue": "This place gotta be cursed or something."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Save Beaten Song Data",
+                    "value1": "scp",
+                    "value2": ""
+                },    
+                {
+                    "eventName": "Reload Music",
+                    "value1": "",
+                    "value2": ""
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "in",
+                    "value2": "1.2",
+                    "startDelay": 0.01
+                },
+                {
+                    "eventName": "Hide UI",
+                    "value1": "true",
+                    "value2": "",
+                    "startDelay": 4
+                }
+            ]
+        }
+    ]
+}

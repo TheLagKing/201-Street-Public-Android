@@ -1,0 +1,60 @@
+{
+    "dialogue_info": [
+        {
+            "character": "Billie",
+            "expression": "determined",
+            "dialogue": "You ready for the funniest watch party ever?"
+        },
+        {
+            "character": "Letícia",
+            "expression": "confused",
+            "dialogue": "But it's only the two of us..."
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "You can have a watch party with two people!"
+        },
+        {
+            "character": "Letícia",
+            "expression": "laughing",
+            "dialogue": "You're way too excited for this."
+        },
+        {
+            "character": "Billie",
+            "expression": "laughing",
+            "dialogue": "It's going to be so awesome."
+        },
+        {
+            "events": [
+                {
+                    "eventName": "Can Move",
+                    "value1": "false",
+                    "value2": "",
+                    "startDelay": 0.001
+                },
+                {
+                    "eventName": "Fade Camera",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Fade Music",
+                    "value1": "out",
+                    "value2": "1.5"
+                },
+                {
+                    "eventName": "Load Song",
+                    "value1": "music-for-your-ears!",
+                    "value2": "",
+                    "startDelay": 3
+                },
+                {
+                    "eventName": "Play Sound",
+                    "value1": "song_found",
+                    "value2": "0.5"
+                }
+            ] 
+        }
+    ]
+}

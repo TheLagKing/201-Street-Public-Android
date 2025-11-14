@@ -1,0 +1,293 @@
+{
+	"extraSkin": "ui/global/201notes",
+	"singAnimations": [
+		"singLEFT",
+		"singDOWN",
+		"singUP",
+		"singRIGHT"
+	],
+	"splashesEnabled": true,
+	"playerSkin": "ui/global/201notes",
+	"receptorAnimations": [
+		[
+			{
+				"xmlName": "arrowLEFT",
+				"offsets": [
+					-38,
+					-34
+				],
+				"looping": false,
+				"anim": "static"
+			},
+			{
+				"xmlName": "left press",
+				"offsets": [
+					-38,
+					-34
+				],
+				"looping": false,
+				"anim": "pressed"
+			},
+			{
+				"xmlName": "left confirm",
+				"offsets": [
+					-36,
+					-34
+				],
+				"looping": false,
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"xmlName": "arrowDOWN",
+				"offsets": [
+					-42,
+					-34
+				],
+				"looping": false,
+				"anim": "static"
+			},
+			{
+				"xmlName": "down press",
+				"offsets": [
+					-42,
+					-34
+				],
+				"looping": false,
+				"anim": "pressed"
+			},
+			{
+				"xmlName": "down confirm",
+				"offsets": [
+					-42,
+					-33
+				],
+				"looping": false,
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"xmlName": "arrowUP",
+				"offsets": [
+					-32,
+					-34
+				],
+				"looping": false,
+				"anim": "static"
+			},
+			{
+				"xmlName": "up press",
+				"offsets": [
+					-32,
+					-34
+				],
+				"looping": false,
+				"anim": "pressed"
+			},
+			{
+				"xmlName": "up confirm",
+				"offsets": [
+					-32,
+					-35
+				],
+				"looping": false,
+				"anim": "confirm"
+			}
+		],
+		[
+			{
+				"xmlName": "arrowRIGHT",
+				"offsets": [
+					-38,
+					-34
+				],
+				"looping": false,
+				"anim": "static"
+			},
+			{
+				"xmlName": "right press",
+				"offsets": [
+					-38,
+					-34
+				],
+				"looping": false,
+				"anim": "pressed"
+			},
+			{
+				"xmlName": "right confirm",
+				"offsets": [
+					-37,
+					-35
+				],
+				"looping": false,
+				"anim": "confirm"
+			}
+		]
+	],
+	"noteSplashAnimations": [
+		{
+			"xmlName": "splash",
+			"offsets": [
+				28,
+				50
+			],
+			"anim": "note0"
+		},
+		{
+			"xmlName": "splash",
+			"offsets": [
+				23,
+				50
+			],
+			"anim": "note1"
+		},
+		{
+			"xmlName": "splash",
+			"offsets": [
+				15,
+				50
+			],
+			"anim": "note2"
+		},
+		{
+			"xmlName": "splash",
+			"offsets": [
+				10,
+				50
+			],
+			"anim": "note3"
+		}
+	],
+	"noteAnimations": [
+		[
+			{
+				"xmlName": "purple",
+				"offsets": [
+					-5,
+					-5
+				],
+				"looping": false,
+				"anim": "scroll0"
+			},
+			{
+				"xmlName": "purple hold piece",
+				"offsets": [
+					50,
+					0
+				],
+				"looping": false,
+				"anim": "hold0"
+			},
+			{
+				"xmlName": "purple hold end",
+				"offsets": [
+					0,
+					0
+				],
+				"looping": false,
+				"anim": "holdend0"
+			}
+		],
+		[
+			{
+				"xmlName": "blue",
+				"offsets": [
+					-5,
+					-5
+				],
+				"looping": false,
+				"anim": "scroll1"
+			},
+			{
+				"xmlName": "blue hold piece",
+				"offsets": [
+					47,
+					0
+				],
+				"looping": false,
+				"anim": "hold1"
+			},
+			{
+				"xmlName": "blue hold end",
+				"offsets": [
+					0,
+					0
+				],
+				"looping": false,
+				"anim": "holdend1"
+			}
+		],
+		[
+			{
+				"xmlName": "green",
+				"offsets": [
+					-15,
+					-5
+				],
+				"looping": false,
+				"anim": "scroll2"
+			},
+			{
+				"xmlName": "green hold piece",
+				"offsets": [
+					47,
+					0
+				],
+				"looping": false,
+				"anim": "hold2"
+			},
+			{
+				"xmlName": "green hold end",
+				"offsets": [
+					0,
+					0
+				],
+				"looping": false,
+				"anim": "holdend2"
+			}
+		],
+		[
+			{
+				"xmlName": "red",
+				"offsets": [
+					-5,
+					-5
+				],
+				"looping": false,
+				"anim": "scroll3"
+			},
+			{
+				"xmlName": "red hold piece",
+				"offsets": [
+					40,
+					0
+				],
+				"looping": false,
+				"anim": "hold3"
+			},
+			{
+				"xmlName": "red hold end",
+				"offsets": [
+					0,
+					0
+				],
+				"looping": false,
+				"anim": "holdend3"
+			}
+		]
+	],
+	"pixelSize": [
+		4,
+		5
+	],
+	"noteSplashSkin": "ui/global/201notes",
+	"globalSkin": "ui/global/201notes",
+	"antialiasing": true,
+	"inGameColoring": false,
+	"isPixel": false,
+	"opponentSkin": "ui/global/201notes",
+	"scale": 0.7,
+	"sustainSuffix": "ENDS"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="enrique.png" width="2048" height="4096">
+  <SubTexture name="up0001" x="3" y="3"  width="730" height="822" frameX="-645" frameY="-179" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="up0002" x="3" y="831"  width="738" height="815" frameX="-639" frameY="-186" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0002" x="739" y="3"  width="680" height="766" frameX="-690" frameY="-233" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0001" x="3" y="1652"  width="627" height="763" frameX="-691" frameY="-237" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="left0001" x="3" y="2421"  width="690" height="762" frameX="-686" frameY="-238" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0002" x="636" y="1652"  width="622" height="757" frameX="-689" frameY="-242" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="idle0003" x="747" y="775"  width="612" height="750" frameX="-686" frameY="-249" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0001" x="3" y="3189"  width="655" height="715" frameX="-674" frameY="-284" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="right0002" x="664" y="3189"  width="641" height="711" frameX="-680" frameY="-286" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="down0002" x="699" y="2415"  width="644" height="655" frameX="-675" frameY="-350" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="down0001" x="1311" y="1531"  width="646" height="648" frameX="-674" frameY="-359" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="starmanbg.png" width="2048" height="4096">
+	<SubTexture name="bg0000" x="0" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0001" x="0" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0002" x="261" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0003" x="261" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0004" x="522" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0005" x="522" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0006" x="783" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0007" x="783" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0008" x="1044" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0009" x="1044" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0010" x="1305" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0011" x="1305" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0012" x="1566" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0013" x="1566" y="0" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0014" x="0" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0015" x="0" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0016" x="261" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0017" x="261" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0018" x="522" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0019" x="522" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0020" x="783" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0021" x="783" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0022" x="1044" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0023" x="1044" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0024" x="1305" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0025" x="1305" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0026" x="1566" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0027" x="1566" y="229" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0028" x="0" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0029" x="0" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0030" x="261" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0031" x="261" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0032" x="522" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0033" x="522" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0034" x="783" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0035" x="783" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0036" x="1044" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0037" x="1044" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0038" x="1305" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0039" x="1305" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0040" x="1566" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0041" x="1566" y="458" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0042" x="0" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0043" x="0" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0044" x="261" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0045" x="261" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0046" x="522" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0047" x="522" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0048" x="783" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0049" x="783" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0050" x="1044" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0051" x="1044" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0052" x="1305" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0053" x="1305" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0054" x="1566" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0055" x="1566" y="687" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0056" x="0" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0057" x="0" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0058" x="261" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0059" x="261" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0060" x="522" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0061" x="522" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0062" x="783" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0063" x="783" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0064" x="1044" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0065" x="1044" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0066" x="1305" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0067" x="1305" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0068" x="1566" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0069" x="1566" y="916" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0070" x="0" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0071" x="0" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0072" x="261" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0073" x="261" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0074" x="522" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0075" x="522" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0076" x="783" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0077" x="783" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0078" x="1044" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0079" x="1044" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0080" x="1305" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0081" x="1305" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0082" x="1566" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0083" x="1566" y="1145" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0084" x="0" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0085" x="0" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0086" x="261" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0087" x="261" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0088" x="522" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0089" x="522" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0090" x="783" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0091" x="783" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0092" x="1044" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0093" x="1044" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0094" x="1305" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0095" x="1305" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0096" x="1566" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0097" x="1566" y="1374" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0098" x="0" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0099" x="0" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0100" x="261" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0101" x="261" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0102" x="522" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0103" x="522" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0104" x="783" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0105" x="783" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0106" x="1044" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0107" x="1044" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0108" x="1305" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0109" x="1305" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0110" x="1566" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0111" x="1566" y="1603" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0112" x="0" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0113" x="0" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0114" x="261" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0115" x="261" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0116" x="522" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0117" x="522" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0118" x="783" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0119" x="783" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0120" x="1044" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0121" x="1044" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0122" x="1305" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0123" x="1305" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0124" x="1566" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0125" x="1566" y="1832" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0126" x="0" y="2061" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0127" x="0" y="2061" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0128" x="0" y="2322" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0129" x="0" y="2322" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0130" x="0" y="2583" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0131" x="0" y="2583" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0132" x="0" y="2844" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0133" x="0" y="2844" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0134" x="0" y="3105" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0135" x="0" y="3105" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0136" x="0" y="3366" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0137" x="0" y="3366" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0138" x="0" y="3627" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0139" x="0" y="3627" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0140" x="229" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0141" x="229" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0142" x="490" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0143" x="490" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0144" x="751" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0145" x="751" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0146" x="1012" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0147" x="1012" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0148" x="1273" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0149" x="1273" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0150" x="1534" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0151" x="1534" y="2061" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0152" x="1795" y="2061" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0153" x="1795" y="2061" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0154" x="229" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0155" x="229" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0156" x="490" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0157" x="490" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0158" x="751" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0159" x="751" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0160" x="1012" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0161" x="1012" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0162" x="1273" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0163" x="1273" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0164" x="1534" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0165" x="1534" y="2290" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0166" x="1795" y="2322" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0167" x="1795" y="2322" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0168" x="229" y="2583" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0169" x="229" y="2583" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0170" x="229" y="2844" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0171" x="229" y="2844" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0172" x="229" y="3105" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0173" x="229" y="3105" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0174" x="229" y="3366" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0175" x="229" y="3366" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0176" x="229" y="3627" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0177" x="229" y="3627" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0178" x="458" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0179" x="458" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0180" x="719" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0181" x="719" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0182" x="980" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0183" x="980" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0184" x="1241" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0185" x="1241" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0186" x="1502" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0187" x="1502" y="2519" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0188" x="1763" y="2583" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0189" x="1763" y="2583" width="256" height="224" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0190" x="458" y="2812" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0191" x="458" y="2812" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0192" x="458" y="3073" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0193" x="458" y="3073" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0194" x="458" y="3334" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0195" x="458" y="3334" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0196" x="458" y="3595" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+	<SubTexture name="bg0197" x="458" y="3595" width="224" height="256" rotated="true" frameX="-0" frameY="-0" frameWidth="256" frameHeight="224"/>
+</TextureAtlas>

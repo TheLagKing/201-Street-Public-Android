@@ -1,0 +1,95 @@
+{
+    "dialogue_info": [
+        {
+            "character": "billie",
+            "expression": "laughing",
+            "dialogue": "What's uppp R-man!"
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Bills, I swear if this is about borrowing eggs again."
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "MOM KEEPS YELLING AT ME FOR GIVING THEM ALL AWAY TO YOU!!! DO YOU THINK I'M SOME KIND OF YOSHI OR WHAT!!!"
+        },
+        {
+            "character": "billie",
+            "expression": "determined",
+            "dialogue": "Haha, chill out man, no eggs this time I swear!"
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Oh."
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Ummm... Awko tacooo."
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "What?"
+        },
+        
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Sorry."
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "Uhh... anyways, was just wondering what you're up to!"
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "I'm out. Arcade. It's really busy downtown... gotta escape the noise somehow."
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "I get ya'... I can only imagine why considering your little encounter a while back."
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Eeyup."
+        },
+        {
+            "character": "billie",
+            "expression": "nervous",
+            "dialogue": "...if you don't mind me asking, how'd you even survive that anyways?"
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "Rake."
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Rake?"
+        },
+        {
+            "character": "randy",
+            "expression": "neutral",
+            "dialogue": "He tripped backwards off the porch. Stepped on a rake. Headshot."
+        },
+        {
+            "character": "billie",
+            "expression": "flustered",
+            "dialogue": "Oh my god."
+        },
+        {
+            "character": "billie",
+            "expression": "neutral",
+            "dialogue": "Dude, your life is a cartoon."
+        }
+    ]
+}
