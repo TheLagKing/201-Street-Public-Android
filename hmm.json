@@ -1,87 +1,106 @@
 {
-    "dependencies": [
-        {
-            "name": "lime",
-            "type": "git",
-            "dir": null,   
-            "ref": "main",
-            "url": "https://github.com/MobilePorting/lime"   
-        },
-        {
-            "name": "openfl",
-            "type": "haxelib",
-            "version": "9.3.2"
-        },
-        {
-            "name": "hxcpp-debug-server",
-            "type": "haxelib",
-            "version": null
-        },
-        {
-            "name": "hxcpp",
-            "type": "git",
-            "dir": null,
-            "ref": "main",
-            "url": "https://github.com/MobilePorting/hxcpp"
-        },
-        {
-            "name": "hscript",
-            "type": "haxelib",
-            "version": null
-        },
-        {
-            "name": "hscript-iris",
-            "type": "haxelib",
-            "version": null
-        },
-        {  
-            "name": "flixel",
-            "type": "git",
-            "dir": null,
-            "ref": "5.8.0",
-            "url": "https://github.com/MobilePorting/flixel"
-        },
-        {
-            "name": "flixel-addons",
-            "type": "haxelib",
-            "version": "3.2.3"
-        },
-        {
-            "name": "flixel-ui",
-            "type": "haxelib",
-            "version": null
-        },
-        {
-            "name": "flixel-tools",
-            "type": "haxelib",
-            "version": null
-        },
-        {
+	"dependencies":
+	[
+		{
+			"name": "hmm",
+			"type": "haxelib"
+		},
+		{
+			"name": "lime",
+			"type": "git",
+            		"dir": null,   
+            		"ref": "main",
+            		"url": "https://github.com/kittycathy233/lime"
+		},
+		{
+			"name": "openfl",
+			"type": "haxelib",
+			"version": "9.3.2"
+		},
+		{
+		      "name": "flixel",
+		      "type": "git",
+		      "dir": null,
+		      "ref": "main",
+		      "url": "https://github.com/kittycathy233/flixel"
+		},
+		{
+			"name": "flixel-addons",
+			"type": "haxelib",
+			"version": "3.2.1"
+		},
+		{
+			"name": "flixel-tools",
+			"type": "haxelib",
+			"version": "1.5.1"
+		},
+		{
+			"name": "flixel-ui",
+			"type": "haxelib",
+			"version": "2.5.0"
+		},
+		{
+			"name": "hxcpp",
+			"type": "git",
+            		"dir": null,
+            		"ref": "main",
+            		"url": "https://github.com/kittycathy233/hxcpp"
+		},
+		{
+			"name": "hxjsonast",
+			"type": "haxelib"
+		},
+		{
+			"name": "hscript",
+			"type": "haxelib",
+			"version": "2.5.0"
+		},
+		{
+			"name": "hxvlc",
+			"type": "haxelib",
+			"version": "1.2.0"
+		},
+		{
+			"name": "hxcpp-debug-server",
+			"type": "haxelib",
+			"version": "1.2.4"
+		},
+		{
+			"name": "formatter",
+			"type": "haxelib",
+			"version": "1.16.0"
+		},
+		{
+			"name": "discord_rpc",
+			"type": "git",
+			"ref": "2d83fa863ef0c1eace5f1cf67c3ac315d1a3a8a5",
+			"url": "https://github.com/Aidan63/linc_discord-rpc.git"
+		},
+		{
+			"name": "hscript-ex",
+			"type": "git",
+			"ref": "6d5e4fad452ed43d62b2112b2d7455ef207068b4",
+			"url": "https://github.com/ianharrigan/hscript-ex.git"
+		},
+		{
             "name": "linc_luajit",
             "type": "git",
             "dir": null,
-            "ref": "master",
-            "url": "https://github.com/MobilePorting/linc_luajit"
+            "url": "https://github.com/kittycathy233/linc_luajit.git"
         },
-        {
-            "name": "flxanimate",
-            "type": "git",
-            "dir": null,
-            "url": "https://github.com/FunkinCrew/flxanimate"
-        },
-        {
-            "name": "hxvlc",
-            "type": "git",
-            "dir": null,
-            "ref": "70e7f5f3e76d526ac6fb8f0e6665efe7dfda589d",
-            "url": "https://github.com/MAJigsaw77/hxvlc"
-        },
-        {
-            "name": "hxCodec",
-            "type": "git",
-            "dir": null,
-            "ref": "cafc58e9046505ff93fa659339808b53faa5d6f3",
-            "url": "https://github.com/polybiusproxy/hxCodec"
-        }
-    ]
+		{
+    		"name": "funkin.vis",
+    		"type": "git",
+    		"dir": null,
+    		"ref": "1966f8fbbbc509ed90d4b520f3c49c084fc92fd6",
+    		"url": "https://github.com/FunkinCrew/funkVis"
+   		},
+   		{
+		      "name": "grig.audio",
+		      "type": "git",
+		      "dir": "src",
+		      "ref": "cbf91e2180fd2e374924fe74844086aab7891666",
+		      "url": "https://gitlab.com/haxe-grig/grig.audio.git"
+	    }
+	]
 }
