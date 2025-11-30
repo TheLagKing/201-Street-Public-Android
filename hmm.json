@@ -1,0 +1,87 @@
+{
+    "dependencies": [
+        {
+            "name": "lime",
+            "type": "git",
+            "dir": null,   
+            "ref": "main",
+            "url": "https://github.com/MobilePorting/lime"   
+        },
+        {
+            "name": "openfl",
+            "type": "haxelib",
+            "version": "9.3.2"
+        },
+        {
+            "name": "hxcpp-debug-server",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "hxcpp",
+            "type": "git",
+            "dir": null,
+            "ref": "main",
+            "url": "https://github.com/MobilePorting/hxcpp"
+        },
+        {
+            "name": "hscript",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "hscript-iris",
+            "type": "haxelib",
+            "version": null
+        },
+        {  
+            "name": "flixel",
+            "type": "git",
+            "dir": null,
+            "ref": "5.8.0",
+            "url": "https://github.com/MobilePorting/flixel"
+        },
+        {
+            "name": "flixel-addons",
+            "type": "haxelib",
+            "version": "3.2.3"
+        },
+        {
+            "name": "flixel-ui",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "flixel-tools",
+            "type": "haxelib",
+            "version": null
+        },
+        {
+            "name": "linc_luajit",
+            "type": "git",
+            "dir": null,
+            "ref": "master",
+            "url": "https://github.com/MobilePorting/linc_luajit"
+        },
+        {
+            "name": "flxanimate",
+            "type": "git",
+            "dir": null,
+            "url": "https://github.com/FunkinCrew/flxanimate"
+        },
+        {
+            "name": "hxvlc",
+            "type": "git",
+            "dir": null,
+            "ref": "70e7f5f3e76d526ac6fb8f0e6665efe7dfda589d",
+            "url": "https://github.com/MAJigsaw77/hxvlc"
+        },
+        {
+            "name": "hxCodec",
+            "type": "git",
+            "dir": null,
+            "ref": "cafc58e9046505ff93fa659339808b53faa5d6f3",
+            "url": "https://github.com/polybiusproxy/hxCodec"
+        }
+    ]
+}
