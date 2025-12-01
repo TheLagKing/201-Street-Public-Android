@@ -98,9 +98,9 @@
 			"url": "https://github.com/MaybeMaru/moonchart"
 		},
 		{
-			"name": "haxeui-flixel",
+			"name": "haxeui-core",
 			"type": "git",
-			"url": "https://github.com/haxeui/haxeui-flixel"
+			"url": "https://github.com/haxeui/haxeui-core"
 		},
 		{
             "name": "linc_luajit",
