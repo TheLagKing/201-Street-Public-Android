@@ -28,6 +28,7 @@ jobs:
           haxelib install hxpkg --quiet
           haxelib run hxpkg setup --quiet
           haxelib run hxpkg install --quiet
+          haxelib --global update haxelib
 
       - name: Configure Android
         run: |
