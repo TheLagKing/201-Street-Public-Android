@@ -30,6 +30,11 @@
 			"version": "3.2.1"
 		},
 		{
+            "name": "flixel-animate",
+            "link": "https://github.com/MaybeMaru/flixel-animate",
+            "branch": "d446dfa061b1ea5959e82bc94dcaee8135c565a1"
+        },
+		{
 			"name": "flixel-tools",
 			"type": "haxelib",
 			"version": "1.5.1"
