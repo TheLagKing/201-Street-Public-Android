@@ -103,6 +103,11 @@
 			"url": "https://github.com/haxeui/haxeui-core"
 		},
 		{
+			"name": "haxeui-flixel",
+			"type": "git",
+			"url": "https://github.com/haxeui/haxeui-flixel"
+		},
+		{
             "name": "linc_luajit",
             "type": "git",
             "dir": null,
