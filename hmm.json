@@ -105,7 +105,8 @@
 		{
 			"name": "haxeui-flixel",
 			"type": "git",
-			"url": "https://github.com/haxeui/haxeui-flixel"
+			"url": "https://github.com/haxeui/haxeui-flixel",
+			"version": "1.7.0"
 		},
 		{
 			"name": "json2object",
