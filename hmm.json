@@ -58,8 +58,7 @@
 		{
 			"name": "hxvlc",
 			"type": "haxelib",
-			"version": "2.2.5",
-			"url": "https://github.com/MAJigsaw77/hxvlc"
+			"version": "2.2.5"
 		},
 		{
 			"name": "hxcpp-debug-server",
