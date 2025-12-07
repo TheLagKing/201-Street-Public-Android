@@ -809,6 +809,9 @@ class PlayState extends MusicBeatState
 
 		super.create();
 
+		addHitbox(3);
+   		_hitbox.visible = false;
+
 		FunkinAssets.cache.clearUnusedMemory();
 
 		refreshZ(stage);
@@ -1071,6 +1074,10 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
+		#if mobile
+   		_hitbox.visible = true;
+   		#end
+			
 		if (startedCountdown)
 		{
 			scripts.call('onStartCountdown', []);
@@ -2797,6 +2804,10 @@ class PlayState extends MusicBeatState
 		camZooming = false;
 		inCutscene = false;
 		updateTime = false;
+
+		#if mobile
+   		_hitbox.visible = false;
+   		#end
 
 		deathCounter = 0;
 		seenCutscene = false;
