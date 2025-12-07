@@ -3090,7 +3090,9 @@ class PlayState extends MusicBeatState
 						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
 				}
                 }
-            } else {
+            }
+			else
+			}
                 // hold note functions
                 if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
 				{
