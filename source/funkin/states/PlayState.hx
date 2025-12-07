@@ -3039,6 +3039,15 @@ class PlayState extends MusicBeatState
 		}
 		return -1;
 	}
+	
+	private function hitboxDataKeyIsPressed(data:Int):Bool
+    {
+        if (_hitbox.array[data].pressed) 
+                {
+                        return true;
+                }
+        return false;
+    }
 
 	// Hold notes
 	function keyShit():Void
@@ -3051,17 +3060,17 @@ class PlayState extends MusicBeatState
 		var dodge = controls.NOTE_DODGE;
 
 		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if (ClientPrefs.controllerMode)
-		{
-			var controlArray:Array<Bool> = [
-				controls.NOTE_LEFT_P,
-				controls.NOTE_DOWN_P,
-				controls.NOTE_UP_P,
-				controls.NOTE_RIGHT_P
-			];
-			if (controlArray.contains(true)) for (i in 0...controlArray.length)
-				if (controlArray[i]) onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
-		}
+		if(!ClientPrefs.controllerMode)
+        {
+            #if android
+            for (i in 0..._hitbox.array.length) {
+                if (_hitbox.array[i].justPressed)
+                {
+                       onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
+                }
+            }
+            #end
+        }
 
 		if (startedCountdown && !boyfriend.stunned && generatedMusic)
 		{
@@ -3069,7 +3078,21 @@ class PlayState extends MusicBeatState
 
 			notes.forEachAlive(function(daNote:Note) {
 				// hold note functions
-				if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
+				if(!ClientPrefs.controllerMode && !ClientPrefs.keyboardEnabled)
+                {
+                // mobile hold note functions
+                if(!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls){
+                    if (daNote.isSustainNote
+                        && hitboxDataKeyIsPressed(daNote.noteData)
+						&& !daNote.blockHit
+						&& daNote.canBeHit
+						&& !daNote.tooLate
+						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
+				}
+                }
+            } else {
+                // hold note functions
+                if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
 				{
 					if (daNote.isSustainNote
 						&& !daNote.blockHit
@@ -3078,6 +3101,8 @@ class PlayState extends MusicBeatState
 						&& !daNote.tooLate
 						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
 				}
+                }
+                }
 
 				if (ClientPrefs.guitarHeroSustains)
 				{
@@ -3104,21 +3129,17 @@ class PlayState extends MusicBeatState
 		}
 
 		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if (ClientPrefs.controllerMode)
-		{
-			var controlArray:Array<Bool> = [
-				controls.NOTE_LEFT_R,
-				controls.NOTE_DOWN_R,
-				controls.NOTE_UP_R,
-				controls.NOTE_RIGHT_R
-			];
-			if (controlArray.contains(true))
-			{
-				for (i in 0...controlArray.length)
-					if (controlArray[i]) onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
-			}
-		}
-	}
+		if(!ClientPrefs.controllerMode)
+        {
+            #if android
+            for (i in 0..._hitbox.array.length) {
+                if (_hitbox.array[i].justReleased)
+                {
+                       onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+                }
+            }
+            #end
+        }
 
 	function noteMiss(daNote:Note, field:PlayField):Void
 	{ // You didn't hit the key and let it go offscreen, also used by Hurt Notes
