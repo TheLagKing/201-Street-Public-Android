@@ -3051,97 +3051,101 @@ class PlayState extends MusicBeatState
 
 	// Hold notes
 	function keyShit():Void
-	{
-		// HOLDING
-		var up = controls.NOTE_UP;
-		var right = controls.NOTE_RIGHT;
-		var down = controls.NOTE_DOWN;
-		var left = controls.NOTE_LEFT;
-		var dodge = controls.NOTE_DODGE;
+{
+    // HOLDING
+    var up = controls.NOTE_UP;
+    var right = controls.NOTE_RIGHT;
+    var down = controls.NOTE_DOWN;
+    var left = controls.NOTE_LEFT;
+    var dodge = controls.NOTE_DODGE;
 
-		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if(!ClientPrefs.controllerMode)
-        {
-            #if android
-            for (i in 0..._hitbox.array.length) {
-                if (_hitbox.array[i].justPressed)
-                {
-                       onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
-                }
+    // TO DO: Find a better way to handle controller inputs, this should work for now
+    if (!ClientPrefs.controllerMode) {
+        #if android
+        for (i in 0..._hitbox.array.length) {
+            if (_hitbox.array[i].justPressed) {
+                onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
             }
-            #end
         }
+        #end
+    }
 
-		if (startedCountdown && !boyfriend.stunned && generatedMusic)
-		{
-			// rewritten inputs???
-
-			notes.forEachAlive(function(daNote:Note) {
-				// hold note functions
-				if(!ClientPrefs.controllerMode && !ClientPrefs.keyboardEnabled)
+    if (startedCountdown && !boyfriend.stunned && generatedMusic) {
+        notes.forEachAlive(function(daNote:Note) {
+            if (!ClientPrefs.controllerMode && !ClientPrefs.keyboardEnabled) {
+                if (!daNote.playField.autoPlayed 
+                    && daNote.playField.inControl 
+                    && daNote.playField.playerControls)
                 {
-                // mobile hold note functions
-                if(!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls){
                     if (daNote.isSustainNote
                         && hitboxDataKeyIsPressed(daNote.noteData)
-						&& !daNote.blockHit
-						&& daNote.canBeHit
-						&& !daNote.tooLate
-						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
-				}
-				}
+                        && !daNote.blockHit
+                        && daNote.canBeHit
+                        && !daNote.tooLate
+                        && !daNote.wasGoodHit)
+                    {
+                        daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
+                    }
+                }
             }
-			else
-			{
-                // hold note functions
-                if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
-				{
-					if (daNote.isSustainNote
-						&& !daNote.blockHit
-						&& FlxG.keys.anyPressed(keysArray[daNote.noteData])
-						&& daNote.canBeHit
-						&& !daNote.tooLate
-						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
-				}
-                }
-                }
-
-				if (ClientPrefs.guitarHeroSustains)
-				{
-					// hold note drop
-
-					if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
-					{
-						if (daNote.isSustainNote
-							&& !daNote.blockHit
-							&& !daNote.ignoreNote
-							&& !FlxG.keys.anyPressed(keysArray[daNote.noteData])
-							&& !endingSong
-							&& (daNote.tooLate || !daNote.wasGoodHit))
-						{
-							daNote.playField.noteMissCallback.dispatch(daNote, daNote.playField);
-						}
-					}
-				}
-			});
-
-			if (boyfriend.holdTimer > Conductor.stepCrotchet * 0.0011 * boyfriend.singDuration
-				&& boyfriend.getAnimName().startsWith('sing')
-				&& !boyfriend.getAnimName().endsWith('miss')) boyfriend.dance();
-		}
-
-		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if(!ClientPrefs.controllerMode)
-        {
-            #if android
-            for (i in 0..._hitbox.array.length) {
-                if (_hitbox.array[i].justReleased)
+            else
+            {
+                if (!daNote.playField.autoPlayed 
+                    && daNote.playField.inControl 
+                    && daNote.playField.playerControls)
                 {
-                       onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+                    if (daNote.isSustainNote
+                        && !daNote.blockHit
+                        && FlxG.keys.anyPressed(keysArray[daNote.noteData])
+                        && daNote.canBeHit
+                        && !daNote.tooLate
+                        && !daNote.wasGoodHit)
+                    {
+                        daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
+                    }
                 }
             }
-            #end
+
+            if (ClientPrefs.guitarHeroSustains) {
+                if (!daNote.playField.autoPlayed
+                    && daNote.playField.inControl
+                    && daNote.playField.playerControls)
+                {
+                    if (daNote.isSustainNote
+                        && !daNote.blockHit
+                        && !daNote.ignoreNote
+                        && !FlxG.keys.anyPressed(keysArray[daNote.noteData])
+                        && !endingSong
+                        && (daNote.tooLate || !daNote.wasGoodHit))
+                    {
+                        daNote.playField.noteMissCallback.dispatch(daNote, daNote.playField);
+                    }
+                }
+            }
+        });
+
+        if (boyfriend.holdTimer > Conductor.stepCrotchet * 0.0011 * boyfriend.singDuration
+            && boyfriend.getAnimName().startsWith('sing')
+            && !boyfriend.getAnimName().endsWith('miss'))
+        {
+            boyfriend.dance();
         }
+    }
+
+    if (!ClientPrefs.controllerMode)
+    {
+        #if android
+        for (i in 0..._hitbox.array.length)
+        {
+            if (_hitbox.array[i].justReleased)
+            {
+                onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+            }
+        }
+        #end
+    }
+}
+
 
 	function noteMiss(daNote:Note, field:PlayField):Void
 	{ // You didn't hit the key and let it go offscreen, also used by Hurt Notes
