@@ -33,6 +33,10 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true 
 
+- name: Patch haxeui-flixel for Android
+        run: |
+          sed -i 's/FileReferenceList/Null<FileReferenceList>/g' .haxelib/haxeui-flixel/git/haxe/ui/backend/OpenFileDialogImpl.hx
+
       - name: Compile
         run: haxelib run lime build android
 
