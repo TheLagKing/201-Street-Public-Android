@@ -1,48 +1,59 @@
 name: Android Build Test
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger for this workflow
 
 jobs:
   Android:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu for the GitHub runner
+
     steps:
+      # Checkout the repository code to the runner
       - name: Checkout
-        uses: actions/checkout@main
-        
+        uses: actions/checkout@v2
+
+      # Setup Java JDK for the build (required by Android SDK)
       - name: Setup Java JDK
-        uses: actions/setup-java@main
+        uses: actions/setup-java@v2
         with:
           distribution: 'temurin'
           java-version: '17'
 
+      # Setup Haxe
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.6
+          haxe-version: 4.3.6  # Ensure that this is the right Haxe version required by your project
 
+      # Install the necessary Haxe libraries for your project
       - name: Install Libraries
         run: |
-          haxelib install hmm --quiet
-          haxelib run hmm install --quiet
+          haxelib install hmm --quiet  # Install hmm (if required by your project)
+          haxelib run hmm install --quiet  # Run hmm install (if needed)
 
+      # Configure Android SDK, NDK, and Java paths
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
           haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_LATEST_HOME
           haxelib run lime config JAVA_HOME $JAVA_HOME
-          haxelib run lime config ANDROID_SETUP true 
+          haxelib run lime config ANDROID_SETUP true
 
-- name: Patch haxeui-flixel for Android
+      # Patch the haxeui-flixel library to avoid FileReferenceList for Android
+      - name: Patch haxeui-flixel for Android
         run: |
           sed -i 's/FileReferenceList/Null<FileReferenceList>/g' .haxelib/haxeui-flixel/git/haxe/ui/backend/OpenFileDialogImpl.hx
 
+      # Compile the project for Android
       - name: Compile
-        run: haxelib run lime build android
+        run: |
+          # Build the APK using Lime for Android
+          haxelib run lime build android
 
+      # Upload the APK as an artifact for downloading
       - name: Upload Artifact
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v2
         with:
           name: androidBuild
-          path: export/release/android/bin/app/build/outputs/apk/release/*.apk
-          if-no-files-found: warn
+          path: export/release/android/bin/app/build/outputs/apk/release/*.apk  # Make sure this matches your build output path
+          if-no-files-found: warn  # If no APK is found, don't fail the build
