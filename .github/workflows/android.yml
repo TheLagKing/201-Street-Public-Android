@@ -33,7 +33,7 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true 
 
-            - name: Compile
+     - name: Compile
         run: haxelib run lime build android -D no-flash
 
       - name: Upload Artifact
