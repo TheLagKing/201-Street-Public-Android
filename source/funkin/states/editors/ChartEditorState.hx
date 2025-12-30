@@ -7,7 +7,9 @@ import haxe.io.Bytes;
 import lime.media.AudioBuffer;
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
+#if desktop
 import openfl.net.FileReference;
+#end
 import openfl.utils.Assets as OpenFlAssets;
 import openfl.geom.Rectangle;
 import flixel.FlxG;
@@ -208,9 +210,9 @@ class ChartEditorState extends MusicBeatState
 	];
 
 	public var variables:Map<String, Dynamic> = new Map();
-
+#if desktop
 	var _file:FileReference;
-
+#end
 	public static var UI_box:FlxUITabMenu;
 
 	public static var goToPlayState:Bool = false;
@@ -3868,11 +3870,13 @@ class ChartEditorState extends MusicBeatState
 
 		if ((data != null) && (data.length > 0))
 		{
+		#if desktop
 			_file = new FileReference();
 			_file.addEventListener(Event.COMPLETE, onSaveComplete);
 			_file.addEventListener(Event.CANCEL, onSaveCancel);
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data.trim(), Paths.formatToSongPath(_song.song) + ".json");
+			#end
 		}
 	}
 
@@ -3897,21 +3901,25 @@ class ChartEditorState extends MusicBeatState
 
 		if ((data != null) && (data.length > 0))
 		{
+		#if desktop
 			_file = new FileReference();
 			_file.addEventListener(Event.COMPLETE, onSaveComplete);
 			_file.addEventListener(Event.CANCEL, onSaveCancel);
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data.trim(), "events.json");
+			#end
 		}
 	}
 
 	function onSaveComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.notice("Successfully saved LEVEL DATA.");
+		#end
 	}
 
 	/**
@@ -3919,10 +3927,12 @@ class ChartEditorState extends MusicBeatState
 	 */
 	function onSaveCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
+		#end
 	}
 
 	/**
@@ -3930,11 +3940,13 @@ class ChartEditorState extends MusicBeatState
 	 */
 	function onSaveError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.error("Problem saving Level data");
+		#end
 	}
 
 	function getSectionBeats(?section:Null<Int> = null)

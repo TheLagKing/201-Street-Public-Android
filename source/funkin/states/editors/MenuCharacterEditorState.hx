@@ -1,8 +1,9 @@
 package funkin.states.editors;
 
 import haxe.Json;
-
+#if desktop
 import openfl.net.FileReference;
+#end
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.net.FileFilter;
@@ -345,21 +346,24 @@ class MenuCharacterEditorState extends MusicBeatState
 		char.offset.set(characterFile.position[0], characterFile.position[1]);
 		txtOffsets.text = '' + characterFile.position;
 	}
-	
+#if desktop	
 	var _file:FileReference = null;
-	
+	#end
 	function loadCharacter()
 	{
+	#if desktop
 		var jsonFilter:FileFilter = new FileFilter('JSON', 'json');
 		_file = new FileReference();
 		_file.addEventListener(Event.SELECT, onLoadComplete);
 		_file.addEventListener(Event.CANCEL, onLoadCancel);
 		_file.addEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file.browse([jsonFilter]);
+		#end
 	}
 	
 	function onLoadComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
@@ -395,6 +399,7 @@ class MenuCharacterEditorState extends MusicBeatState
 		#else
 		trace("File couldn't be loaded! You aren't on Desktop, are you?");
 		#end
+		#end
 	}
 	
 	/**
@@ -402,11 +407,13 @@ class MenuCharacterEditorState extends MusicBeatState
 	 */
 	function onLoadCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Cancelled file loading.");
+		#end
 	}
 	
 	/**
@@ -414,15 +421,18 @@ class MenuCharacterEditorState extends MusicBeatState
 	 */
 	function onLoadError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Problem loading file");
+		#end
 	}
 	
 	function saveCharacter()
 	{
+	#if desktop
 		var data:String = Json.stringify(characterFile, "\t");
 		if (data.length > 0)
 		{
@@ -435,15 +445,18 @@ class MenuCharacterEditorState extends MusicBeatState
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data, characterName + ".json");
 		}
+		#end
 	}
 	
 	function onSaveComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.notice("Successfully saved file.");
+		#end
 	}
 	
 	/**
@@ -451,10 +464,12 @@ class MenuCharacterEditorState extends MusicBeatState
 	 */
 	function onSaveCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
+		#end
 	}
 	
 	/**
@@ -462,10 +477,12 @@ class MenuCharacterEditorState extends MusicBeatState
 	 */
 	function onSaveError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.error("Problem saving file");
+		#end
 	}
 }

@@ -3,8 +3,9 @@ package funkin.states.editors;
 import haxe.Json;
 
 import lime.system.Clipboard;
-
+#if desktop
 import openfl.net.FileReference;
+#end
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.net.FileFilter;
@@ -799,21 +800,24 @@ class DialogueCharacterEditorState extends MusicBeatState
 		}
 		super.update(elapsed);
 	}
-	
+	#if desktop
 	var _file:FileReference = null;
-	
+	#end
 	function loadCharacter()
 	{
+	#if desktop
 		var jsonFilter:FileFilter = new FileFilter('JSON', 'json');
 		_file = new FileReference();
 		_file.addEventListener(Event.SELECT, onLoadComplete);
 		_file.addEventListener(Event.CANCEL, onLoadCancel);
 		_file.addEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file.browse([jsonFilter]);
+		#end
 	}
 	
 	function onLoadComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
@@ -852,6 +856,7 @@ class DialogueCharacterEditorState extends MusicBeatState
 		#else
 		trace("File couldn't be loaded! You aren't on Desktop, are you?");
 		#end
+		#end
 	}
 	
 	/**
@@ -859,11 +864,13 @@ class DialogueCharacterEditorState extends MusicBeatState
 	 */
 	function onLoadCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Cancelled file loading.");
+		#end
 	}
 	
 	/**
@@ -871,15 +878,18 @@ class DialogueCharacterEditorState extends MusicBeatState
 	 */
 	function onLoadError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Problem loading file");
+		#end
 	}
 	
 	function saveCharacter()
 	{
+	#if desktop
 		var data:String = Json.stringify(character.jsonFile, "\t");
 		if (data.length > 0)
 		{
@@ -892,15 +902,18 @@ class DialogueCharacterEditorState extends MusicBeatState
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data, characterName + ".json");
 		}
+		#end
 	}
 	
 	function onSaveComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.notice("Successfully saved file.");
+		#end
 	}
 	
 	/**
@@ -908,10 +921,12 @@ class DialogueCharacterEditorState extends MusicBeatState
 	 */
 	function onSaveCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
+		#end
 	}
 	
 	/**
@@ -919,13 +934,15 @@ class DialogueCharacterEditorState extends MusicBeatState
 	 */
 	function onSaveError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.error("Problem saving file");
+		#end
 	}
-	
+
 	function ClipboardAdd(prefix:String = ''):String
 	{
 		if (prefix.toLowerCase().endsWith('v')) // probably copy paste attempt

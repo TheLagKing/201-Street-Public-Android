@@ -2,7 +2,9 @@ package funkin.states.editors;
 
 import haxe.Json;
 import lime.system.Clipboard;
+#if desktop
 import openfl.net.FileReference;
+#end
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.net.FileFilter;
@@ -484,17 +486,19 @@ class WeekEditorState extends MusicBeatState
 		weekThing.screenCenter(X);
 		lock.x = weekThing.width + 10 + weekThing.x;
 	}
-
+#if desktop
 	private static var _file:FileReference;
-
+#end
 	public static function loadWeek()
 	{
 		var jsonFilter:FileFilter = new FileFilter('JSON', 'json');
+		#if desktop
 		_file = new FileReference();
 		_file.addEventListener(Event.SELECT, onLoadComplete);
 		_file.addEventListener(Event.CANCEL, onLoadCancel);
 		_file.addEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file.browse([jsonFilter]);
+		#end
 	}
 
 	public static var loadedWeek:WeekFile = null;
@@ -502,6 +506,7 @@ class WeekEditorState extends MusicBeatState
 
 	private static function onLoadComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
@@ -535,6 +540,7 @@ class WeekEditorState extends MusicBeatState
 		#else
 		trace("File couldn't be loaded! You aren't on Desktop, are you?");
 		#end
+		#end
 	}
 
 	/**
@@ -542,11 +548,13 @@ class WeekEditorState extends MusicBeatState
 	 */
 	private static function onLoadCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Cancelled file loading.");
+		#end
 	}
 
 	/**
@@ -554,15 +562,18 @@ class WeekEditorState extends MusicBeatState
 	 */
 	private static function onLoadError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.SELECT, onLoadComplete);
 		_file.removeEventListener(Event.CANCEL, onLoadCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onLoadError);
 		_file = null;
 		trace("Problem loading file");
+		#end
 	}
 
 	public static function saveWeek(weekFile:WeekFile)
 	{
+	#if desktop
 		var data:String = Json.stringify(weekFile, "\t");
 		if (data.length > 0)
 		{
@@ -572,15 +583,18 @@ class WeekEditorState extends MusicBeatState
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data, weekFileName + ".json");
 		}
+		#end
 	}
 
 	private static function onSaveComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.notice("Successfully saved file.");
+		#end
 	}
 
 	/**
@@ -588,10 +602,12 @@ class WeekEditorState extends MusicBeatState
 	 */
 	private static function onSaveCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
+		#end
 	}
 
 	/**
@@ -599,11 +615,13 @@ class WeekEditorState extends MusicBeatState
 	 */
 	private static function onSaveError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.error("Problem saving file");
+		#end
 	}
 }
 

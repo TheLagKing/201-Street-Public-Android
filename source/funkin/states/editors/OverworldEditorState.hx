@@ -19,8 +19,9 @@ import funkin.game.shaders.Outline;
 
 import funkin.states.OverworldState.MapData;
 import funkin.states.OverworldState.ObjectData;
-
+#if desktop
 import openfl.net.FileReference;
+#end
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.net.FileFilter;
@@ -220,11 +221,12 @@ class OverworldEditorState extends MusicBeatState
 		var path = Paths.getPath('data/overworld/maps/$map.json', TEXT, null, true);
 		return FunkinAssets.exists(path, TEXT) ? cast FunkinAssets.parseJson(FunkinAssets.getContent(path)) : null;
 	}
-
+#if desktop
 	var _file:FileReference = null;
-	
+	#end
 	function saveMap()
 	{
+	#if desktop
 		var data:String = Json.stringify(mapData, "\t");
 		if (data.length > 0)
 		{
@@ -234,15 +236,18 @@ class OverworldEditorState extends MusicBeatState
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data, '$map_name.json');
 		}
+		#end
 	}
 
 	function onSaveComplete(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.notice("Successfully saved file.");
+		#end
 	}
 	
 	/**
@@ -250,10 +255,12 @@ class OverworldEditorState extends MusicBeatState
 	 */
 	function onSaveCancel(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
+		#end
 	}
 	
 	/**
@@ -261,10 +268,12 @@ class OverworldEditorState extends MusicBeatState
 	 */
 	function onSaveError(_):Void
 	{
+	#if desktop
 		_file.removeEventListener(Event.COMPLETE, onSaveComplete);
 		_file.removeEventListener(Event.CANCEL, onSaveCancel);
 		_file.removeEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 		_file = null;
 		FlxG.log.error("Problem saving file");
+		#end
 	}
 }
