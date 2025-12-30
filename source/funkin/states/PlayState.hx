@@ -1,6 +1,5 @@
 package funkin.states;
 
-import Controls;
 import funkin.game.Countdown;
 import haxe.Timer;
 import haxe.ds.Vector;
