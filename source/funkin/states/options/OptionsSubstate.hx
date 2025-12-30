@@ -121,6 +121,10 @@ class OptionsSubstate extends MusicBeatSubstate
 
 		changeSelection();
 		ClientPrefs.flush();
+
+		#if mobile
+		addVirtualPad(UP_DOWN, A_B);
+		#end
 		camera = CameraUtil.lastCamera;
 	}
 
@@ -168,22 +172,22 @@ class OptionsSubstate extends MusicBeatSubstate
 				}
 			}
 		}
-		if (controls.UI_UP_P)
+		if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end)
 		{
 			changeSelection(-1);
 		}
-		if (controls.UI_DOWN_P)
+		if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end)
 		{
 			changeSelection(1);
 		}
 
-		if (controls.BACK)
+		if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 		{
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			close();
 		}
 
-		if (controls.ACCEPT)
+		if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 		{
 			openSelectedSubstate(options[curSelected]);
 		}
