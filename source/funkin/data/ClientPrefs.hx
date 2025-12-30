@@ -1,6 +1,5 @@
 package funkin.data;
 
-import Controls;
 import funkin.backend.DebugDisplay;
 
 import flixel.input.keyboard.FlxKey;
