@@ -1,5 +1,6 @@
 package funkin.data;
 
+import Controls;
 import funkin.backend.DebugDisplay;
 
 import flixel.input.keyboard.FlxKey;
@@ -20,6 +21,19 @@ class ClientPrefs
 {
 	// debug ------------------------------------------------------------------------//
 	@saveVar public static var inDevMode:Bool = false;
+
+	// mobile ------------------------------------------------------------------------//
+	@saveVar public static var screensaver:Bool = false;
+	
+	@saveVar public static var controlsAlpha:Float = 0.7;
+	
+	@saveVar public static var wideScreen:Bool = false;
+	
+	@saveVar public static var hideHitboxHints:Bool = false;
+	
+	@saveVar public static var ExtraHints:Bool = false;
+	
+	@saveVar public static var keyboardEnabled:Bool = false;
 	
 	// graphics ------------------------------------------------------------------------//
 	@saveVar public static var gpuCaching:Bool = true;
