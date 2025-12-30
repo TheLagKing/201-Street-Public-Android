@@ -102,6 +102,9 @@ class ControlsSubState extends MusicBeatSubstate
 			}
 		}
 		changeSelection();
+		#if mobile
+ 		addVirtualPad(FULL,A_B);
+ 		#end
 
 		scriptGroup.set('curSelected', curSelected);
 		scriptGroup.set('curAlt', curAlt);
@@ -131,20 +134,20 @@ class ControlsSubState extends MusicBeatSubstate
 	{
 		if (!rebindingKey)
 		{
-			if (controls.UI_UP_P)
+			if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end)
 			{
 				changeSelection(-1);
 			}
-			if (controls.UI_DOWN_P)
+			if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end)
 			{
 				changeSelection(1);
 			}
-			if (controls.UI_LEFT_P || controls.UI_RIGHT_P)
+			if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end || controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
 			{
 				changeAlt();
 			}
 
-			if (controls.BACK)
+			if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 			{
 				ClientPrefs.reloadControls();
 				close();
@@ -165,7 +168,7 @@ class ControlsSubState extends MusicBeatSubstate
 			}
 			FlxG.mouse.load(Paths.image('overworld/ui/cursor/${isOverlapped ? 'click' : 'cursor'}').bitmap, 0.325);
 
-			if (controls.ACCEPT && nextAccept <= 0)
+			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end && nextAccept <= 0)
 			{
 				if (optionShit[curSelected][0] == defaultKey)
 				{
