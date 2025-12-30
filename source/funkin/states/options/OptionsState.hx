@@ -108,6 +108,9 @@ class OptionsState extends MusicBeatState
 		}
 		ClientPrefs.flush();
 
+		#if mobile
+		addVirtualPad(UP_DOWN, A_B);
+		#end
 		super.create();
 	}
 
@@ -141,6 +144,10 @@ class OptionsState extends MusicBeatState
 		scriptGroup.call('onCloseSubState', []);
 		super.closeSubState();
 		ClientPrefs.flush();
+		#if mobile
+		removeVirtualPad();
+		addVirtualPad(UP_DOWN,A_B);
+		#end
 	}
 
 	var totalElapsed:Float = 0;
@@ -178,21 +185,21 @@ class OptionsState extends MusicBeatState
 				}
 			}
 			FlxG.mouse.load(Paths.image('overworld/ui/cursor/${isOverlapped ? 'click' : 'cursor'}').bitmap, 0.325);
-			if (controls.UI_UP_P)
+			if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end)
 			{
 				changeSelection(-1);
 			}
-			if (controls.UI_DOWN_P)
+			if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end)
 			{
 				changeSelection(1);
 			}
 
-			if (controls.BACK)
+			if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 			{
 				letsGoBack();
 			}
 
-			if (controls.ACCEPT)
+			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
 				openSelectedSubstate(options[curSelected]);
 			}
