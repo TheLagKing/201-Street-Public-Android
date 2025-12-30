@@ -15,8 +15,9 @@ import haxe.ui.components.Slider;
 import haxe.ui.backend.flixel.UIState;
 
 import openfl.events.Event;
+#if desktop
 import openfl.net.FileReference;
-
+#end
 import flixel.group.FlxContainer;
 import flixel.graphics.FlxGraphic;
 import flixel.addons.display.FlxGridOverlay;
