@@ -145,7 +145,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	override function update(elapsed:Float)
 	{
 		mouseObject.setPosition(FlxG.mouse.getScreenPosition().x, FlxG.mouse.getScreenPosition().y);
-		var accepted:Bool = controls.ACCEPT;
+		var accepted:Bool = controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end;
 		var isOverlapped:Bool = false;
 		for (item in grpOptions.members)
 		{
@@ -173,16 +173,16 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 		}
 		FlxG.mouse.load(Paths.image('overworld/ui/cursor/${isOverlapped ? 'click' : 'cursor'}').bitmap, 0.325);
-		if (controls.UI_UP_P || FlxG.mouse.wheel > 0)
+		if (controls.UI_UP_P || FlxG.mouse.wheel > 0 #if mobile || _virtualpad.buttonUp.justPressed #end)
 		{
 			changeSelection(-1);
 		}
-		if (controls.UI_DOWN_P || FlxG.mouse.wheel < 0)
+		if (controls.UI_DOWN_P || FlxG.mouse.wheel < 0 #if mobile || _virtualpad.buttonDown.justPressed #end)
 		{
 			changeSelection(1);
 		}
 
-		if (controls.BACK)
+		if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 		{
 			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
@@ -212,9 +212,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 			else if (curOption.type != 'label')
 			{
-				if (controls.UI_LEFT || controls.UI_RIGHT)
+				if (controls.UI_LEFT #if mobile || _virtualpad.buttonLeft.justPressed #end || controls.UI_RIGHT #if mobile || _virtualpad.buttonRight.justPressed #end)
 				{
-					var pressed = (controls.UI_LEFT_P || controls.UI_RIGHT_P);
+					var pressed = (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end || controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end);
 					if (holdTime > 0.5 || pressed)
 					{
 						if (pressed)
@@ -222,7 +222,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 							var add:Dynamic = null;
 							if (curOption.type != 'string')
 							{
-								add = controls.UI_LEFT ? -curOption.changeValue : curOption.changeValue;
+								add = controls.UI_LEFT #if mobile || _virtualpad.buttonLeft.justPressed #end ? -curOption.changeValue : curOption.changeValue;
 							}
 
 							switch (curOption.type)
@@ -245,7 +245,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 								case 'string':
 									var num:Int = curOption.curOption; // lol
-									if (controls.UI_LEFT_P) --num;
+									if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end) --num;
 									else num++;
 
 									if (num < 0)
@@ -267,7 +267,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 						}
 						else if (curOption.type != 'string')
 						{
-							holdValue += curOption.scrollSpeed * elapsed * (controls.UI_LEFT ? -1 : 1);
+							holdValue += curOption.scrollSpeed * elapsed * (controls.UI_LEFT #if mobile || _virtualpad.buttonLeft.justPressed #end ? -1 : 1);
 							if (holdValue < curOption.minValue) holdValue = curOption.minValue;
 							else if (holdValue > curOption.maxValue) holdValue = curOption.maxValue;
 
@@ -295,7 +295,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 				}
 			}
 
-			if (controls.RESET)
+			if (controls.RESET #if mobile || _virtualpad.buttonR.justPressed #end)
 			{
 				for (i in 0...optionsArray.length)
 				{
