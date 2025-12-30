@@ -1,6 +1,5 @@
 package funkin.states.options;
 
-import Controls;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
