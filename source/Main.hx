@@ -8,6 +8,18 @@ import flixel.FlxGame;
 import flixel.input.keyboard.FlxKey;
 import funkin.backend.DebugDisplay;
 
+#if CRASH_HANDLER
+import haxe.CallStack;
+import haxe.io.Path;
+import openfl.events.UncaughtErrorEvent;
+import sys.FileSystem;
+import sys.io.File;
+import sys.io.Process;
+#end
+import lime.app.Application;
+import lime.system.System as LimeSystem;
+import mobile.states.CopyState;
+
 @:nullSafety(Strict)
 class Main extends Sprite
 {
@@ -39,6 +51,14 @@ class Main extends Sprite
 	{
 		super();
 
+		#if mobile
+ 		#if android
+ 		SUtil.requestPermissions();
+ 		#end
+ 		Sys.setCwd(SUtil.getStorageDirectory());
+ 		#end
+		mobile.backend.CrashHandler.init();
+
 		#if (CRASH_HANDLER && !debug)
 		funkin.backend.CrashHandler.init();
 		#end
@@ -54,11 +74,16 @@ class Main extends Sprite
 		ClientPrefs.loadDefaultKeys();
 		FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
-		final game = new FlxGame(startMeta.width, startMeta.height, Init, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
+		final game = new FlxGame(startMeta.width, startMeta.height, #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? Init : CopyState #else Init #end, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
 
 		// btw game has to be a variable for this to work ig - Orbyy
+		#if SOUNDTRAY
+		// FlxG.game._customSoundTray wants just the class, it calls new from
+		// create() in there, which gets called when it's added to stage
+		// which is why it needs to be added before addChild(game) here
 		@:privateAccess
-		game._customSoundTray = funkin.objects.FunkinSoundTray;
+		game._customSoundTray = funkin.ui.options.FunkinSoundTray;
+		#end
 		addChild(game);
 
 		// prevent accept button when alt+enter is pressed
