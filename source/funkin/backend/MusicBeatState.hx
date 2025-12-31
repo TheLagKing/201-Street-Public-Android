@@ -89,22 +89,6 @@ class MusicBeatState extends FlxUIState
 	
 	inline function get_controls():Controls return PlayerSettings.player1.controls;
 
-	override function remove(Object:FlxBasic, Splice:Bool = false):FlxBasic
-	{
-		if (Std.isOfType(Object, FlxUI))
-			return null;
-		MasterObjectLoader.removeObject(Object);
-		return super.remove(Object, Splice);
-	}
-
-	override function add(Object:FlxBasic):FlxBasic
-	{
-		if (Std.isOfType(Object, FlxUI))
-			return null;
-		MasterObjectLoader.addObject(Object);
-		return super.add(Object);
-	}
-
 	#if mobile
 	var _virtualpad:FlxVirtualPad;
 	var _hitbox:FlxHitbox;
