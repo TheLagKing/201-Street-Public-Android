@@ -4,6 +4,11 @@ import flixel.FlxSubState;
 import flixel.util.FlxDestroyUtil;
 import flixel.group.FlxGroup.FlxTypedGroup;
 
+import flixel.FlxBasic;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+
 import funkin.backend.PlayerSettings;
 import funkin.data.*;
 import funkin.scripts.*;
@@ -99,6 +104,30 @@ class MusicBeatSubstate extends FlxSubState
 		
 		super.update(elapsed);
 	}
+
+	#if mobile
+ 	var _virtualpad:FlxVirtualPad;
+ 
+ 	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
+ 		_virtualpad = new FlxVirtualPad(DPad, Action);
+ 		add(_virtualpad);
+ 	}
+ 
+     	public function addVirtualPadCamera() {
+ 		var virtualpadcam = new flixel.FlxCamera();
+ 		virtualpadcam.bgColor.alpha = 0;
+ 		FlxG.cameras.add(virtualpadcam, false);
+ 		_virtualpad.cameras = [virtualpadcam];
+     	}
+ 
+ 	public function removeVirtualPad() {
+ 		remove(_virtualpad);
+ 	}
+ 	public function closeSs() {
+ 		FlxTransitionableState.skipNextTransOut = true;
+ 		FlxG.resetState();
+ 	}
+ 	#end
 	
 	private function updateSection():Void
 	{
