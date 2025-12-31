@@ -102,10 +102,6 @@
 	<haxedef name="haxeui_dont_impose_base_class"/>
 	<haxedef name="haxeui_focus_out_on_click"/>
 
-	<!-- Fix for Android builds - disable Flash-specific code -->
-	<haxedef name="no-flash" if="android" />
-	<haxedef name="haxeui-no-flash" if="android" />
-	
 	<!--Needed for better error reporting with hscript-->
 	<define name="hscriptPos"/>
 
