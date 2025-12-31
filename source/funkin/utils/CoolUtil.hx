@@ -22,8 +22,6 @@ import sys.io.File;
 import openfl.utils.Assets;
 #end
 
-import ClientPrefs;
-
 /**
 	General Utility class for more one off functions
 **/
