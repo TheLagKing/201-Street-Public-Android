@@ -230,9 +230,7 @@ class OverworldEditorState extends MusicBeatState
 		var data:String = Json.stringify(mapData, "\t");
 		if (data.length > 0)
 		{
-#if desktop
 			_file = new FileReference();
-#end
 			_file.addEventListener(Event.COMPLETE, onSaveComplete);
 			_file.addEventListener(Event.CANCEL, onSaveCancel);
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
