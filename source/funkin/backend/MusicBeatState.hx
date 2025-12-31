@@ -7,7 +7,18 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.util.FlxDestroyUtil;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.addons.ui.FlxUIState;
+import flixel.addons.ui.FlxUI;
 import flixel.addons.transition.FlxTransitionSprite.TransitionStatus;
+
+import flixel.math.FlxRect;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxColor;
+import flixel.util.FlxGradient;
+import flixel.util.FlxTimer;
+import flixel.FlxBasic;
+import flixel.FlxCamera;
+import flixel.FlxState;
 
 import funkin.backend.BaseTransitionState;
 import funkin.states.transitions.SwipeTransition;
@@ -77,6 +88,54 @@ class MusicBeatState extends FlxUIState
 	}
 	
 	inline function get_controls():Controls return PlayerSettings.player1.controls;
+
+	override function remove(Object:FlxBasic, Splice:Bool = false):FlxBasic
+	{
+		if (Std.isOfType(Object, FlxUI))
+			return null;
+		MasterObjectLoader.removeObject(Object);
+		return super.remove(Object, Splice);
+	}
+
+	override function add(Object:FlxBasic):FlxBasic
+	{
+		if (Std.isOfType(Object, FlxUI))
+			return null;
+		MasterObjectLoader.addObject(Object);
+		return super.add(Object);
+	}
+
+	#if mobile
+	var _virtualpad:FlxVirtualPad;
+	var _hitbox:FlxHitbox;
+
+	public function addHitbox(?keyCount:Int = 3) {
+		_hitbox = new FlxHitbox(keyCount);
+
+		var camMobile = new FlxCamera();
+	    camMobile.bgColor.alpha = 0;
+		FlxG.cameras.add(camMobile, false);
+
+		_hitbox.cameras = [camMobile];
+ 		add(_hitbox);
+	}
+
+	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
+        _virtualpad = new FlxVirtualPad(DPad, Action);
+		add(_virtualpad);
+	}
+
+    	public function addVirtualPadCamera() {
+		var virtualpadcam = new FlxCamera();
+		virtualpadcam.bgColor.alpha = 0;
+		FlxG.cameras.add(virtualpadcam, false);
+		_virtualpad.cameras = [virtualpadcam];
+    	}
+
+	public function removeVirtualPad() {
+		remove(_virtualpad);
+	}
+	#end
 	
 	override function create()
 	{
