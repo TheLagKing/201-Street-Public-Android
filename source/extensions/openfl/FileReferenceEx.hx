@@ -6,8 +6,9 @@ import haxe.Timer;
 import lime.ui.FileDialogType;
 
 import openfl.net.FileFilter;
+#if desktop
 import openfl.net.FileReference;
-
+#end
 typedef BrowseOptions =
 {
 	openStyle:FileDialogType,
@@ -15,7 +16,7 @@ typedef BrowseOptions =
 	?title:String,
 	?defaultSearch:String
 }
-
+#if desktop
 /**
  * more tailored for my needs
  */
@@ -162,4 +163,5 @@ class FileReferenceEx extends FileReference
 		
 		return false;
 	}
+#end
 }
