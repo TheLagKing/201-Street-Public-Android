@@ -8,6 +8,7 @@ import flixel.FlxBasic;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.tweens.FlxTween;
+import flixel.addons.transition.FlxTransitionableState;
 
 import funkin.backend.PlayerSettings;
 import funkin.data.*;
