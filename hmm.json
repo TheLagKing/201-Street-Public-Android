@@ -105,9 +105,8 @@
 		{
       "name": "haxeui-flixel",
       "type": "git",
-      "dir": null,
-      "ref": "master",
-      "url": "https://github.com/TheLagKing/haxeui-flixel"
+      "ref": "b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9",
+      "url": "https://github.com/haxeui/haxeui-flixel"
     },
 		{
 			"name": "json2object",
