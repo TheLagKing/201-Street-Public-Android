@@ -55,8 +55,8 @@
             },
             {
                 "name": "haxeui-flixel",
-                "link": "https://github.com/haxeui/haxeui-flixel",
-                "branch": "b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9"
+                "branch": "b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9",
+                "link": "https://github.com/haxeui/haxeui-flixel"
             },
             {
                 "name": "haxeui-core",
