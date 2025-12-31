@@ -5,6 +5,25 @@ import openfl.display.BlendMode;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxG;
 
+import flixel.util.FlxColor;
+import flixel.FlxG;
+import flixel.util.FlxSave;
+import flixel.sound.FlxSound;
+import lime.utils.AssetLibrary;
+import lime.utils.AssetManifest;
+import lime.utils.Assets as LimeAssets;
+import openfl.utils.Assets;
+
+using StringTools;
+#if sys
+import sys.FileSystem;
+import sys.io.File;
+#else
+import openfl.utils.Assets;
+#end
+
+import ClientPrefs;
+
 /**
 	General Utility class for more one off functions
 **/
@@ -148,7 +167,7 @@ class CoolUtil
 	/**
 	 * Opens a windows alert
 	 */
-	public static function doPopUp(title:String, description:String = '')
+	public static function showPopUp(title:String, description:String = '')
 	{
 		FlxG.stage.window.alert(description, title);
 		trace(description);
@@ -257,6 +276,11 @@ class CoolUtil
 		{
 			to.set(k, v);
 		}
+	}
+
+	public static function getCPUThreadsCount():Int
+    {
+        return 1;
 	}
 	
 	/**
