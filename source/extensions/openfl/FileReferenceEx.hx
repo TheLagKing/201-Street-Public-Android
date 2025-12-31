@@ -16,7 +16,7 @@ typedef BrowseOptions =
 	?title:String,
 	?defaultSearch:String
 }
-#if desktop
+
 /**
  * more tailored for my needs
  */
@@ -92,7 +92,8 @@ class FileReferenceEx extends FileReference
 	/**
 	 * Use over browse!
 	 */
-	@:inheritDoc(openfl.net.FileReference.browse)
+#if desktop	@:inheritDoc(openfl.net.FileReference.browse)
+#end
 	public function browseForFile(browseOptions:BrowseOptions)
 	{
 		__data = null;
@@ -163,5 +164,4 @@ class FileReferenceEx extends FileReference
 		
 		return false;
 	}
-#end
 }
