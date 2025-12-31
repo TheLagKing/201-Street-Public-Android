@@ -8,6 +8,7 @@ import flixel.FlxGame;
 import flixel.input.keyboard.FlxKey;
 import funkin.backend.DebugDisplay;
 
+using StringTools;
 #if CRASH_HANDLER
 import haxe.CallStack;
 import haxe.io.Path;
@@ -94,6 +95,9 @@ class Main extends Sprite
 		DebugDisplay.init();
 
 		FlxG.signals.gameResized.add(onResize);
+
+		#if android FlxG.android.preventDefaultKeys = [BACK]; #end
+		LimeSystem.allowScreenTimeout = ClientPrefs.screensaver;
 
 		#if DISABLE_TRACES
 		haxe.Log.trace = (v:Dynamic, ?infos:haxe.PosInfos) -> {}
