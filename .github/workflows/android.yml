@@ -9,7 +9,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@main
-        
+
+      - name: Install System Dependencies # <-- REQUIRED FIX
+        run: |
+          sudo apt update
+          sudo apt install -y libasound2-dev libpulse-dev libx11-dev libxi-dev libgl1-mesa-dev \
+            libxcursor-dev libxrandr-dev libxinerama-dev libudev-dev libssl-dev \
+            libusb-1.0-0-dev ninja-build
+
       - name: Setup Java JDK
         uses: actions/setup-java@main
         with:
@@ -33,10 +40,10 @@ jobs:
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
           haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_LATEST_HOME
           haxelib run lime config JAVA_HOME $JAVA_HOME
-          haxelib run lime config ANDROID_SETUP true 
+          haxelib run lime config ANDROID_SETUP true
 
-      - name: Compile
-        run: haxelib run lime build android
+      - name: Build APK
+        run: haxelib run lime build android -release
 
       - name: Upload Artifact
         uses: actions/upload-artifact@main
