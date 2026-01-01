@@ -16,7 +16,7 @@ typedef BrowseOptions =
 	?title:String,
 	?defaultSearch:String
 }
-#if desktop
+
 /**
  * more tailored for my needs
  */
@@ -165,4 +165,3 @@ class FileReferenceEx extends FileReference
 		return false;
 	}
 }
-#end
