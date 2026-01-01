@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="201 Street" file="201 Street" packageName="com.hopscotch.201street" package="com.hopscotch.201street" main="Main" version="0.2.7" company="Hopscotch" />
+	<app title="201 Street" file="201 Street" packageName="com.hopscotch.twozeroonestreet" package="com.hopscotch.twozeroonestreet" main="Main" version="0.2.7" company="Hopscotch" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
