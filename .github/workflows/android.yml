@@ -43,6 +43,11 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true
 
+      - name: Something
+        run: |
+          mkdir -p ~/.gradle
+          echo "org.gradle.jvmargs=-Xmx4g" >> ~/.gradle/gradle.properties
+
       - name: Build APK
         run: haxelib run lime build android -release
 
