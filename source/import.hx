@@ -23,7 +23,7 @@ import flixel.util.FlxDestroyUtil;
 
 //Android
 #if android
-import android.content.Context as AndroidContext;
+//import android.content.Context as AndroidContext;
 import android.widget.Toast as AndroidToast;
 import android.os.Environment as AndroidEnvironment;
 //import android.Permissions as AndroidPermissions;
