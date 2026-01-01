@@ -34,7 +34,6 @@ jobs:
           haxelib run hmm install --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib install hxjava --quiet
 
       - name: Configure Android
         run: |
