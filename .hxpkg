@@ -8,7 +8,7 @@
             },
             {
                 "name": "flixel-addons",
-                "version": "3.3.2"
+                "version": "4.0.1"
             },
             {
                 "name": "flixel-ui",
@@ -55,8 +55,8 @@
             },
             {
                 "name": "haxeui-flixel",
-                "branch": "b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9",
-                "link": "https://github.com/haxeui/haxeui-flixel"
+                "branch": "master",
+                "link": "https://github.com/TheLagKing/haxeui-flixel"
             },
             {
                 "name": "haxeui-core",
