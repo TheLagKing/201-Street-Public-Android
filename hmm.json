@@ -7,7 +7,10 @@
 		},
 		{
 			"name": "lime",
-			"type": "haxelib",
+			"type": "git",
+            		"dir": null,   
+            		"ref": "main",
+            		"url": "https://github.com/kittycathy233/lime",
 			"version": "8.1.3"
 		},
 		{
