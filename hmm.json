@@ -9,8 +9,8 @@
 			"name": "lime",
 			"type": "git",
             		"dir": null,   
-            		"ref": "main",
-            		"url": "https://github.com/kittycathy233/lime"
+            		"ref": "develop",
+            		"url": "https://github.com/openfl/lime"
 		},
 		{
 			"name": "openfl",
