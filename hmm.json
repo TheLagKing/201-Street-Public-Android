@@ -10,7 +10,8 @@
 			"type": "git",
             		"dir": null,   
             		"ref": "develop",
-            		"url": "https://github.com/openfl/lime"
+            		"url": "https://github.com/openfl/lime",
+			"version": "7.9.0"
 		},
 		{
 			"name": "openfl",
