@@ -50,7 +50,7 @@ jobs:
       - name: Build APK
         run: haxelib run lime build android
 
-            - name: Upload Artifact
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: androidBuild
