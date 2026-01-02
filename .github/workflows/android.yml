@@ -50,9 +50,14 @@ jobs:
       - name: Build APK
         run: haxelib run lime build android
 
+      - name: Locate APK (debug helper)
+        run: |
+          echo "Searching for APK files..."
+          find export -type f -name "*.apk"
+
       - name: Upload Artifact
         uses: actions/upload-artifact@main
         with:
           name: androidBuild
-          path: export/debug/android/app/build/outputs/apk/debug/*.apk
-          if-no-files-found: warn
+          path: export/debug/android/bin/*.apk
+          if-no-files-found: error
