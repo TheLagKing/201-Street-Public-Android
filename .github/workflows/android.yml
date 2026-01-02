@@ -50,9 +50,9 @@ jobs:
       - name: Build APK
         run: haxelib run lime build android
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@main
+            - name: Upload Artifact
+        uses: actions/upload-artifact@v4
         with:
           name: androidBuild
-          path: export/release/android/app/build/outputs/apk/debug/*.apk
+          path: export/android/bin/*.apk
           if-no-files-found: error
