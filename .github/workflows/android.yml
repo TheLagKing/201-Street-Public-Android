@@ -47,12 +47,24 @@ jobs:
           mkdir -p ~/.gradle
           echo "org.gradle.jvmargs=-Xmx4g" >> ~/.gradle/gradle.properties
 
-      - name: Build APK
+            - name: Build APK
         run: haxelib run lime build android
 
-      - name: Upload Artifact
+      - name: DEBUG — show export directory
+        run: |
+          echo "===== ls export ====="
+          ls -la export || true
+          echo "===== recursive export ====="
+          ls -R export || true
+
+      - name: DEBUG — search for APK anywhere
+        run: |
+          echo "===== APK search ====="
+          find . -type f -name "*.apk" || true
+
+      - name: Upload Artifact (catch-all)
         uses: actions/upload-artifact@v4
         with:
           name: androidBuild
-          path: export/android/bin/*.apk
+          path: "**/*.apk"
           if-no-files-found: error
