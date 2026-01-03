@@ -341,7 +341,7 @@ class TitleState201 extends MusicBeatState
 							i.alpha = i.ID == curSelectedDiff ? 1 : 0.5;
 						}
 
-						if (/*FlxG.mouse.justPressed*/ #if mobile || _virtualpad.buttonA.justPressed #end || controls.ACCEPT)
+						if (/*FlxG.mouse.justPressed*/ #if mobile _virtualpad.buttonA.justPressed || #end controls.ACCEPT)
 						{
 							isNewGame = false;
 							FlxTween.tween(camFollow, {y: 0 - FlxG.height / 2}, 3, {ease: FlxEase.quadInOut});
