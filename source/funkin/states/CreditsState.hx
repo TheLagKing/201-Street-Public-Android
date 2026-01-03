@@ -54,6 +54,10 @@ class CreditsState extends MusicBeatState
 		video.load(Paths.video('credits'));
 		add(video);
 
+		#if mobile
+	        addVirtualPad(LEFT_RIGHT,A_B);
+		#end
+
 		super.create();
 	}
 
@@ -61,20 +65,20 @@ class CreditsState extends MusicBeatState
 	{
 		if (!inVideo)
 		{
-			if (controls.UI_LEFT_P)
+			if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end)
 			{
 				changeImage(-1);
 			}
-			if (controls.UI_RIGHT_P)
+			if (controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
 			{
 				changeImage(1);
 			}
-			if (controls.BACK)
+			if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 			{
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				FlxG.switchState(TitleState201.new);
 			}
-			if (FlxG.keys.justPressed.SPACE)
+			if (FlxG.keys.justPressed.SPACE #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
 				inVideo = true;
 				uiImage.visible = false;
