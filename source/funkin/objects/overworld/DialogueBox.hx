@@ -136,13 +136,17 @@ class DialogueBox extends FlxTypedSpriteGroup<FlxSprite>
 
 		for (item in dialogue_box_array)
 			add(item);
+
+		#if mobile
+		addVirtualPad(NONE,B);
+		#end
 	}
 
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
 
-		if (FlxG.mouse.justPressedRight && curDialogueText != null)
+		if (FlxG.mouse.justPressedRight #if mobile || _virtualpad.buttonB.justPressed #end && curDialogueText != null)
 		{
 			curDialogueText.skip();
 		}
