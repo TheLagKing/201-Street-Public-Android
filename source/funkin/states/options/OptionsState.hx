@@ -56,7 +56,7 @@ class OptionsState extends MusicBeatState
 
 	override function create()
 	{
-		DiscordClient.changePresence("Options Menu");
+		//DiscordClient.changePresence("Options Menu");
 
 		initStateScript('OptionsState');
 		scriptGroup.set('this', this);
@@ -136,10 +136,13 @@ class OptionsState extends MusicBeatState
 
 	override function closeSubState()
 	{
-		backButton.alpha = 1;
+		if (backButton != null) backButton.alpha = 1;
+		if (grpOptions != null)
+		{
 		for (item in grpOptions.members)
 		{
 			item.alpha = (curSelected == item.ID ? 1 : 0.4);
+		}
 		}
 		scriptGroup.call('onCloseSubState', []);
 		super.closeSubState();
