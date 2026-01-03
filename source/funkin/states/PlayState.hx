@@ -1337,7 +1337,7 @@ class PlayState extends MusicBeatState
 		songLength = FlxG.sound.music.length;
 
 		// Updating Discord Rich Presence (with Time Left)
-		DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength);
+		//DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength);
 
 		scripts.set('songLength', songLength);
 		scripts.call('onSongStart', []);
@@ -1813,35 +1813,33 @@ class PlayState extends MusicBeatState
 			paused = false;
 			scripts.call('onResume', []);
 
-			if (startTimer != null && startTimer.finished)
-			{
-				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
-					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
-			}
-			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
-		}
+			//if (startTimer != null && startTimer.finished)
+			//{
+				//DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
+					//songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+			//} else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+		//}
 		scripts.call('onSubstateClose', []);
 		super.closeSubState();
 	}
 
 	override public function onFocus():Void
 	{
-		if (health > 0 && !paused)
-		{
-			if (Conductor.songPosition > 0.0)
-			{
-				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
-					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
-			}
-			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
-		}
+		//if (health > 0 && !paused)
+		//{
+			//if (Conductor.songPosition > 0.0)
+			//{
+				//DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
+					//songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+			//} else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+		//}
 
 		super.onFocus();
 	}
 
 	override public function onFocusLost():Void
 	{
-		if (health > 0 && !paused) DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)');
+		//if (health > 0 && !paused) DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)');
 
 		super.onFocusLost();
 	}
@@ -2163,7 +2161,7 @@ class PlayState extends MusicBeatState
 		}
 		openSubState(new PauseSubState());
 
-		DiscordClient.changePresence(detailsPausedText, 'Paused');
+		//DiscordClient.changePresence(detailsPausedText, 'Paused');
 	}
 
 	function openChartEditor():Void
@@ -2177,7 +2175,7 @@ class PlayState extends MusicBeatState
 		FlxG.switchState(ChartEditorState.new);
 		chartingMode = true;
 
-		DiscordClient.changePresence("Chart Editor", null, null, true);
+		//DiscordClient.changePresence("Chart Editor", null, null, true);
 	}
 
 	function openCharacterEditor():Void
@@ -2190,7 +2188,7 @@ class PlayState extends MusicBeatState
 
 		FlxG.switchState(() -> new CharacterEditorState(SONG.player2, true));
 
-		DiscordClient.changePresence("Character Editor", null, null, true);
+		//DiscordClient.changePresence("Character Editor", null, null, true);
 	}
 
 	function openNoteskinEditor():Void
@@ -2207,7 +2205,7 @@ class PlayState extends MusicBeatState
 		#end
 		chartingMode = true;
 
-		DiscordClient.changePresence("Noteskin Editor", null, null, true);
+		//DiscordClient.changePresence("Noteskin Editor", null, null, true);
 	}
 
 	public function updateScoreBar(miss:Bool = false):Void
@@ -2243,7 +2241,7 @@ class PlayState extends MusicBeatState
 				openSubState(new GameOverSubstate());
 
 				// Game Over doesn't get his own variable because it's only used here
-				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song);
+				//DiscordClient.changePresence("Game Over - " + detailsText, SONG.song);
 
 				isDead = true;
 				totalBeat = 0;
