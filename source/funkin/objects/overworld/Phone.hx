@@ -15,6 +15,8 @@ import funkin.data.*;
 import funkin.game.shaders.Outline;
 import funkin.backend.PlayerSettings;
 import funkin.objects.overworld.ChecklistEntry;
+import mobile.flixel.FlxVirtualPad;
+import mobile.flixel.input.FlxMobileInputID;
 
 using StringTools;
 
