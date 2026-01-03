@@ -1818,7 +1818,7 @@ class PlayState extends MusicBeatState
 				//DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
 					//songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			//} else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
-		//}
+		}
 		scripts.call('onSubstateClose', []);
 		super.closeSubState();
 	}
