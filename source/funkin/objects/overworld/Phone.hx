@@ -328,6 +328,10 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 		phone_mouse_object = new FlxSprite().makeGraphic(5, 5, FlxColor.RED);
 		phone_mouse_object.visible = false;
 		add(phone_mouse_object);
+
+		#if mobile
+		addVirtualPad(FULL,A_B);
+		#end
 	}
 
 	var freeplay_text_offset:Int = 92;
@@ -441,7 +445,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 			backButton.shader = null;
 		}
 
-		if (!inApp && (controls.BACK || FlxG.mouse.justPressedRight))
+		if (!inApp && (controls.BACK || FlxG.mouse.justPressedRight #if mobile || _virtualpad.buttonB.justPressed #end))
 		{
 			inApp = true;
 			exitingPhone = true;
@@ -453,10 +457,10 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 
 		if (!inApp)
 		{
-			if (controls.UI_RIGHT_P) changeSel(1);
-			if (controls.UI_DOWN_P) changeSel(3);
-			if (controls.UI_LEFT_P) changeSel(-1);
-			if (controls.UI_UP_P) changeSel(-3);
+			if (controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end) changeSel(1);
+			if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end) changeSel(3);
+			if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end) changeSel(-1);
+			if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end) changeSel(-3);
 
 			hoveringOnApp = false;
 			for (app in apps_array)
@@ -471,7 +475,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 			app_text.text = options[curSelected].toUpperCase();
 			app_text.x = phone_screen.x + (phone_screen.width / 2) - (app_text.width / 2);
 
-			if (controls.ACCEPT || FlxG.mouse.justPressed && hoveringOnApp)
+			if (controls.ACCEPT || FlxG.mouse.justPressed #if mobile || _virtualpad.buttonA.justPressed #end && hoveringOnApp)
 			{
 				curApp = options[curSelected];
 				switch (curApp)
@@ -620,7 +624,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 				switch (curApp)
 				{
 					case 'photos':
-						if (controls.UI_LEFT_P
+						if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end
 							|| FlxG.mouse.overlaps(freeplay_left_arrow, OverworldState.instance.camHUD)
 							&& FlxG.mouse.justPressed)
 						{
@@ -629,7 +633,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 							freeplay_left_arrow.scale.set(0.25, 0.75);
 							FlxTween.tween(freeplay_left_arrow.scale, {x: 0.3, y: 0.8}, 0.1, {ease: FlxEase.quadInOut});
 						}
-						if (controls.UI_RIGHT_P
+						if (controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end
 							|| FlxG.mouse.overlaps(freeplay_right_arrow, OverworldState.instance.camHUD)
 							&& FlxG.mouse.justPressed)
 						{
@@ -641,7 +645,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 						if (curFreeplay > freeplay_songs.length - 1) curFreeplay = 0;
 						if (0 > curFreeplay) curFreeplay = freeplay_songs.length - 1;
 
-						if ((controls.ACCEPT
+						if ((controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end
 							|| FlxG.mouse.overlaps(freeplay_portrait, OverworldState.instance.camHUD)
 							&& FlxG.mouse.justPressed)
 							&& freeplay_songs[curFreeplay][1] == true)
@@ -667,8 +671,8 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 							changeFreeplay();
 						}
 					case 'contacts':
-						if (controls.UI_UP_P) curContact--;
-						if (controls.UI_DOWN_P) curContact++;
+						if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end) curContact--;
+						if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end) curContact++;
 						if (curContact > contacts_info.length - 1) curContact = 0;
 						if (0 > curContact) curContact = contacts_info.length - 1;
 
@@ -691,7 +695,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 						}
 
 						contacts_check.y = contacts_list[curContact].y;
-						if (controls.ACCEPT || FlxG.mouse.justPressed)
+						if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end /*|| FlxG.mouse.justPressed*/)
 						{
 							closeApp();
 							closePhone(false);
@@ -700,7 +704,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 							OverworldState.instance.loadDialogue(contacts_info[curContact][1], true);
 						}
 				}
-				if (controls.BACK || FlxG.mouse.justPressedRight)
+				if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end || FlxG.mouse.justPressedRight)
 				{
 					closeApp();
 				}
@@ -708,7 +712,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 
 			if (exitingPhone)
 			{
-				if (controls.UI_RIGHT_P || controls.UI_LEFT_P) curExit = curExit == 0 ? 1 : 0;
+				if (controls.UI_RIGHT_P || controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed || _virtualpad.buttonRight.justPressed #end) curExit = curExit == 0 ? 1 : 0;
 
 				var mouse_overlapping:Bool = false;
 
@@ -728,7 +732,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 							canSelectOnPhone = true;
 					}
 				}
-				else if (controls.BACK || FlxG.mouse.justPressedRight)
+				else if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end || FlxG.mouse.justPressedRight)
 				{
 					inApp = false;
 					exitingPhone = false;
