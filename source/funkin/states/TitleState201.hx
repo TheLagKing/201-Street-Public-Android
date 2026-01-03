@@ -521,9 +521,7 @@ class TitleState201 extends MusicBeatState
 			}
 			transTime = 1.5;
 			#if mobile
-			if (VirtualPad != null) {
 			removeVirtualPad(FULL,A_B);
-			}
 			#end
 		}
 		else
