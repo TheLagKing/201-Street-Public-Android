@@ -124,6 +124,10 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 
 	public function new()
 	{
+		#if mobile
+		addVirtualPad(FULL,A_B);
+		#end
+		
 		super();
 
 		canSelectOnPhone = false;
@@ -330,10 +334,6 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 		phone_mouse_object = new FlxSprite().makeGraphic(5, 5, FlxColor.RED);
 		phone_mouse_object.visible = false;
 		add(phone_mouse_object);
-
-		#if mobile
-		addVirtualPad(FULL,A_B);
-		#end
 	}
 
 	var freeplay_text_offset:Int = 92;
