@@ -42,9 +42,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		super();
 
 		if (title == null) title = 'Options';
-		if (rpcTitle == null) rpcTitle = 'Options Menu';
+		//if (rpcTitle == null) rpcTitle = 'Options Menu';
 
-		DiscordClient.changePresence(rpcTitle);
+		//DiscordClient.changePresence(rpcTitle);
 
 		initStateScript('Options');
 		scriptGroup.set('this', this);
@@ -117,6 +117,10 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 			updateTextFrom(optionsArray[i]);
 		}
+
+		#if mobile
+		addVirtualPad(FULL,A_B_X);
+		#end
 
 		changeSelection();
 		reloadCheckboxes();
