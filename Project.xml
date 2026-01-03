@@ -35,7 +35,7 @@
 	<!-- _____________________________ Engine Config Settings ____________________________ -->
 	
 	<!--ENGINE CUSTOMIZATION-->
-	<define name="MODS_ALLOWED" if="desktop" />
+	<define name="MODS_ALLOWED" if="desktop || android" />
 	<define name="VIDEOS_ALLOWED" if="cpp" />
 
     <!-- _____________________________ Path Settings ____________________________ -->
