@@ -10,7 +10,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 	public function new()
 	{
 		title = 'Graphics and Visuals';
-		rpcTitle = 'Graphics Settings Menu'; // for Discord Rich Presence
+		//rpcTitle = 'Graphics Settings Menu'; // for Discord Rich Presence
 
 		var option:Option = new Option('Flashing Lights', 'Hides flashy visuals when disabled', 'flashing', 'bool', true);
 		addOption(option);
