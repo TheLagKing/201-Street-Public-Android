@@ -706,7 +706,7 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 							OverworldState.instance.loadDialogue(contacts_info[curContact][1], true);
 						}
 				}
-				if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end || FlxG.mouse.justPressedRight)
+				if (controls.BACK /*#if mobile || _virtualpad.buttonB.justPressed #end*/ || FlxG.mouse.justPressedRight)
 				{
 					closeApp();
 				}
