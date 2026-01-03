@@ -75,7 +75,7 @@ class Main extends Sprite
 		ClientPrefs.loadDefaultKeys();
 		FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
-		final game = new FlxGame(startMeta.width, startMeta.height, #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? Init : CopyState #else Init #end, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
+		final game = new FlxGame(startMeta.width, startMeta.height, #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? initialState : CopyState #else initialState #end, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
 
 		// btw game has to be a variable for this to work ig - Orbyy
 		#if SOUNDTRAY
