@@ -793,7 +793,7 @@ class PlayState extends MusicBeatState
 		if (PauseSubState.songName != null) Paths.music(PauseSubState.songName);
 
 		// Updating Discord Rich Presence.
-		DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+		//DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
 
 		if (!ClientPrefs.controllerMode)
 		{
@@ -809,8 +809,10 @@ class PlayState extends MusicBeatState
 
 		super.create();
 
+		#if mobile
 		addHitbox(3);
    		_hitbox.visible = false;
+		#end
 
 		FunkinAssets.cache.clearUnusedMemory();
 
