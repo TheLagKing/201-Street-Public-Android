@@ -233,6 +233,11 @@ class WordleSubstate extends MusicBeatSubstate
 			spr.setGraphicSize(spr.width * 0.95);
 		});
 		camera = CameraUtil.lastCamera;
+
+		#if mobile
+		addVirtualPad(NONE,A_B);
+		#end
+		
 		super.create();
 	}
 
@@ -287,7 +292,7 @@ class WordleSubstate extends MusicBeatSubstate
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		if (FlxG.keys.justPressed.ESCAPE && canBack) close();
+		if (FlxG.keys.justPressed.ESCAPE #if mobile || _virtualpad.buttonB.justPressed #end && canBack) close();
 
 		if (canInput)
 		{
@@ -308,7 +313,7 @@ class WordleSubstate extends MusicBeatSubstate
 				guess = guess.substring(0, guess.length - 1);
 				updateThisStuff();
 			}
-			if (FlxG.keys.justPressed.ENTER)
+			if (FlxG.keys.justPressed.ENTER #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
 				if (guess.length > 4)
 				{
