@@ -245,6 +245,10 @@ class OverworldState extends MusicBeatState
 			}
 		}
 
+		#if mobile
+		addVirtualPad(LEFT_RIGHT,A);
+		#end
+
 		callScriptFunc('onCreatePost');
 	}
 
@@ -363,7 +367,7 @@ class OverworldState extends MusicBeatState
 	{
 		if (!canMove) return;
 
-		if (FlxG.keys.pressed.SHIFT && mapData.can_run)
+		if (FlxG.keys.pressed.SHIFT #if mobile || _virtualpad.buttonA.justPressed #end && mapData.can_run)
 		{
 			defaultCamZoom = map_zoom + 0.1;
 			camera_movement_amt = 11;
@@ -376,7 +380,7 @@ class OverworldState extends MusicBeatState
 
 		camera_movement_amt *= (60 * elapsed);
 
-		if (controls.UI_RIGHT || controls.NOTE_RIGHT)
+		if (controls.UI_RIGHT || controls.NOTE_RIGHT #if mobile || _virtualpad.buttonRight.justPressed #end)
 		{
 			camFollow.x += camera_movement_amt;
 		}
@@ -384,7 +388,7 @@ class OverworldState extends MusicBeatState
 		{
 			camFollow.x += camera_movement_amt * 15;
 		}
-		else if (controls.UI_LEFT || controls.NOTE_LEFT)
+		else if (controls.UI_LEFT || controls.NOTE_LEFT #if mobile || _virtualpad.buttonLeft.justPressed #end)
 		{
 			camFollow.x -= camera_movement_amt;
 		}
