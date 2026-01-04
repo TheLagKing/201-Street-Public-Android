@@ -312,7 +312,7 @@ class TitleState201 extends MusicBeatState
 				if (pressedEnter && !startTween.active)
 				{
 					menuTransition(false);
-					#if mobile
+					//#if mobile
 				//if (_virtualpad == null) {
 					//addVirtualPad(FULL, A_B);
 				//}
