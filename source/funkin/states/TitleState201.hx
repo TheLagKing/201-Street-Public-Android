@@ -229,6 +229,10 @@ class TitleState201 extends MusicBeatState
 		dialogue_box.camera = camHUD;
 		add(dialogue_box);
 
+		#if mobile
+		addVirtualPad(FULL,A_B);
+		#end
+
 		super.create();
 
 		FunkinSound.playMusic(Paths.music('201-street/menu_music'), 1);
@@ -522,7 +526,7 @@ class TitleState201 extends MusicBeatState
 			transTime = 1.5;
 			#if mobile
 			if (VirtualPad != null) {
-			removeVirtualPad(FULL,A_B);
+			VirtualPad.visible = false;
 			}
 			#end
 		}
@@ -535,7 +539,7 @@ class TitleState201 extends MusicBeatState
 			FlxTween.tween(pressStart, {alpha: 0}, 0.5);
 			FlxTween.tween(optionsBG, {y: 121}, 1.5, {ease: FlxEase.smootherStepOut, startDelay: 0.5});
 			#if mobile
-			addVirtualPad(FULL,A_B);
+			VirtualPad.visible = true;
 			#end
 		}
 
