@@ -298,8 +298,8 @@ class TitleState201 extends MusicBeatState
 
 		final pressedEnter:Bool = FlxG.gamepads.lastActive?.justPressed.START
 			|| FlxG.keys.justPressed.ENTER
-			|| controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end
-			/*|| FlxG.mouse.justPressed*/;
+			|| controls.ACCEPT /*#if mobile || _virtualpad.buttonA.justPressed #end*/
+			|| FlxG.mouse.justPressed;
 
 		#if debug
 		if (FlxG.keys.justPressed.F) FlxG.switchState(FreeplayState.new);
@@ -313,10 +313,10 @@ class TitleState201 extends MusicBeatState
 				{
 					menuTransition(false);
 					#if mobile
-				if (_virtualpad == null) {
-					addVirtualPad(FULL, A_B);
-				}
-				#end
+				//if (_virtualpad == null) {
+					//addVirtualPad(FULL, A_B);
+				//}
+				//#end
 				}
 			}
 			else
@@ -325,11 +325,11 @@ class TitleState201 extends MusicBeatState
 				{
 					if (isNewGame)
 					{
-						if (controls.UI_LEFT_P || controls.NOTE_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end)
+						if (controls.UI_LEFT_P || controls.NOTE_LEFT_P /*#if mobile || _virtualpad.buttonLeft.justPressed #end*/)
 						{
 							curSelectedDiff = 0;
 						}
-						if (controls.UI_RIGHT_P || controls.NOTE_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
+						if (controls.UI_RIGHT_P || controls.NOTE_RIGHT_P /*#if mobile || _virtualpad.buttonRight.justPressed #end*/)
 						{
 							curSelectedDiff = 1;
 						}
@@ -346,7 +346,7 @@ class TitleState201 extends MusicBeatState
 							i.alpha = i.ID == curSelectedDiff ? 1 : 0.5;
 						}
 
-						if (/*FlxG.mouse.justPressed*/ #if mobile _virtualpad.buttonA.justPressed || #end controls.ACCEPT)
+						if (FlxG.mouse.justPressed || /*#if mobile _virtualpad.buttonA.justPressed || #end*/ controls.ACCEPT)
 						{
 							isNewGame = false;
 							FlxTween.tween(camFollow, {y: 0 - FlxG.height / 2}, 3, {ease: FlxEase.quadInOut});
@@ -369,7 +369,7 @@ class TitleState201 extends MusicBeatState
 							FlxG.mouse.load(Paths.image("overworld/ui/cursor/cursor").bitmap, 0.325);
 						}
 
-						if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
+						if (controls.BACK /*#if mobile || _virtualpad.buttonB.justPressed #end*/)
 						{
 							isNewGame = false;
 							FlxTween.cancelTweensOf(diffsBG);
@@ -394,7 +394,7 @@ class TitleState201 extends MusicBeatState
 				{
 					if (canClick && !isNewGame)
 					{
-						if (controls.UI_DOWN_P || controls.NOTE_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end)
+						if (controls.UI_DOWN_P || controls.NOTE_DOWN_P /*#if mobile || _virtualpad.buttonDown.justPressed #end*/)
 						{
 							curSelected++;
 							// having a bunch of if statements like this feels odd but its fine, what we get for adding keyboard controls to a menu designed with the mouse in mind
@@ -402,7 +402,7 @@ class TitleState201 extends MusicBeatState
 							if (curSelected == 1 && !overworldData) curSelected = 2;
 							if (curSelected == 2 && !beatenGame) curSelected = 3;
 						}
-						if (controls.UI_UP_P || controls.NOTE_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end)
+						if (controls.UI_UP_P || controls.NOTE_UP_P /*#if mobile || _virtualpad.buttonUp.justPressed #end*/)
 						{
 							curSelected--;
 							if (0 > curSelected) curSelected = optionGrp.members.length - 1;
@@ -455,7 +455,7 @@ class TitleState201 extends MusicBeatState
 									i.alpha = 1;
 									if (FlxG.mouse.overlaps(i)) FlxG.mouse.load(Paths.image("overworld/ui/cursor/click").bitmap, 0.325);
 
-									if ((FlxG.mouse.justPressed || controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end))
+									if ((FlxG.mouse.justPressed || controls.ACCEPT /*#if mobile || _virtualpad.buttonA.justPressed #end*/))
 									{
 										FlxG.mouse.load(Paths.image("overworld/ui/cursor/click").bitmap, 0.325);
 										selectOption(curSelected);
@@ -472,11 +472,11 @@ class TitleState201 extends MusicBeatState
 						if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 						{
 							menuTransition(true);
-	#if mobile
-				if (_virtualpad == null) {
-					removeVirtualPad();
-				}
-				#end
+	//#if mobile
+				//if (_virtualpad == null) {
+					//removeVirtualPad();
+				//}
+				//#end
 						}
 					}
 				}
