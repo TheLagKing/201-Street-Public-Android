@@ -525,7 +525,7 @@ class TitleState201 extends MusicBeatState
 			}
 			transTime = 1.5;
 			#if mobile
-			VirtualPad.visible = false;
+			//VirtualPad.visible = false;
 			#end
 		}
 		else
@@ -537,7 +537,7 @@ class TitleState201 extends MusicBeatState
 			FlxTween.tween(pressStart, {alpha: 0}, 0.5);
 			FlxTween.tween(optionsBG, {y: 121}, 1.5, {ease: FlxEase.smootherStepOut, startDelay: 0.5});
 			#if mobile
-			VirtualPad.visible = true;
+			//VirtualPad.visible = true;
 			#end
 		}
 
