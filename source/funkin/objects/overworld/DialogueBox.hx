@@ -142,7 +142,7 @@ class DialogueBox extends FlxTypedSpriteGroup<FlxSprite>
 	{
 		super.update(elapsed);
 
-		if (FlxG.mouse.justPressedRight && curDialogueText != null)
+		if (FlxG.mouse.justPressed && curDialogueText != null)
 		{
 			curDialogueText.skip();
 		}
