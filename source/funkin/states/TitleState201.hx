@@ -346,7 +346,7 @@ class TitleState201 extends MusicBeatState
 							i.alpha = i.ID == curSelectedDiff ? 1 : 0.5;
 						}
 
-						if (FlxG.mouse.justPressed || #if mobile _virtualpad.buttonA.justPressed || #end controls.ACCEPT)
+						if (/*FlxG.mouse.justPressed ||*/ #if mobile _virtualpad.buttonA.justPressed || #end controls.ACCEPT)
 						{
 							isNewGame = false;
 							FlxTween.tween(camFollow, {y: 0 - FlxG.height / 2}, 3, {ease: FlxEase.quadInOut});
@@ -455,7 +455,7 @@ class TitleState201 extends MusicBeatState
 									i.alpha = 1;
 									if (FlxG.mouse.overlaps(i)) FlxG.mouse.load(Paths.image("overworld/ui/cursor/click").bitmap, 0.325);
 
-									if ((FlxG.mouse.justPressed || controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end))
+									if ((/*FlxG.mouse.justPressed ||*/ controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end))
 									{
 										FlxG.mouse.load(Paths.image("overworld/ui/cursor/click").bitmap, 0.325);
 										selectOption(curSelected);
@@ -472,6 +472,9 @@ class TitleState201 extends MusicBeatState
 						if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 						{
 							menuTransition(true);
+	                        #if mobile
+							removeVirtualPad();
+	                        #end
 						}
 					}
 				}
@@ -584,6 +587,9 @@ class TitleState201 extends MusicBeatState
 			case 'credits':
 				FlxG.switchState(CreditsState.new);
 			case 'options':
+		        #if mobile
+		        removeVirtualPad();
+		        #end
 				camHUD.fade(FlxColor.BLACK, 0.4, false, function() {
 					FlxG.switchState(funkin.states.options.OptionsState.new);
 				});
