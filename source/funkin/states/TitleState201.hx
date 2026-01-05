@@ -312,11 +312,11 @@ class TitleState201 extends MusicBeatState
 				if (pressedEnter && !startTween.active)
 				{
 					menuTransition(false);
-					//#if mobile
-				//if (_virtualpad == null) {
-					//addVirtualPad(FULL, A_B);
-				//}
-				//#end
+					#if mobile
+				if (_virtualpad == null) {
+					addVirtualPad(FULL, A_B);
+				}
+				#end
 				}
 			}
 			else
@@ -325,11 +325,11 @@ class TitleState201 extends MusicBeatState
 				{
 					if (isNewGame)
 					{
-						if (controls.UI_LEFT_P || controls.NOTE_LEFT_P /*#if mobile || _virtualpad.buttonLeft.justPressed #end*/)
+						if (controls.UI_LEFT_P || controls.NOTE_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end)
 						{
 							curSelectedDiff = 0;
 						}
-						if (controls.UI_RIGHT_P || controls.NOTE_RIGHT_P /*#if mobile || _virtualpad.buttonRight.justPressed #end*/)
+						if (controls.UI_RIGHT_P || controls.NOTE_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
 						{
 							curSelectedDiff = 1;
 						}
@@ -472,11 +472,6 @@ class TitleState201 extends MusicBeatState
 						if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 						{
 							menuTransition(true);
-	#if mobile
-				if (_virtualpad == null) {
-					removeVirtualPad();
-				}
-				#end
 						}
 					}
 				}
@@ -530,9 +525,6 @@ class TitleState201 extends MusicBeatState
 				FlxTween.tween(i, {alpha: 0}, 0.1);
 			}
 			transTime = 1.5;
-			#if mobile
-			//VirtualPad.visible = false;
-			#end
 		}
 		else
 		{
@@ -542,9 +534,6 @@ class TitleState201 extends MusicBeatState
 			FlxTween.tween(logo, {alpha: 0}, 0.5);
 			FlxTween.tween(pressStart, {alpha: 0}, 0.5);
 			FlxTween.tween(optionsBG, {y: 121}, 1.5, {ease: FlxEase.smootherStepOut, startDelay: 0.5});
-			#if mobile
-			//VirtualPad.visible = true;
-			#end
 		}
 
 		transitioning = true;
