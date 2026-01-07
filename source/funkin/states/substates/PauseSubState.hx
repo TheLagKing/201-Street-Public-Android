@@ -18,7 +18,7 @@ import funkin.backend.Difficulty;
 import funkin.utils.CameraUtil;
 import funkin.states.options.OptionsState;
 import funkin.backend.MusicBeatSubstate;
-import funkin.backend.MusicBeatstate
+import funkin.backend.MusicBeatState;
 import funkin.data.*;
 import funkin.states.*;
 import funkin.objects.*;
