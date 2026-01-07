@@ -111,7 +111,6 @@ class OptionsState extends MusicBeatState
 		#if mobile
 		if (_virtualpad == null) {
 		addVirtualPad(UP_DOWN, A_B);
-		_virtualpad.visible = true;
 		}
 		#end
 		super.create();
