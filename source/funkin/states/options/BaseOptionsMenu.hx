@@ -188,6 +188,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 		if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 		{
+			#if mobile
+		removeVirtualPad();
+		#end
 			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
