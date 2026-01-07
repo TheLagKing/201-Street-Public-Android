@@ -150,10 +150,6 @@ class OptionsState extends MusicBeatState
 		scriptGroup.call('onCloseSubState', []);
 		super.closeSubState();
 		ClientPrefs.flush();
-		#if mobile
-		removeVirtualPad();
-		addVirtualPad(UP_DOWN,A_B);
-		#end
 	}
 
 	var totalElapsed:Float = 0;
@@ -209,7 +205,7 @@ class OptionsState extends MusicBeatState
 			{
 				#if mobile
 				if (_virtualpad == null) {
-				_virtualpad.visible = false;
+				removeVirtualPad();
 			}
 				#end
 				openSelectedSubstate(options[curSelected]);
