@@ -142,7 +142,7 @@ class ControlsSubState extends MusicBeatSubstate
 			{
 				changeSelection(1);
 			}
-			if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end || controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
+			if (controls.UI_LEFT_P || controls.UI_RIGHT_P  #if mobile || _virtualpad.buttonLeft.justPressed || _virtualpad.buttonRight.justPressed #end)
 			{
 				changeAlt();
 			}
