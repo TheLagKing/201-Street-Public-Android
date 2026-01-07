@@ -202,6 +202,10 @@ class PauseSubState extends MusicBeatSubstate
 			introTweens(25.0);
 		}
 
+	    #if mobile
+		addVirtualPad(FULL,A_B);
+		#end
+
 		super.create();
 
 		scriptGroup.call('onCreatePost', []);
@@ -237,11 +241,11 @@ class PauseSubState extends MusicBeatSubstate
 
 		if (isHardcodedState())
 		{
-			if (controls.UI_UP_P)
+			if (controls.UI_UP_P #if mobile || _virtualpad.buttonUp.justPressed #end)
 			{
 				changeSelection(-1);
 			}
-			if (controls.UI_DOWN_P)
+			if (controls.UI_DOWN_P #if mobile || _virtualpad.buttonDown.justPressed #end)
 			{
 				changeSelection(1);
 			}
@@ -255,25 +259,25 @@ class PauseSubState extends MusicBeatSubstate
 			switch (daSelected)
 			{
 				case 'Skip Time':
-					if (controls.UI_LEFT_P)
+					if (controls.UI_LEFT_P #if mobile || _virtualpad.buttonLeft.justPressed #end)
 					{
 						FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 						curTime -= 1000;
 						holdTime = 0;
 					}
-					if (controls.UI_RIGHT_P)
+					if (controls.UI_RIGHT_P #if mobile || _virtualpad.buttonRight.justPressed #end)
 					{
 						FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 						curTime += 1000;
 						holdTime = 0;
 					}
 
-					if (controls.UI_LEFT || controls.UI_RIGHT)
+					if (controls.UI_LEFT || controls.UI_RIGHT  #if mobile || _virtualpad.buttonLeft.pressed || _virtualpad.buttonRight.pressed #end)
 					{
 						holdTime += elapsed;
 						if (holdTime > 0.5)
 						{
-							curTime += 45000 * elapsed * (controls.UI_LEFT ? -1 : 1);
+							curTime += 45000 * elapsed * (controls.UI_LEFT #if mobile || _virtualpad.buttonLeft.pressed #end ? -1 : 1);
 						}
 
 						if (curTime >= FlxG.sound.music.length) curTime -= FlxG.sound.music.length;
@@ -282,12 +286,12 @@ class PauseSubState extends MusicBeatSubstate
 					}
 			}
 
-			if (controls.BACK)
+			if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 			{
 				close();
 			}
 
-			if (controls.ACCEPT)
+			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
 				if (menuItems == difficultyChoices)
 				{
