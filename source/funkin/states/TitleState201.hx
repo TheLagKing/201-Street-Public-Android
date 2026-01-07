@@ -315,6 +315,7 @@ class TitleState201 extends MusicBeatState
 					#if mobile
 				if (_virtualpad == null) {
 					addVirtualPad(FULL, A_B);
+					_virtualpad.alpha = 0.8;
 				}
 				#end
 				}
@@ -350,6 +351,7 @@ class TitleState201 extends MusicBeatState
 						{
 							isNewGame = false;
 							FlxTween.tween(camFollow, {y: 0 - FlxG.height / 2}, 3, {ease: FlxEase.quadInOut});
+							FlxTween.tween(_virtualpad, {alpha: 0}, 3, {ease: FlxEase.quadInOut});
 
 							Highscore.clearSongSaveData();
 							FlxG.save.data.story_difficulty = curSelectedDiff;
@@ -473,7 +475,9 @@ class TitleState201 extends MusicBeatState
 						{
 							menuTransition(true);
 	                        #if mobile
-							removeVirtualPad();
+							if (_virtualpad == null) {
+								_virtualpad.alpha = 0.0001;
+							}
 	                        #end
 						}
 					}
