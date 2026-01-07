@@ -7,6 +7,7 @@ import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import funkin.backend.MusicBeatSubstate;
+import funkin.backend.MusicBeatState;
 import funkin.states.PlayState;
 import openfl.display.BlendMode;
 
