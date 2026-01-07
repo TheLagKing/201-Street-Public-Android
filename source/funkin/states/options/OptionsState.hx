@@ -109,7 +109,10 @@ class OptionsState extends MusicBeatState
 		ClientPrefs.flush();
 
 		#if mobile
+		if (_virtualpad == null) {
 		addVirtualPad(UP_DOWN, A_B);
+		_virtualpad.visible = true;
+		}
 		#end
 		super.create();
 	}
@@ -204,6 +207,11 @@ class OptionsState extends MusicBeatState
 
 			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
+				#if mobile
+				if (_virtualpad == null) {
+				_virtualpad.visible = false;
+			}
+				#end
 				openSelectedSubstate(options[curSelected]);
 			}
 		}
