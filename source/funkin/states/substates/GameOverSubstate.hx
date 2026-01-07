@@ -115,6 +115,10 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		super.create();
 
+        #if mobile
+		addVirtualPad(NONE,A_B);
+		#end
+
 		PlayState.instance?.scripts.call('onGameOverPost', []);
 
 		trace(PlayState.SONG.song.toLowerCase());
@@ -137,12 +141,12 @@ class GameOverSubstate extends MusicBeatSubstate
 			billlaugh.x = 250 + Math.sin(totalElapsed * 2) * 600;
 		}
 
-		if (controls.ACCEPT)
+		if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 		{
 			endBullshit();
 		}
 
-		if (controls.BACK)
+		if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
 		{
 			FlxG.sound.music.stop();
 			PlayState.deathCounter = 0;
