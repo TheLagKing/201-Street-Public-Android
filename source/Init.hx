@@ -97,14 +97,6 @@ class Init extends FlxState
 
 		super.create();
 
-		#if (mobile && MODS_ALLOWED)
-    if (!mobile.states.CopyState.checkExistingFiles())
-    {
-        FlxG.switchState(new mobile.states.CopyState());
-        return;
-    }
-    #end
-
 		final nextState:Class<FlxState> = Main.startMeta.skipSplash
 			|| !ClientPrefs.toggleSplashScreen ? Main.startMeta.initialState : Splash;
 		FlxG.switchState(() -> Type.createInstance(nextState, []));
