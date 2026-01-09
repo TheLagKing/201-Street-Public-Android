@@ -810,8 +810,8 @@ class PlayState extends MusicBeatState
 		super.create();
 
 		#if mobile
-		//addHitbox(3);
-   		//_hitbox.visible = false;
+		addHitbox(3);
+   		_hitbox.visible = false;
 		#end
 
 		FunkinAssets.cache.clearUnusedMemory();
@@ -1077,7 +1077,7 @@ class PlayState extends MusicBeatState
 	public function startCountdown():Void
 	{
 		#if mobile
-   		//_hitbox.visible = true;
+   		_hitbox.visible = true;
    		#end
 			
 		if (startedCountdown)
