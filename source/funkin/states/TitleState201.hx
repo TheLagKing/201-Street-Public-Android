@@ -418,7 +418,7 @@ class TitleState201 extends MusicBeatState
 		
 						for (i in optionGrp.members)
 						{
-							if (keyboardEnabled)
+							if (ClientPrefs.keyboardEnabled)
 							{
 								if (FlxG.mouse.deltaX + FlxG.mouse.deltaY != 0)
 								{
@@ -483,7 +483,7 @@ class TitleState201 extends MusicBeatState
 							menuTransition(true);
 	                        #if mobile
 							if (_virtualpad == null) {
-								_virtualpad.alpha = 0.0001;
+								removeVirtualPad();
 							}
 	                        #end
 						}
