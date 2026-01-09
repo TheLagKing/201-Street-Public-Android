@@ -312,12 +312,6 @@ class TitleState201 extends MusicBeatState
 				if (pressedEnter && !startTween.active)
 				{
 					menuTransition(false);
-					#if mobile
-				if (_virtualpad == null) {
-					addVirtualPad(FULL, A_B);
-					_virtualpad.alpha = 0.8;
-				}
-				#end
 				}
 			}
 			else
@@ -334,6 +328,8 @@ class TitleState201 extends MusicBeatState
 						{
 							curSelectedDiff = 1;
 						}
+						if (ClientPrefs.keyboardEnabled)
+						{
 						for (i in diffGrp.members)
 						{
 							if (FlxG.mouse.deltaX + FlxG.mouse.deltaY != 0)
@@ -345,6 +341,14 @@ class TitleState201 extends MusicBeatState
 							}
 
 							i.alpha = i.ID == curSelectedDiff ? 1 : 0.5;
+						}
+						}
+						else
+						{
+							for (i in diffGrp.members)
+							{
+								i.alpha = i.ID == curSelectedDiff ? 1 : 0.5;
+							}
 						}
 
 						if (/*FlxG.mouse.justPressed ||*/ #if mobile _virtualpad.buttonA.justPressed || #end controls.ACCEPT)
@@ -411,24 +415,27 @@ class TitleState201 extends MusicBeatState
 							if (curSelected == 2 && !beatenGame) curSelected = 1;
 							if (curSelected == 1 && !overworldData) curSelected = 0;
 						}
-
+		
 						for (i in optionGrp.members)
 						{
-							if (FlxG.mouse.deltaX + FlxG.mouse.deltaY != 0)
+							if (keyboardEnabled)
 							{
-								if (FlxG.mouse.overlaps(optionGrp))
+								if (FlxG.mouse.deltaX + FlxG.mouse.deltaY != 0)
 								{
-									if (FlxG.mouse.overlaps(i))
+									if (FlxG.mouse.overlaps(optionGrp))
 									{
-										curSelected = i.ID;
+										if (FlxG.mouse.overlaps(i))
+										{
+											curSelected = i.ID;
+										}
+									}
+									else
+									{
+										curSelected = -1;
 									}
 								}
-								else
-								{
-									curSelected = -1;
-								}
 							}
-
+							
 							if (i.ID != curSelected)
 							{
 								i.alpha = 0.5;
@@ -553,6 +560,12 @@ class TitleState201 extends MusicBeatState
 			}
 			else
 			{
+			#if mobile
+				if (_virtualpad == null) {
+					addVirtualPad(FULL, A_B);
+					_virtualpad.alpha = 0.8;
+				}
+				#end
 				FlxTween.tween(versionText, {x: 0}, 1.5, {ease: FlxEase.smootherStepOut});
 				for (i in optionGrp.members)
 				{
@@ -591,9 +604,6 @@ class TitleState201 extends MusicBeatState
 			case 'credits':
 				FlxG.switchState(CreditsState.new);
 			case 'options':
-		        #if mobile
-		        removeVirtualPad();
-		        #end
 				camHUD.fade(FlxColor.BLACK, 0.4, false, function() {
 					FlxG.switchState(funkin.states.options.OptionsState.new);
 				});
