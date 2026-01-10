@@ -27,7 +27,6 @@ import sys.io.File;
 import haxe.Json;
 import funkin.objects.overworld.OverworldUI;
 import funkin.backend.PlayerSettings;
-import funkin.backend.MusicBeatState;
 
 using StringTools;
 
@@ -137,6 +136,10 @@ class DialogueBox extends FlxTypedSpriteGroup<FlxSprite>
 
 		for (item in dialogue_box_array)
 			add(item);
+
+		#if mobile
+		_virtualpad.visible = false;
+		#end
 	}
 
 	override function update(elapsed:Float)
@@ -157,6 +160,9 @@ class DialogueBox extends FlxTypedSpriteGroup<FlxSprite>
 			else
 			{
 				endDialogue();
+				#if mobile
+				_virtualpad.visible = true;
+				#end
 			}
 		}
 
