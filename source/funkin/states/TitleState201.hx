@@ -483,7 +483,7 @@ class TitleState201 extends MusicBeatState
 							menuTransition(true);
 	                        #if mobile
 							if (_virtualpad == null) {
-								removeVirtualPad();
+								_virtualpad.visible = false;
 							}
 	                        #end
 						}
@@ -560,12 +560,6 @@ class TitleState201 extends MusicBeatState
 			}
 			else
 			{
-			#if mobile
-				if (_virtualpad == null) {
-					addVirtualPad(FULL, A_B);
-					_virtualpad.alpha = 0.8;
-				}
-				#end
 				FlxTween.tween(versionText, {x: 0}, 1.5, {ease: FlxEase.smootherStepOut});
 				for (i in optionGrp.members)
 				{
@@ -577,6 +571,12 @@ class TitleState201 extends MusicBeatState
 								{
 									canClick = true;
 									FlxG.mouse.visible = true;
+							#if mobile
+							if (_virtualpad == null) {
+							addVirtualPad(FULL, A_B);
+							_virtualpad.visible = true;
+						}
+								   #end
 								}
 							}
 						});
