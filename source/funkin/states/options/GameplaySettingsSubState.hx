@@ -15,11 +15,11 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'bool',
 			false);
 		addOption(option);
-/*
+
 		var option:Option = new Option('Controller Mode', 'Check this if you want to play with\na controller instead of using your Keyboard.',
 			'controllerMode', 'bool', false);
 		addOption(option);
-*/
+
 		var option:Option = new Option('Note Splashes', "Hitting \"Sick!\" or higher creates particles", 'noteSplashes', 'bool', true);
 		addOption(option);
 
