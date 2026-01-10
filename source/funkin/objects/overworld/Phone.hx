@@ -17,6 +17,7 @@ import funkin.backend.PlayerSettings;
 import funkin.objects.overworld.ChecklistEntry;
 import mobile.flixel.FlxVirtualPad;
 import mobile.flixel.input.FlxMobileInputID;
+import funkin.backend.MusicBeatSubstate;
 import funkin.backend.MusicBeatState;
 
 using StringTools;
