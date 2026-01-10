@@ -203,10 +203,10 @@ class OptionsState extends MusicBeatState
 			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
 				#if mobile
-				Closess();
-				if (_virtualpad == null) {
-				removeVirtualPad();
-			}
+				closeSs();
+				//if (_virtualpad == null) {
+				//removeVirtualPad();
+			//}
 				#end
 				openSelectedSubstate(options[curSelected]);
 			}
