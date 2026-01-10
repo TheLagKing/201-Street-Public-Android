@@ -15,10 +15,6 @@ import funkin.data.*;
 import funkin.game.shaders.Outline;
 import funkin.backend.PlayerSettings;
 import funkin.objects.overworld.ChecklistEntry;
-import mobile.flixel.FlxVirtualPad;
-import mobile.flixel.input.FlxMobileInputID;
-import funkin.backend.MusicBeatSubstate;
-import funkin.backend.MusicBeatState;
 
 using StringTools;
 
@@ -745,6 +741,38 @@ class Phone extends FlxTypedSpriteGroup<FlxSprite>
 			}
 		}
 	}
+
+	#if mobile
+	var _virtualpad:FlxVirtualPad;
+	var _hitbox:FlxHitbox;
+
+	public function addHitbox(?keyCount:Int = 3) {
+		_hitbox = new FlxHitbox(keyCount);
+
+		var camMobile = new FlxCamera();
+	    camMobile.bgColor.alpha = 0;
+		FlxG.cameras.add(camMobile, false);
+
+		_hitbox.cameras = [camMobile];
+ 		add(_hitbox);
+	}
+
+	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
+        _virtualpad = new FlxVirtualPad(DPad, Action);
+		add(_virtualpad);
+	}
+
+    	public function addVirtualPadCamera() {
+		var virtualpadcam = new FlxCamera();
+		virtualpadcam.bgColor.alpha = 0;
+		FlxG.cameras.add(virtualpadcam, false);
+		_virtualpad.cameras = [virtualpadcam];
+    	}
+
+	public function removeVirtualPad() {
+		remove(_virtualpad);
+	}
+	#end
 
 	public function openPhone()
 	{
