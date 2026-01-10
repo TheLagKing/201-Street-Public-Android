@@ -793,7 +793,7 @@ class PlayState extends MusicBeatState
 		if (PauseSubState.songName != null) Paths.music(PauseSubState.songName);
 
 		// Updating Discord Rich Presence.
-		#if desktop DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
+		#if mobile DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
 
 		if (!ClientPrefs.controllerMode)
 		{
@@ -808,7 +808,7 @@ class PlayState extends MusicBeatState
 		callHUDFunc(hud -> hud.cachePopUpScore());
 
 		super.create();
-
+		
 		#if mobile
 		addHitbox(3);
    		_hitbox.visible = false;
@@ -1076,10 +1076,11 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-		#if mobile
+	
+	      #if mobile
    		_hitbox.visible = true;
    		#end
-			
+   
 		if (startedCountdown)
 		{
 			scripts.call('onStartCountdown', []);
@@ -1337,7 +1338,7 @@ class PlayState extends MusicBeatState
 		songLength = FlxG.sound.music.length;
 
 		// Updating Discord Rich Presence (with Time Left)
-		#if desktop DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength); #end
+		#if mobile DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength); #end
 
 		scripts.set('songLength', songLength);
 		scripts.call('onSongStart', []);
@@ -1812,28 +1813,31 @@ class PlayState extends MusicBeatState
 
 			paused = false;
 			scripts.call('onResume', []);
-
-			#if desktop
+			
+			#if mobile
 			if (startTimer != null && startTimer.finished)
 			{
 				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
 					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
-			} else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
+			}
+			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
 		}
+		#end
 		scripts.call('onSubstateClose', []);
 		super.closeSubState();
 	}
 
 	override public function onFocus():Void
 	{
-		#if desktop
+	#if mobile
 		if (health > 0 && !paused)
 		{
 			if (Conductor.songPosition > 0.0)
 			{
 				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
 					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
-			} else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+			}
+			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
 		}
 		#end
 
@@ -1842,7 +1846,7 @@ class PlayState extends MusicBeatState
 
 	override public function onFocusLost():Void
 	{
-		#if desktop if (health > 0 && !paused) DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)'); #end
+		if (health > 0 && !paused) #if mobile DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)'); #end
 
 		super.onFocusLost();
 	}
@@ -1887,7 +1891,7 @@ class PlayState extends MusicBeatState
 		Conductor.visualPosition = getVisualPosition();
 		checkEventNote();
 
-		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
+		if ((controls.PAUSE #if android || FlxG.android.justReleased.BACK #end) && startedCountdown && canPause)
 		{
 			if (scripts.call('onPause', []) != ScriptConstants.Function_Stop) openPauseMenu();
 		}
@@ -2164,7 +2168,7 @@ class PlayState extends MusicBeatState
 		}
 		openSubState(new PauseSubState());
 
-		#if desktop DiscordClient.changePresence(detailsPausedText, 'Paused'); #end
+		#if mobile DiscordClient.changePresence(detailsPausedText, 'Paused'); #end
 	}
 
 	function openChartEditor():Void
@@ -2178,7 +2182,7 @@ class PlayState extends MusicBeatState
 		FlxG.switchState(ChartEditorState.new);
 		chartingMode = true;
 
-		#if desktop DiscordClient.changePresence("Chart Editor", null, null, true); #end
+		#if mobile DiscordClient.changePresence("Chart Editor", null, null, true); #end
 	}
 
 	function openCharacterEditor():Void
@@ -2191,7 +2195,7 @@ class PlayState extends MusicBeatState
 
 		FlxG.switchState(() -> new CharacterEditorState(SONG.player2, true));
 
-		#if desktop DiscordClient.changePresence("Character Editor", null, null, true); #end
+		#if mobile DiscordClient.changePresence("Character Editor", null, null, true); #end
 	}
 
 	function openNoteskinEditor():Void
@@ -2208,7 +2212,7 @@ class PlayState extends MusicBeatState
 		#end
 		chartingMode = true;
 
-		#if desktop DiscordClient.changePresence("Noteskin Editor", null, null, true); #end
+		#if mobile DiscordClient.changePresence("Noteskin Editor", null, null, true); #end
 	}
 
 	public function updateScoreBar(miss:Bool = false):Void
@@ -2244,7 +2248,7 @@ class PlayState extends MusicBeatState
 				openSubState(new GameOverSubstate());
 
 				// Game Over doesn't get his own variable because it's only used here
-				#if desktop DiscordClient.changePresence("Game Over - " + detailsText, SONG.song); #end
+				#if mobile DiscordClient.changePresence("Game Over - " + detailsText, SONG.song); #end
 
 				isDead = true;
 				totalBeat = 0;
@@ -2807,10 +2811,10 @@ class PlayState extends MusicBeatState
 		camZooming = false;
 		inCutscene = false;
 		updateTime = false;
-
+		
 		#if mobile
-   		_hitbox.visible = false;
-   		#end
+   	_hitbox.visible = false;
+   	#end
 
 		deathCounter = 0;
 		seenCutscene = false;
@@ -2944,69 +2948,67 @@ class PlayState extends MusicBeatState
 	}
 
 	function onKeyPress(event:KeyboardEvent):Void
-	{
-		var eventKey:FlxKey = event.keyCode;
-		var key:Int = getKeyFromEvent(eventKey);
-		if (cpuControlled || paused || !startedCountdown) return;
+{
+    var eventKey:FlxKey = event.keyCode;
+    var key:Int = getKeyFromEvent(eventKey);
+    if (cpuControlled || paused || !startedCountdown) return;
 
-		if (key > -1 && (FlxG.keys.checkStatus(eventKey, JUST_PRESSED) || ClientPrefs.controllerMode))
-		{
-			if (!boyfriend.stunned && generatedMusic && !endingSong)
-			{
-				// more accurate hit time for the ratings?
-				var lastTime:Float = Conductor.songPosition;
-				Conductor.songPosition = FlxG.sound.music.time;
+    if (key > -1 && (FlxG.keys.checkStatus(eventKey, JUST_PRESSED) || ClientPrefs.controllerMode))
+    {
+        if (!boyfriend.stunned && generatedMusic && !endingSong)
+        {
+            var lastTime:Float = Conductor.songPosition;
+            Conductor.songPosition = FlxG.sound.music.time;
 
-				var canMiss:Bool = !ClientPrefs.ghostTapping;
+            var canMiss:Bool = !ClientPrefs.ghostTapping;
 
-				var pressNotes:Array<Note> = [];
+            var pressNotes:Array<Note> = [];
 
-				var ghostTapped:Bool = true;
-				for (field in playFields.members)
-				{
-					if (field.playerControls && field.inControl && !field.autoPlayed)
-					{
-						var sortedNotesList:Array<Note> = field.getTapNotes(key);
-						sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
+            var ghostTapped:Bool = true;
+            for (field in playFields.members)
+            {
+                if (field.playerControls && field.inControl && !field.autoPlayed)
+                {
+                    var sortedNotesList:Array<Note> = field.getTapNotes(key);
+                    sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
 
-						if (sortedNotesList.length > 0)
-						{
-							pressNotes.push(sortedNotesList[0]);
-							field.noteHitCallback.dispatch(sortedNotesList[0], field);
-						}
-					}
-				}
+                    if (sortedNotesList.length > 0)
+                    {
+                        pressNotes.push(sortedNotesList[0]);
+                        field.noteHitCallback.dispatch(sortedNotesList[0], field);
+                    }
+                }
+            }
 
-				if (pressNotes.length == 0)
-				{
-					scripts.call('onGhostTap', [key]);
-					if (canMiss)
-					{
-						noteMissPress(key);
-						scripts.call('noteMissPress', [key]);
-					}
-				}
+            if (pressNotes.length == 0)
+            {
+                scripts.call('onGhostTap', [key]);
+                if (canMiss)
+                {
+                    noteMissPress(key);
+                    scripts.call('noteMissPress', [key]);
+                }
+            }
 
-				// more accurate hit time for the ratings? part 2 (Now that the calculations are done, go back to the time it was before for not causing a note stutter)
-				Conductor.songPosition = lastTime;
-			}
+            Conductor.songPosition = lastTime;
+        }
 
-			for (field in playFields.members)
-			{
-				if (field.inControl && !field.autoPlayed && field.playerControls)
-				{
-					var spr:StrumNote = field.members[key];
-					if (spr != null && spr.animation.curAnim != null && spr.animation.curAnim.name != 'confirm')
-					{
-						spr.playAnim('pressed');
-						spr.resetAnim = 0;
-					}
-				}
-			}
+        for (field in playFields.members)
+        {
+            if (field.inControl && !field.autoPlayed && field.playerControls)
+            {
+                var spr:StrumNote = field.members[key];
+                if (spr != null && spr.animation.curAnim != null && spr.animation.curAnim.name != 'confirm')
+                {
+                    spr.playAnim('pressed');
+                    spr.resetAnim = 0;
+                }
+            }
+        }
 
-			scripts.call('onKeyPress', [key]);
-		}
-	}
+        scripts.call('onKeyPress', [key]);
+    }
+}
 
 	function onKeyRelease(event:KeyboardEvent):Void
 	{
@@ -3042,15 +3044,6 @@ class PlayState extends MusicBeatState
 		}
 		return -1;
 	}
-	
-	private function hitboxDataKeyIsPressed(data:Int):Bool
-    {
-        if (_hitbox.array[data].pressed) 
-                {
-                        return true;
-                }
-        return false;
-    }
 
 	// Hold notes
 	function keyShit():Void
@@ -3063,56 +3056,56 @@ class PlayState extends MusicBeatState
     var dodge = controls.NOTE_DODGE;
 
     // TO DO: Find a better way to handle controller inputs, this should work for now
-    if (!ClientPrefs.controllerMode) {
-        #if android
-        for (i in 0..._hitbox.array.length) {
-            if (_hitbox.array[i].justPressed) {
-                onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
-            }
-        }
-        #end
+    if (ClientPrefs.controllerMode)
+    {
+        var controlArray:Array<Bool> = [
+            controls.NOTE_LEFT_P,
+            controls.NOTE_DOWN_P,
+            controls.NOTE_UP_P,
+            controls.NOTE_RIGHT_P
+        ];
+        if (controlArray.contains(true)) for (i in 0...controlArray.length)
+            if (controlArray[i]) onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
     }
 
-    if (startedCountdown && !boyfriend.stunned && generatedMusic) {
+    #if mobile
+    for (i in 0..._hitbox.array.length)
+    {
+        if (_hitbox.array[i].justPressed)
+        {
+            onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
+        }
+    }
+    #end
+
+    if (startedCountdown && !boyfriend.stunned && generatedMusic)
+    {
         notes.forEachAlive(function(daNote:Note) {
-            if (!ClientPrefs.controllerMode && !ClientPrefs.keyboardEnabled) {
-                if (!daNote.playField.autoPlayed 
-                    && daNote.playField.inControl 
-                    && daNote.playField.playerControls)
-                {
-                    if (daNote.isSustainNote
-                        && hitboxDataKeyIsPressed(daNote.noteData)
-                        && !daNote.blockHit
-                        && daNote.canBeHit
-                        && !daNote.tooLate
-                        && !daNote.wasGoodHit)
-                    {
-                        daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
-                    }
-                }
-            }
-            else
+            if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
             {
-                if (!daNote.playField.autoPlayed 
-                    && daNote.playField.inControl 
-                    && daNote.playField.playerControls)
-                {
-                    if (daNote.isSustainNote
-                        && !daNote.blockHit
-                        && FlxG.keys.anyPressed(keysArray[daNote.noteData])
-                        && daNote.canBeHit
-                        && !daNote.tooLate
-                        && !daNote.wasGoodHit)
-                    {
-                        daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
-                    }
-                }
+                if (daNote.isSustainNote
+                    && !daNote.blockHit
+                    && FlxG.keys.anyPressed(keysArray[daNote.noteData])
+                    && daNote.canBeHit
+                    && !daNote.tooLate
+                    && !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
             }
 
-            if (ClientPrefs.guitarHeroSustains) {
-                if (!daNote.playField.autoPlayed
-                    && daNote.playField.inControl
-                    && daNote.playField.playerControls)
+            #if mobile
+            if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
+            {
+                if (daNote.isSustainNote
+                    && !daNote.blockHit
+                    && _hitbox.array[daNote.noteData].pressed
+                    && daNote.canBeHit
+                    && !daNote.tooLate
+                    && !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
+            }
+            #end
+
+            if (ClientPrefs.guitarHeroSustains)
+            {
+                if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
                 {
                     if (daNote.isSustainNote
                         && !daNote.blockHit
@@ -3124,31 +3117,54 @@ class PlayState extends MusicBeatState
                         daNote.playField.noteMissCallback.dispatch(daNote, daNote.playField);
                     }
                 }
+                
+                #if mobile
+                if (!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls)
+                {
+                    if (daNote.isSustainNote
+                        && !daNote.blockHit
+                        && !daNote.ignoreNote
+                        && !_hitbox.array[daNote.noteData].pressed
+                        && !endingSong
+                        && (daNote.tooLate || !daNote.wasGoodHit))
+                    {
+                        daNote.playField.noteMissCallback.dispatch(daNote, daNote.playField);
+                    }
+                }
+                #end
             }
         });
 
         if (boyfriend.holdTimer > Conductor.stepCrotchet * 0.0011 * boyfriend.singDuration
             && boyfriend.getAnimName().startsWith('sing')
-            && !boyfriend.getAnimName().endsWith('miss'))
-        {
-            boyfriend.dance();
-        }
+            && !boyfriend.getAnimName().endsWith('miss')) boyfriend.dance();
     }
 
-    if (!ClientPrefs.controllerMode)
+    if (ClientPrefs.controllerMode)
     {
-        #if android
-        for (i in 0..._hitbox.array.length)
+        var controlArray:Array<Bool> = [
+            controls.NOTE_LEFT_R,
+            controls.NOTE_DOWN_R,
+            controls.NOTE_UP_R,
+            controls.NOTE_RIGHT_R
+        ];
+        if (controlArray.contains(true))
         {
-            if (_hitbox.array[i].justReleased)
-            {
-                onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
-            }
+            for (i in 0...controlArray.length)
+                if (controlArray[i]) onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
         }
-        #end
     }
+    
+    #if mobile
+    for (i in 0..._hitbox.array.length)
+    {
+        if (_hitbox.array[i].justReleased)
+        {
+            onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+        }
+    }
+    #end
 }
-
 
 	function noteMiss(daNote:Note, field:PlayField):Void
 	{ // You didn't hit the key and let it go offscreen, also used by Hurt Notes
