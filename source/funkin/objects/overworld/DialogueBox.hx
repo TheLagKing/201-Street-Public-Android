@@ -27,6 +27,8 @@ import sys.io.File;
 import haxe.Json;
 import funkin.objects.overworld.OverworldUI;
 import funkin.backend.PlayerSettings;
+import funkin.backend.MusicBeatSubstate;
+import funkin.backend.MusicBeatState;
 
 using StringTools;
 
