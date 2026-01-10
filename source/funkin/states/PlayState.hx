@@ -1817,13 +1817,13 @@ class PlayState extends MusicBeatState
 				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
 					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
-			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
 		}
-		#end
+		
 		scripts.call('onSubstateClose', []);
 		super.closeSubState();
 	}
-
+				
 	override public function onFocus():Void
 	{
 	#if desktop
