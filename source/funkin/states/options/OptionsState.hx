@@ -151,6 +151,13 @@ class OptionsState extends MusicBeatState
 		ClientPrefs.flush();
 	}
 
+	#if mobile
+	public function closeSs() {
+ 		FlxTransitionableState.skipNextTransOut = true;
+ 		FlxG.resetState();
+	}
+	#end
+
 	var totalElapsed:Float = 0;
 
 	override function update(elapsed:Float)
