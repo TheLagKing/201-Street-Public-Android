@@ -9,7 +9,6 @@ import funkin.states.*;
 import funkin.objects.*;
 import flash.display.BlendMode;
 import funkin.backend.FunkinShader.FunkinRuntimeShader;
-import flixel.addons.transition.FlxTransitionableState;
 
 class OptionsState extends MusicBeatState
 {
@@ -110,9 +109,7 @@ class OptionsState extends MusicBeatState
 		ClientPrefs.flush();
 
 		#if mobile
-		if (_virtualpad == null) {
 		addVirtualPad(UP_DOWN, A_B);
-		}
 		#end
 		super.create();
 	}
@@ -150,14 +147,11 @@ class OptionsState extends MusicBeatState
 		scriptGroup.call('onCloseSubState', []);
 		super.closeSubState();
 		ClientPrefs.flush();
+		#if mobile
+		removeVirtualPad();
+		addVirtualPad(UP_DOWN,A_B);
+		#end
 	}
-
-	#if mobile
-	public function closeSs() {
- 		FlxTransitionableState.skipNextTransOut = true;
- 		FlxG.resetState();
-	}
-	#end
 
 	var totalElapsed:Float = 0;
 
@@ -210,12 +204,7 @@ class OptionsState extends MusicBeatState
 
 			if (controls.ACCEPT #if mobile || _virtualpad.buttonA.justPressed #end)
 			{
-				#if mobile
-				closeSs();
-				//if (_virtualpad == null) {
-				//removeVirtualPad();
-			//}
-				#end
+				_virtualpad.visible = false;
 				openSelectedSubstate(options[curSelected]);
 			}
 		}
