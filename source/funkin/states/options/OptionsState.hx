@@ -9,6 +9,7 @@ import funkin.states.*;
 import funkin.objects.*;
 import flash.display.BlendMode;
 import funkin.backend.FunkinShader.FunkinRuntimeShader;
+import flixel.addons.transition.FlxTransitionableState;
 
 class OptionsState extends MusicBeatState
 {
