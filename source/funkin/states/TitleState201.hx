@@ -482,9 +482,7 @@ class TitleState201 extends MusicBeatState
 						{
 							menuTransition(true);
 	                        #if mobile
-							if (_virtualpad == null) {
-								//_virtualpad.visible = false;
-							}
+							_virtualpad.visible = false;
 	                        #end
 						}
 					}
@@ -572,10 +570,8 @@ class TitleState201 extends MusicBeatState
 									canClick = true;
 									FlxG.mouse.visible = true;
 							#if mobile
-							if (_virtualpad == null) {
+							removeVirtualPad();
 							addVirtualPad(FULL, A_B);
-							//_virtualpad.visible = true;
-						}
 								   #end
 								}
 							}
