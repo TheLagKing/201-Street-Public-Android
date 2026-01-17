@@ -52,7 +52,7 @@ class CopyState extends MusicBeatState
 			return;
 		}
 
-		CoolUtil.showMessageBox("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
+		CoolUtil.doPopUp("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
 
 		shouldCopy = true;
 
@@ -97,7 +97,7 @@ class CopyState extends MusicBeatState
 			{
 				if (failedFiles.length > 0)
 				{
-					CoolUtil.showMessageBox('Failed To Copy ${failedFiles.length} File.', failedFiles.join('\n'), MSG_ERROR);
+					CoolUtil.doPopUp('Failed To Copy ${failedFiles.length} File.', failedFiles.join('\n'), MSG_ERROR);
 					if (!FileSystem.exists('logs'))
 						FileSystem.createDirectory('logs');
 					File.saveContent(#if android StorageUtil.getExternalStorageDirectory() + #end 'logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
