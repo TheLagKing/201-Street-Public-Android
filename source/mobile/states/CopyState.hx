@@ -1,4 +1,4 @@
-package mobile.funkin.backend.system;
+package mobile.states;
 
 #if mobile
 import lime.utils.Assets as LimeAssets;
@@ -23,7 +23,7 @@ using StringTools;
  * ...
  * @author: Karim Akra
  */
-class CopyState extends funkin.backend.MusicBeatState
+class CopyState extends MusicBeatState
 {
 	private static final textFilesExtensions:Array<String> = ['ini', 'txt', 'xml', 'hxs', 'hx', 'lua', 'json', 'frag', 'vert'];
 	public static final IGNORE_FOLDER_FILE_NAME:String = "CopyState-Ignore.txt";
@@ -104,7 +104,7 @@ class CopyState extends funkin.backend.MusicBeatState
 					File.saveContent(#if android StorageUtil.getExternalStorageDirectory() + #end 'logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
 				}
 				
-				FlxG.sound.play(Paths.sound('menu/confirm')).onComplete = () ->
+				FlxG.sound.play(Paths.sound('confirmMenu')).onComplete = () ->
 				{
 					FlxG.resetGame();
 				};
@@ -204,7 +204,7 @@ class CopyState extends funkin.backend.MusicBeatState
 
 		// removes unwanted assets
 		var assets = locatedFiles.filter(folder -> folder.startsWith('assets/'));
-		var mods = locatedFiles.filter(folder -> folder.startsWith('mods/'));
+		var mods = locatedFiles.filter(folder -> folder.startsWith('content/'));
 		locatedFiles = assets.concat(mods);
 		locatedFiles = locatedFiles.filter(file -> !FileSystem.exists(file));
 
