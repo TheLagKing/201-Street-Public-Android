@@ -7,7 +7,6 @@ import flixel.text.FlxText;
 import flixel.util.FlxTimer;
 import openfl.utils.ByteArray;
 import haxe.io.Path;
-import funkin.backend.utils.NativeAPI;
 import flixel.ui.FlxBar;
 import flixel.ui.FlxBar.FlxBarFillDirection;
 import lime.system.ThreadPool;
@@ -53,7 +52,7 @@ class CopyState extends MusicBeatState
 			return;
 		}
 
-		NativeAPI.showMessageBox("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
+		CoolUtil.showMessageBox("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
 
 		shouldCopy = true;
 
@@ -98,7 +97,7 @@ class CopyState extends MusicBeatState
 			{
 				if (failedFiles.length > 0)
 				{
-					NativeAPI.showMessageBox('Failed To Copy ${failedFiles.length} File.', failedFiles.join('\n'), MSG_ERROR);
+					CoolUtil.showMessageBox('Failed To Copy ${failedFiles.length} File.', failedFiles.join('\n'), MSG_ERROR);
 					if (!FileSystem.exists('logs'))
 						FileSystem.createDirectory('logs');
 					File.saveContent(#if android StorageUtil.getExternalStorageDirectory() + #end 'logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
@@ -200,7 +199,7 @@ class CopyState extends MusicBeatState
 
 	public static function checkExistingFiles():Bool
 	{
-		locatedFiles = Paths.assetsTree.list(null);
+		locatedFiles = OpenFLAssets.list();
 
 		// removes unwanted assets
 		var assets = locatedFiles.filter(folder -> folder.startsWith('assets/'));
