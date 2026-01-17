@@ -1,23 +1,29 @@
-package mobile.states;
+package mobile.funkin.backend.system;
 
 #if mobile
-import funkin.states.TitleState201;
 import lime.utils.Assets as LimeAssets;
 import openfl.utils.Assets as OpenFLAssets;
+import flixel.text.FlxText;
+import flixel.util.FlxTimer;
 import openfl.utils.ByteArray;
 import haxe.io.Path;
+import funkin.backend.utils.NativeAPI;
 import flixel.ui.FlxBar;
 import flixel.ui.FlxBar.FlxBarFillDirection;
 import lime.system.ThreadPool;
-import sys.FileSystem;
+
+#if sys
 import sys.io.File;
-import sys.io.Process;
+import sys.FileSystem;
+#end
+
+using StringTools;
 
 /**
  * ...
  * @author: Karim Akra
  */
-class CopyState extends MusicBeatState
+class CopyState extends funkin.backend.MusicBeatState
 {
 	private static final textFilesExtensions:Array<String> = ['ini', 'txt', 'xml', 'hxs', 'hx', 'lua', 'json', 'frag', 'vert'];
 	public static final IGNORE_FOLDER_FILE_NAME:String = "CopyState-Ignore.txt";
@@ -43,15 +49,15 @@ class CopyState extends MusicBeatState
 		checkExistingFiles();
 		if (maxLoopTimes <= 0)
 		{
-			FlxG.switchState(new TitleState201());
+			FlxG.resetGame();
 			return;
 		}
 
-		CoolUtil.showPopUp("Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process", "Notice!");
+		NativeAPI.showMessageBox("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
 
 		shouldCopy = true;
 
-		add(new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xfffde871));
+		add(new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d));
 
 		loadingImage = new FlxSprite(0, 0, Paths.image('201Street'));
 		loadingImage.setGraphicSize(0, FlxG.height);
@@ -92,15 +98,15 @@ class CopyState extends MusicBeatState
 			{
 				if (failedFiles.length > 0)
 				{
-					CoolUtil.showPopUp(failedFiles.join('\n'), 'Failed To Copy ${failedFiles.length} File.');
+					NativeAPI.showMessageBox('Failed To Copy ${failedFiles.length} File.', failedFiles.join('\n'), MSG_ERROR);
 					if (!FileSystem.exists('logs'))
 						FileSystem.createDirectory('logs');
-					File.saveContent('logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
+					File.saveContent(#if android StorageUtil.getExternalStorageDirectory() + #end 'logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
 				}
 				
-				FlxG.sound.play(Paths.sound('confirmMenu')).onComplete = () ->
+				FlxG.sound.play(Paths.sound('menu/confirm')).onComplete = () ->
 				{
-					FlxG.switchState(new TitleState201());
+					FlxG.resetGame();
 				};
 		
 				canUpdate = false;
@@ -194,11 +200,11 @@ class CopyState extends MusicBeatState
 
 	public static function checkExistingFiles():Bool
 	{
-		locatedFiles = OpenFLAssets.list();
+		locatedFiles = Paths.assetsTree.list(null);
 
 		// removes unwanted assets
 		var assets = locatedFiles.filter(folder -> folder.startsWith('assets/'));
-		var mods = locatedFiles.filter(folder -> folder.startsWith('content/'));
+		var mods = locatedFiles.filter(folder -> folder.startsWith('mods/'));
 		locatedFiles = assets.concat(mods);
 		locatedFiles = locatedFiles.filter(file -> !FileSystem.exists(file));
 
@@ -209,7 +215,7 @@ class CopyState extends MusicBeatState
 			if (filesToRemove.contains(file))
 				continue;
 
-			if(file.endsWith(IGNORE_FOLDER_FILE_NAME) && !directoriesToIgnore.contains(Path.directory(file)))
+			if (file.endsWith(IGNORE_FOLDER_FILE_NAME) && !directoriesToIgnore.contains(Path.directory(file)))
 				directoriesToIgnore.push(Path.directory(file));
 
 			if (directoriesToIgnore.length > 0)
