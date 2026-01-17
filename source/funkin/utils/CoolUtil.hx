@@ -165,7 +165,7 @@ class CoolUtil
 	/**
 	 * Opens a windows alert
 	 */
-	public static function showPopUp(title:String, description:String = '')
+	public static function doPopUp(title:String, description:String = '')
 	{
 		FlxG.stage.window.alert(description, title);
 		trace(description);
