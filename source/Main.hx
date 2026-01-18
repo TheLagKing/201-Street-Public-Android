@@ -35,7 +35,7 @@ class Main extends Sprite
 			fps: 60,
 			skipSplash: #if debug true #else false #end,
 			startFullScreen: false,
-			initialState: mobile.states.CopyState
+			initialState: funkin.states.TitleState201
 		};
 
 	static function __init__()
