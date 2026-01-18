@@ -4,6 +4,7 @@ import funkin.FunkinAssets;
 import flixel.FlxState;
 import flixel.FlxG;
 import flixel.input.keyboard.FlxKey;
+import mobile.states.CopyState;
 
 /**
  * Initiation state that prepares backend classes and returns to menus when finished
