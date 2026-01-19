@@ -478,12 +478,9 @@ class TitleState201 extends MusicBeatState
 							FlxG.mouse.load(Paths.image("overworld/ui/cursor/cursor").bitmap, 0.325);
 						}
 
-						if (controls.BACK #if mobile || _virtualpad.buttonB.justPressed #end)
+						if (controls.BACK /*#if mobile || _virtualpad.buttonB.justPressed #end*/)
 						{
 							menuTransition(true);
-	                        #if mobile
-							_virtualpad.visible = false;
-	                        #end
 						}
 					}
 				}
@@ -570,7 +567,6 @@ class TitleState201 extends MusicBeatState
 									canClick = true;
 									FlxG.mouse.visible = true;
 							#if mobile
-							removeVirtualPad();
 							addVirtualPad(FULL, A_B);
 								   #end
 								}
