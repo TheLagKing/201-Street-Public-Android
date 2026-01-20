@@ -24,8 +24,6 @@ class ClientPrefs
 	// mobile ------------------------------------------------------------------------//
 	@saveVar public static var screensaver:Bool = false;
 	
-	@saveVar public static var controlsAlpha:Float = 0.7;
-	
 	@saveVar public static var wideScreen:Bool = false;
 	
 	@saveVar public static var hideHitboxHints:Bool = false;
@@ -40,7 +38,6 @@ class ClientPrefs
 	
 	@saveVar public static var controlsAlpha:Float = FlxG.onMobile ? 0.6 : 0;
 	
-	@saveVar public static var screensaver:Bool = false;
 	#if android
 	@saveVar public static var storageType:String = "EXTERNAL_DATA";
 	#end
