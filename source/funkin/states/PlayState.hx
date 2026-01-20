@@ -45,6 +45,10 @@ import funkin.game.StoryMeta;
 import funkin.video.FunkinVideoSprite;
 #end
 
+import mobile.TouchButton;
+import mobile.TouchPad;
+import mobile.input.MobileInputID;
+
 class PlayState extends MusicBeatState
 {
 	public static var STRUM_X:Float = 42; // redundant
@@ -717,6 +721,18 @@ class PlayState extends MusicBeatState
 
 		meta = Metadata.getSong();
 
+		#if !android
+		addTouchPad("NONE", "P");
+		addTouchPadCamera();
+		touchPad.visible = true;
+		#end
+		addMobileControls();
+		if (!ClientPrefs.controllerMode)
+		{
+		    mobileControls.onButtonDown.add(onButtonPress);
+		    mobileControls.onButtonUp.add(onButtonRelease);
+		}
+		
 		generateSong(SONG.song);
 		modManager = new ModManager(this);
 		scripts.set("modManager", modManager);
@@ -792,8 +808,10 @@ class PlayState extends MusicBeatState
 
 		if (PauseSubState.songName != null) Paths.music(PauseSubState.songName);
 
+		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence.
-		#if desktop DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
+		DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+		#end
 
 		if (!ClientPrefs.controllerMode)
 		{
@@ -808,10 +826,6 @@ class PlayState extends MusicBeatState
 		callHUDFunc(hud -> hud.cachePopUpScore());
 
 		super.create();
-		
-		#if mobile
-		addHitbox(3);
-		#end
 
 		FunkinAssets.cache.clearUnusedMemory();
 
@@ -1075,9 +1089,6 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-	#if mobile
-		_hitbox.visible = true;
-		#end
 		if (startedCountdown)
 		{
 			scripts.call('onStartCountdown', []);
@@ -1133,7 +1144,7 @@ class PlayState extends MusicBeatState
 			scripts.call('postModifierRegister', []);
 
 			new FlxTimer().start(countdownDelay, (t:FlxTimer) -> {
-				startedCountdown = true;
+				startedCountdown = mobileControls.instance.visible = true;
 				Conductor.songPosition = 0;
 				Conductor.songPosition -= Conductor.crotchet * 5;
 				scripts.call('onCountdownStarted', []);
@@ -1334,8 +1345,10 @@ class PlayState extends MusicBeatState
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 
+		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence (with Time Left)
-		#if desktop DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength); #end
+		DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true, songLength);
+		#end
 
 		scripts.set('songLength', songLength);
 		scripts.call('onSongStart', []);
@@ -1810,23 +1823,23 @@ class PlayState extends MusicBeatState
 
 			paused = false;
 			scripts.call('onResume', []);
-			
-			#if desktop
+
+			#if DISCORD_ALLOWED
 			if (startTimer != null && startTimer.finished)
 			{
 				DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)', null, true,
 					songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
-			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)'); #end
+			else DiscordClient.changePresence(detailsText, '${SONG.song} ($storyDifficultyText)');
+			#end
 		}
-		
 		scripts.call('onSubstateClose', []);
 		super.closeSubState();
 	}
-				
+
 	override public function onFocus():Void
 	{
-	#if desktop
+		#if DISCORD_ALLOWED
 		if (health > 0 && !paused)
 		{
 			if (Conductor.songPosition > 0.0)
@@ -1843,7 +1856,9 @@ class PlayState extends MusicBeatState
 
 	override public function onFocusLost():Void
 	{
-		if (health > 0 && !paused) #if desktop DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)'); #end
+		#if DISCORD_ALLOWED
+		if (health > 0 && !paused) DiscordClient.changePresence(detailsPausedText, '${SONG.song} ($storyDifficultyText)');
+		#end
 
 		super.onFocusLost();
 	}
@@ -1888,7 +1903,7 @@ class PlayState extends MusicBeatState
 		Conductor.visualPosition = getVisualPosition();
 		checkEventNote();
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if ((#if android FlxG.android.justReleased.BACK #else touchPad.buttonP.justPressed #end || controls.PAUSE) && startedCountdown && canPause)
 		{
 			if (scripts.call('onPause', []) != ScriptConstants.Function_Stop) openPauseMenu();
 		}
@@ -2165,7 +2180,9 @@ class PlayState extends MusicBeatState
 		}
 		openSubState(new PauseSubState());
 
-		#if desktop DiscordClient.changePresence(detailsPausedText, 'Paused'); #end
+		#if DISCORD_ALLOWED
+		DiscordClient.changePresence(detailsPausedText, 'Paused');
+		#end
 	}
 
 	function openChartEditor():Void
@@ -2179,7 +2196,9 @@ class PlayState extends MusicBeatState
 		FlxG.switchState(ChartEditorState.new);
 		chartingMode = true;
 
-		#if desktop DiscordClient.changePresence("Chart Editor", null, null, true); #end
+		#if DISCORD_ALLOWED
+		DiscordClient.changePresence("Chart Editor", null, null, true);
+		#end
 	}
 
 	function openCharacterEditor():Void
@@ -2192,7 +2211,9 @@ class PlayState extends MusicBeatState
 
 		FlxG.switchState(() -> new CharacterEditorState(SONG.player2, true));
 
-		#if desktop DiscordClient.changePresence("Character Editor", null, null, true); #end
+		#if DISCORD_ALLOWED
+		DiscordClient.changePresence("Character Editor", null, null, true);
+		#end
 	}
 
 	function openNoteskinEditor():Void
@@ -2209,7 +2230,9 @@ class PlayState extends MusicBeatState
 		#end
 		chartingMode = true;
 
-		#if desktop DiscordClient.changePresence("Noteskin Editor", null, null, true); #end
+		#if DISCORD_ALLOWED
+		DiscordClient.changePresence("Noteskin Editor", null, null, true);
+		#end
 	}
 
 	public function updateScoreBar(miss:Bool = false):Void
@@ -2245,7 +2268,9 @@ class PlayState extends MusicBeatState
 				openSubState(new GameOverSubstate());
 
 				// Game Over doesn't get his own variable because it's only used here
-				#if desktop DiscordClient.changePresence("Game Over - " + detailsText, SONG.song); #end
+				#if DISCORD_ALLOWED
+				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song);
+				#end
 
 				isDead = true;
 				totalBeat = 0;
@@ -2788,9 +2813,6 @@ class PlayState extends MusicBeatState
 
 	public function endSong():Void
 	{
-	#if mobile
-		_hitbox.visible = false;
-		#end
 		// Should kill you if you tried to cheat
 		if (!startingSong)
 		{
@@ -2814,6 +2836,8 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
+		
+		mobileControls.instance.visible = #if !android touchPad.visible = #end false;
 
 		final ret:Dynamic = scripts.call('onEndSong', []);
 
@@ -3043,6 +3067,99 @@ class PlayState extends MusicBeatState
 		return -1;
 	}
 
+	private function onButtonPress(button:TouchButton):Void
+	{
+		if (button.IDs.filter(id -> id.toString().startsWith("EXTRA")).length > 0)
+			return;
+
+		var buttonCode:Int = (button.IDs[0].toString().startsWith('NOTE')) ? button.IDs[0] : button.IDs[1];
+
+		if (cpuControlled || paused || !startedCountdown) return;
+		
+		if (buttonCode > -1 && button.justPressed)
+		{
+			if (!boyfriend.stunned && generatedMusic && !endingSong)
+			{
+				// more accurate hit time for the ratings?
+				var lastTime:Float = Conductor.songPosition;
+				Conductor.songPosition = FlxG.sound.music.time;
+				
+				var canMiss:Bool = !ClientPrefs.ghostTapping;
+				
+				var pressNotes:Array<Note> = [];
+				
+				var ghostTapped:Bool = true;
+				for (field in playFields.members)
+				{
+					if (field.playerControls && field.inControl && !field.autoPlayed)
+					{
+						var sortedNotesList:Array<Note> = field.getTapNotes(buttonCode);
+						sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
+						
+						if (sortedNotesList.length > 0)
+						{
+							pressNotes.push(sortedNotesList[0]);
+							field.noteHitCallback.dispatch(sortedNotesList[0], field);
+						}
+					}
+				}
+				
+				if (pressNotes.length == 0)
+				{
+					scripts.call('onGhostTap', [buttonCode]);
+					if (canMiss)
+					{
+						noteMissPress(buttonCode);
+						scripts.call('noteMissPress', [buttonCode]);
+					}
+				}
+				
+				// more accurate hit time for the ratings? part 2 (Now that the calculations are done, go back to the time it was before for not causing a note stutter)
+				Conductor.songPosition = lastTime;
+			}
+			
+			for (field in playFields.members)
+			{
+				if (field.inControl && !field.autoPlayed && field.playerControls)
+				{
+					var spr:StrumNote = field.members[buttonCode];
+					if (spr != null && spr.animation.curAnim != null && spr.animation.curAnim.name != 'confirm')
+					{
+						spr.playAnim('pressed');
+						spr.resetAnim = 0;
+					}
+				}
+			}
+			
+			scripts.call('onKeyPress', [buttonCode]);
+		}
+	}
+
+	private function onButtonRelease(button:TouchButton):Void
+	{
+		if (button.IDs.filter(id -> id.toString().startsWith("EXTRA")).length > 0)
+			return;
+
+		var buttonCode:Int = (button.IDs[0].toString().startsWith('NOTE')) ? button.IDs[0] : button.IDs[1];
+
+		if (startedCountdown && !paused && buttonCode > -1)
+		{
+			for (field in playFields.members)
+			{
+				if (field.inControl && !field.autoPlayed && field.playerControls)
+				{
+					var spr:StrumNote = field.members[buttonCode];
+					if (spr != null)
+					{
+						spr.playAnim('static');
+						spr.resetAnim = 0;
+					}
+				}
+			}
+			scripts.call('onKeyRelease', [buttonCode]);
+		}
+	}
+	
 	// Hold notes
 	function keyShit():Void
 	{
@@ -3053,6 +3170,8 @@ class PlayState extends MusicBeatState
 		var left = controls.NOTE_LEFT;
 		var dodge = controls.NOTE_DODGE;
 
+		var controlHoldArray:Array<Bool> = [left, down, up, right, dodge];
+		
 		// TO DO: Find a better way to handle controller inputs, this should work for now
 		if (ClientPrefs.controllerMode)
 		{
@@ -3076,7 +3195,7 @@ class PlayState extends MusicBeatState
 				{
 					if (daNote.isSustainNote
 						&& !daNote.blockHit
-						&& FlxG.keys.anyPressed(keysArray[daNote.noteData])
+						&& controlHoldArray[daNote.noteData]
 						&& daNote.canBeHit
 						&& !daNote.tooLate
 						&& !daNote.wasGoodHit) daNote.playField.noteHitCallback.dispatch(daNote, daNote.playField);
@@ -3091,7 +3210,7 @@ class PlayState extends MusicBeatState
 						if (daNote.isSustainNote
 							&& !daNote.blockHit
 							&& !daNote.ignoreNote
-							&& !FlxG.keys.anyPressed(keysArray[daNote.noteData])
+							&& !controlHoldArray[daNote.noteData]
 							&& !endingSong
 							&& (daNote.tooLate || !daNote.wasGoodHit))
 						{
