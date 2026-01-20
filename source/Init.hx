@@ -37,16 +37,11 @@ class Init extends FlxState
 
 	override public function create():Void
 	{
-			#if mobile
-			if (!CopyState.checkExistingFiles())
-			{
-				FlxG.switchState(new CopyState());
-				return;
-			}
-			#end
 		
 		// load settings/save
 		funkin.backend.PlayerSettings.init();
+
+		mobile.MobileData.init();
 
 		ClientPrefs.load();
 
