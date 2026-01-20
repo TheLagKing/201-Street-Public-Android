@@ -138,6 +138,7 @@ class MusicBeatSubstate extends FlxSubState
  	}
 	#end
 
+	public var touchPad:TouchPad;
 	public var touchPadCam:FlxCamera;
 	public var mobileControls:IMobileControls;
 	public var mobileControlsCam:FlxCamera;
