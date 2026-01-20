@@ -20,7 +20,6 @@ import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxState;
 
-
 import mobile.MobileData;
 import mobile.IMobileControls;
 import mobile.Hitbox;
@@ -125,6 +124,7 @@ class MusicBeatState extends FlxUIState
 	public function removeVirtualPad() {
 		remove(_virtualpad);
 	}
+	#end
 
 	public var touchPad:TouchPad;
 	public var touchPadCam:FlxCamera;
@@ -203,7 +203,6 @@ class MusicBeatState extends FlxUIState
 			touchPad.cameras = [touchPadCam];
 		}
 	}
-	#end
 	
 	override function create()
 	{
