@@ -36,7 +36,7 @@ class Main extends Sprite
 			fps: 60,
 			skipSplash: #if debug true #else false #end,
 			startFullScreen: false,
-			initialState: mobile.states.CopyState
+			initialState: funkin.states.TitleState201
 		};
 
 	static function __init__()
@@ -59,7 +59,6 @@ class Main extends Sprite
 		#end
 		Sys.setCwd(StorageUtil.getStorageDirectory());
 		#end
-		mobile.backend.CrashHandler.init();
 
 		#if (CRASH_HANDLER && !debug)
 		funkin.backend.CrashHandler.init();
@@ -76,7 +75,7 @@ class Main extends Sprite
 		ClientPrefs.loadDefaultKeys();
 		FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
-		final game = new FlxGame(startMeta.width, startMeta.height, Init, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
+		final game = new FlxGame(startMeta.width, startMeta.height, #if (mobile && MODS_ALLOWED) !CopyState.checkExistingFiles() ? CopyState : #end Init, startMeta.fps, startMeta.fps, true, startMeta.startFullScreen);
 
 		// btw game has to be a variable for this to work ig - Orbyy
 		#if SOUNDTRAY
