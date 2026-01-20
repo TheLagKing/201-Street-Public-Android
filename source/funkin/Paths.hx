@@ -34,6 +34,9 @@ class Paths
 	
 	public static function getPath(file:String, ?type:AssetType = TEXT, ?parentFolder:String, checkMods:Bool = false):String
 	{
+		if (parentFolder == "mobile")
+			return getCorePath('mobile/$file');
+		
 		if (parentFolder != null) file = '$parentFolder/$file';
 		
 		#if MODS_ALLOWED
@@ -286,7 +289,7 @@ class Paths
 	#if MODS_ALLOWED
 	public static inline function mods(key:String = ''):String
 	{
-		return '$MODS_DIRECTORY/' + key;
+		return #if mobile Sys.getCwd() + #end '$MODS_DIRECTORY/' + key;
 	}
 	
 	static public function modFolders(key:String):String
@@ -305,7 +308,7 @@ class Paths
 			final fileToCheck:String = mods(mod + '/' + key);
 			if (FileSystem.exists(fileToCheck)) return fileToCheck;
 		}
-		return '$MODS_DIRECTORY/$key';
+		return #if mobile Sys.getCwd() + #end '$MODS_DIRECTORY/$key';
 	}
 	#end
 }

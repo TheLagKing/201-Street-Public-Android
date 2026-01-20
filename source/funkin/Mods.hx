@@ -58,6 +58,9 @@ class Mods
 	
 	public static var globalMods:Array<String> = [];
 	
+	static public function getGlobalMods()
+		return globalMods;
+	
 	/**
 	 * Refreshes all globally loaded mods
 	 * @return 
