@@ -93,18 +93,6 @@ class CoolUtil
 		if(colorNum == null) colorNum = FlxColor.fromString('#$color');
 		return colorNum != null ? colorNum : FlxColor.WHITE;
 	}
-	public static function listFromString(string:String):Array<String>
-	{
-		var daList:Array<String> = [];
-		daList = string.trim().split('\n');
-		
-		for (i in 0...daList.length)
-		{
-			daList[i] = daList[i].trim();
-		}
-		
-		return daList;
-	}
 	
 	/**
 		Finds the most used Color on a given sprite 
