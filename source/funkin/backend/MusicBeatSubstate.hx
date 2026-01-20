@@ -136,6 +136,7 @@ class MusicBeatSubstate extends FlxSubState
  		FlxTransitionableState.skipNextTransOut = true;
  		FlxG.resetState();
  	}
+	#end
 
 	public var touchPadCam:FlxCamera;
 	public var mobileControls:IMobileControls;
@@ -213,7 +214,6 @@ class MusicBeatSubstate extends FlxSubState
 			touchPad.cameras = [touchPadCam];
 		}
 	}
- 	#end
 	
 	private function updateSection():Void
 	{
