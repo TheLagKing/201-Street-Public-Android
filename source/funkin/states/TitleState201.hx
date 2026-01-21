@@ -566,9 +566,9 @@ class TitleState201 extends MusicBeatState
 								{
 									canClick = true;
 									FlxG.mouse.visible = true;
-							#if mobile
-							addVirtualPad(FULL, A_B);
-								   #end
+							        #if mobile
+							        addVirtualPad(FULL, A_B);
+								    #end
 								}
 							}
 						});
