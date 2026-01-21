@@ -3,19 +3,19 @@ package mobile.states;
 #if mobile
 import lime.utils.Assets as LimeAssets;
 import openfl.utils.Assets as OpenFLAssets;
+import flixel.addons.util.FlxAsyncLoop;
+import flixel.FlxG;
 import flixel.text.FlxText;
-import flixel.util.FlxTimer;
+import flixel.FlxSprite;
+import flixel.util.FlxColor;
 import openfl.utils.ByteArray;
 import haxe.io.Path;
 import flixel.ui.FlxBar;
 import flixel.ui.FlxBar.FlxBarFillDirection;
-import lime.system.ThreadPool;
-
 #if sys
 import sys.io.File;
 import sys.FileSystem;
 #end
-
 using StringTools;
 
 /**
@@ -24,7 +24,7 @@ using StringTools;
  */
 class CopyState extends MusicBeatState
 {
-	private static final textFilesExtensions:Array<String> = ['ini', 'txt', 'xml', 'hxs', 'hx', 'lua', 'json', 'frag', 'vert'];
+	private static final textFilesExtensions:Array<String> = ['ini', 'txt', 'xml', 'hxs', 'hx', 'lua', 'json', 'frag', 'vert', 'hscript'];
 	public static final IGNORE_FOLDER_FILE_NAME:String = "CopyState-Ignore.txt";
 	private static var directoriesToIgnore:Array<String> = [];
 	public static var locatedFiles:Array<String> = [];
@@ -33,7 +33,7 @@ class CopyState extends MusicBeatState
 	public var loadingImage:FlxSprite;
 	public var loadingBar:FlxBar;
 	public var loadedText:FlxText;
-	public var thread:ThreadPool;
+	public var copyLoop:FlxAsyncLoop;
 
 	var failedFilesStack:Array<String> = [];
 	var failedFiles:Array<String> = [];
@@ -48,11 +48,11 @@ class CopyState extends MusicBeatState
 		checkExistingFiles();
 		if (maxLoopTimes <= 0)
 		{
-			FlxG.resetGame();
+			FlxG.switchState(new Init());
 			return;
 		}
 
-		CoolUtil.doPopUp("Notice", "Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process");
+		CoolUtil.doPopUp("Seems like you have some missing files that are necessary to run the game\nPress OK to begin the copy process", "Notice!");
 
 		shouldCopy = true;
 
@@ -72,28 +72,23 @@ class CopyState extends MusicBeatState
 		loadedText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER);
 		add(loadedText);
 
-		thread = new ThreadPool(0, CoolUtil.getCPUThreadsCount());
-		thread.doWork.add(function(poop)
-		{
-			for (file in locatedFiles)
-			{
-				loopTimes++;
-				copyAsset(file);
-			}
-		});
-		new FlxTimer().start(0.5, (tmr) ->
-		{
-			thread.queue({});
-		});
+		var ticks:Int = 15;
+		if (maxLoopTimes <= 15)
+			ticks = 1;
+
+		copyLoop = new FlxAsyncLoop(maxLoopTimes, copyAsset, ticks);
+		add(copyLoop);
+		copyLoop.start();
 
 		super.create();
 	}
 
 	override function update(elapsed:Float)
 	{
-		if (shouldCopy)
+		if (shouldCopy && copyLoop != null)
 		{
-			if (loopTimes >= maxLoopTimes && canUpdate)
+			loadingBar.percent = loopTimes / maxLoopTimes * 100;
+			if (copyLoop.finished && canUpdate)
 			{
 				if (failedFiles.length > 0)
 				{
@@ -102,27 +97,25 @@ class CopyState extends MusicBeatState
 						FileSystem.createDirectory('logs');
 					File.saveContent('logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '-CopyState' + '.txt', failedFilesStack.join('\n'));
 				}
-				
+				canUpdate = false;
 				FlxG.sound.play(Paths.sound('confirmMenu')).onComplete = () ->
 				{
-					FlxG.resetGame();
+					FlxG.switchState(new Init());
 				};
-		
-				canUpdate = false;
 			}
 
-			if (loopTimes >= maxLoopTimes)
+			if (loopTimes == maxLoopTimes)
 				loadedText.text = "Completed!";
 			else
 				loadedText.text = '$loopTimes/$maxLoopTimes';
-
-			loadingBar.percent = Math.min((loopTimes / maxLoopTimes) * 100, 100);
 		}
 		super.update(elapsed);
 	}
 
-	public function copyAsset(file:String)
+	public function copyAsset()
 	{
+		var file = locatedFiles[loopTimes];
+		loopTimes++;
 		if (!FileSystem.exists(file))
 		{
 			var directory = Path.directory(file);
@@ -214,7 +207,7 @@ class CopyState extends MusicBeatState
 			if (filesToRemove.contains(file))
 				continue;
 
-			if (file.endsWith(IGNORE_FOLDER_FILE_NAME) && !directoriesToIgnore.contains(Path.directory(file)))
+			if(file.endsWith(IGNORE_FOLDER_FILE_NAME) && !directoriesToIgnore.contains(Path.directory(file)))
 				directoriesToIgnore.push(Path.directory(file));
 
 			if (directoriesToIgnore.length > 0)
