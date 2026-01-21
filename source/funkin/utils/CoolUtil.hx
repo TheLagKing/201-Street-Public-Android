@@ -177,10 +177,10 @@ class CoolUtil
 	/**
 	 * Opens a windows alert
 	 */
-	public static function doPopUp(title:String, description:String = '')
+	public static function doPopUp(message:String, title:String):Void
 	{
-		FlxG.stage.window.alert(description, title);
-		trace(description);
+		FlxG.stage.window.alert(message, title);
+		//trace(description);
 	}
 	
 	/**
